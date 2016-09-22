@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page frame="" name="ExportWarehouse" title="Company">
+
+   <!--Below Locators are for OceanExport WareHouse -->
+	<Element name="SearchListWarehouseID">
+		<Browser locator="name" name="chrome">warehouseid</Browser>
+		<Browser locator="name" name="ie">warehouseid</Browser>
+		<Browser locator="name" name="firefox">warehouseid</Browser>
+	</Element>
+	<Element name="SearchGridWarehouseId">
+		<Browser locator="id" name="chrome">wrappedTBB-cell-0-0-box-text</Browser>
+		<Browser locator="id" name="ie">wrappedTBB-cell-0-0-box-text</Browser>
+		<Browser locator="id" name="firefox">wrappedTBB-cell-0-0-box-text</Browser>
+	</Element>
+	<Element name="WarehouseIdType">
+		<Browser locator="name" name="chrome">searchwhType</Browser>
+		<Browser locator="name" name="ie">searchwhType</Browser>
+		<Browser locator="name" name="firefox">searchwhType</Browser>
+	</Element>
+	<Element name="Warehouse_Basis">
+		<Browser locator="name" name="chrome">whType</Browser>
+		<Browser locator="name" name="ie">whType</Browser>
+		<Browser locator="name" name="firefox">whType</Browser>
+	</Element>
+	
+	 <!--Below Locators are OceanExport WareHouse Where WareHouseBasis is Booking ID -->
+	<Element name="BookingId">
+		<Browser locator="id" name="chrome">bookingid</Browser>
+		<Browser locator="id" name="ie">bookingid</Browser>
+		<Browser locator="id" name="firefox">bookingid</Browser>
+	</Element>
+	<Element name="BookingIdLOV">
+		<Browser locator="id" name="chrome">B2</Browser>
+		<Browser locator="id" name="ie">B2</Browser>
+		<Browser locator="id" name="firefox">B2</Browser>
+	</Element>
+	<Element name="SearchBookingId">
+		<Browser locator="name" name="chrome">bookingId</Browser>
+		<Browser locator="name" name="ie">bookingId</Browser>
+		<Browser locator="name" name="firefox">bookingId</Browser>
+	</Element>
+	
+	 <!--Below Locators are OceanExport WareHouse Where WareHouseBasis is PRS -->
+	<Element name="PrsIDLOV">
+		<Browser locator="id" name="chrome">B1</Browser>
+		<Browser locator="id" name="ie">B1</Browser>
+		<Browser locator="id" name="firefox">B1</Browser>
+	</Element>
+	<Element name="PrsID">
+		<Browser locator="id" name="chrome">runsheetNo</Browser>
+		<Browser locator="id" name="ie">runsheetNo</Browser>
+		<Browser locator="id" name="firefox">runsheetNo</Browser>
+	</Element>
+	<Element name="SearchPrsShipmentType">
+		<Browser locator="id" name="chrome">searchPrsShipmentType</Browser>
+		<Browser locator="id" name="ie">searchPrsShipmentType</Browser>
+		<Browser locator="id" name="firefox">searchPrsShipmentType</Browser>
+	</Element>
+	<Element name="SearchPrsId">
+		<Browser locator="id" name="chrome">searchPrsId</Browser>
+		<Browser locator="id" name="ie">searchPrsId</Browser>
+		<Browser locator="id" name="firefox">searchPrsId</Browser>
+	</Element>
+	<Element name="SearchPrsReferenceId">
+		<Browser locator="id" name="chrome">searchPrsReferenceId</Browser>
+		<Browser locator="id" name="ie">searchPrsReferenceId</Browser>
+		<Browser locator="id" name="firefox">searchPrsReferenceId</Browser>
+	</Element>
+	
+	<!-- Ends for PRS Basis -->
+	<Element name="ShipperId">
+		<Browser locator="id" name="chrome">shipperIdNickName</Browser>
+		<Browser locator="id" name="ie">shipperIdNickName</Browser>
+		<Browser locator="id" name="firefox">shipperIdNickName</Browser>
+	</Element>
+	<Element name="ShipperIdLov">
+		<Browser locator="id" name="chrome">shipperLOV</Browser>
+		<Browser locator="id" name="ie">shipperLOV</Browser>
+		<Browser locator="id" name="firefox">shipperLOV</Browser>
+	</Element>
+	<Element name="ShipperIdGo">
+		<Browser locator="id" name="chrome">Go</Browser>
+		<Browser locator="id" name="ie">Go</Browser>
+		<Browser locator="id" name="firefox">Go</Browser>
+	</Element>
+	<Element name="ConsigneeId">
+		<Browser locator="id" name="chrome">consigneeIdNickName</Browser>
+		<Browser locator="id" name="ie">consigneeIdNickName</Browser>
+		<Browser locator="id" name="firefox">consigneeIdNickName</Browser>
+	</Element>
+	<Element name="ConsigneeIdLov">
+		<Browser locator="id" name="chrome">shipperLOV</Browser>
+		<Browser locator="id" name="ie">shipperLOV</Browser>
+		<Browser locator="id" name="firefox">shipperLOV</Browser>
+	</Element>
+	<Element name="ConsigneeIdGo">
+		<Browser locator="id" name="chrome">Go</Browser>
+		<Browser locator="id" name="ie">Go</Browser>
+		<Browser locator="id" name="firefox">Go</Browser>
+	</Element>
+	<Element name="NumOfPacksBooked">
+		<Browser locator="id" name="chrome">totalBooked</Browser>
+		<Browser locator="id" name="ie">totalBooked</Browser>
+		<Browser locator="id" name="firefox">totalBooked</Browser>
+	</Element>
+	<Element name="NumOfPacksRecieved">
+		<Browser locator="name" name="chrome">totalReceived</Browser>
+		<Browser locator="name" name="ie">totalReceived</Browser>
+		<Browser locator="name" name="firefox">totalReceived</Browser>
+	</Element>
+	<Element name="ConsolType">
+		<Browser locator="name" name="chrome">consolType</Browser>
+		<Browser locator="name" name="ie">consolType</Browser>
+		<Browser locator="name" name="firefox">consolType</Browser>
+	</Element>
+	<Element name="Warehouse">
+		<Browser locator="name" name="chrome">whsPartyIdNickName</Browser>
+		<Browser locator="name" name="ie">whsPartyIdNickName</Browser>
+		<Browser locator="name" name="firefox">whsPartyIdNickName</Browser>
+	</Element>
+	<Element name="WarehouseLOV">
+		<Browser locator="id" name="chrome">whsPartyIdLOV</Browser>
+		<Browser locator="id" name="ie">whsPartyIdLOV</Browser>
+		<Browser locator="id" name="firefox">whsPartyIdLOV</Browser>
+	</Element>
+	<Element name="SearchWarehouseParty">
+		<Browser locator="id" name="chrome">commandObjectdataObjectcriteriacodevalue</Browser>
+		<Browser locator="id" name="ie">commandObjectdataObjectcriteriacodevalue</Browser>
+		<Browser locator="id" name="firefox">commandObjectdataObjectcriteriacodevalue</Browser>
+	</Element>
+	<Element name="PackId">
+		<Browser locator="name" name="chrome">hasPackIDs</Browser>
+		<Browser locator="name" name="ie">hasPackIDs</Browser>
+		<Browser locator="name" name="firefox">hasPackIDs</Browser>
+	</Element>
+	<Element name="ShippingBillingNumber">
+		<Browser locator="name" name="chrome">shippingBillNumber</Browser>
+		<Browser locator="name" name="ie">shippingBillNumber</Browser>
+		<Browser locator="name" name="firefox">shippingBillNumber</Browser>
+	</Element>
+	<Element name="ShippingBillDate">
+		<Browser locator="id" name="chrome">shippingBillDate</Browser>
+		<Browser locator="id" name="ie">shippingBillDate</Browser>
+		<Browser locator="id" name="firefox">shippingBillDate</Browser>
+	</Element>
+	<Element name="WareHouseStatus">
+		<Browser locator="name" name="chrome">status</Browser>
+		<Browser locator="name" name="ie">status</Browser>
+		<Browser locator="name" name="firefox">status</Browser>
+	</Element>
+	<Element name="ActualPickUpDate">
+		<Browser locator="id" name="chrome">pickupDate</Browser>
+		<Browser locator="id" name="ie">pickupDate</Browser>
+		<Browser locator="id" name="firefox">pickupDate</Browser>
+	</Element>
+	<Element name="ActualPickUpTime">
+		<Browser locator="name" name="chrome">pickupTime</Browser>
+		<Browser locator="name" name="ie">pickupTime</Browser>
+		<Browser locator="name" name="firefox">pickupTime</Browser>
+	</Element>
+	<Element name="WHReceivedDate">
+		<Browser locator="id" name="chrome">receivedDate</Browser>
+		<Browser locator="id" name="ie">receivedDate</Browser>
+		<Browser locator="id" name="firefox">receivedDate</Browser>
+	</Element>
+	<Element name="WHReceivedTime">
+		<Browser locator="name" name="chrome">receivedTime</Browser>
+		<Browser locator="name" name="ie">receivedTime</Browser>
+		<Browser locator="name" name="firefox">receivedTime</Browser>
+	</Element>
+	<Element name="ShipmentRecievedBy">
+		<Browser locator="name" name="chrome">shipmentReceivedBy</Browser>
+		<Browser locator="name" name="ie">shipmentReceivedBy</Browser>
+		<Browser locator="name" name="firefox">shipmentReceivedBy</Browser>
+	</Element>
+	<Element name="TruckId">
+		<Browser locator="id" name="chrome">truckId</Browser>
+		<Browser locator="id" name="ie">truckId</Browser>
+		<Browser locator="id" name="firefox">truckId</Browser>
+	</Element>
+	<Element name="TruckIdLov">
+		<Browser locator="id" name="chrome">B1</Browser>
+		<Browser locator="id" name="ie">B1</Browser>
+		<Browser locator="id" name="firefox">B1</Browser>
+	</Element>
+	<Element name="TruckId_NewButton">
+		<Browser locator="name" name="chrome">truckdtl</Browser>
+		<Browser locator="name" name="ie">truckdtl</Browser>
+		<Browser locator="name" name="firefox">truckdtl</Browser>
+	</Element>
+	<Element name="EAlert_CheckBox">
+		<Browser locator="name" name="chrome">eAlertCheckBox</Browser>
+		<Browser locator="name" name="ie">eAlertCheckBox</Browser>
+		<Browser locator="name" name="firefox">eAlertCheckBox</Browser>
+	</Element>
+	<Element name="CH_Name">
+		<Browser locator="name" name="chrome">chName</Browser>
+		<Browser locator="name" name="ie">chName</Browser>
+		<Browser locator="name" name="firefox">chName</Browser>
+	</Element>
+	
+	 <!--OceanExport WareHouse  Cargo Details Page-->
+	<Element name="CargoDetails_Tab">
+		<Browser locator="id" name="chrome">invTab</Browser>
+		<Browser locator="id" name="ie">invTab</Browser>
+		<Browser locator="id" name="firefox">invTab</Browser>
+	</Element>
+	<Element name="CargoDetails_Packs">
+		<Browser locator="name" name="chrome">packs</Browser>
+		<Browser locator="name" name="ie">packs</Browser>
+		<Browser locator="name" name="firefox">packs</Browser>
+	</Element>
+	<Element name="CargoDetails_Type">
+		<Browser locator="name" name="chrome">type</Browser>
+		<Browser locator="name" name="ie">type</Browser>
+		<Browser locator="name" name="firefox">type</Browser>
+	</Element>
+	<Element name="CargoDetails_SubPacks">
+		<Browser locator="name" name="chrome">subPackages</Browser>
+		<Browser locator="name" name="ie">subPackages</Browser>
+		<Browser locator="name" name="firefox">subPackages</Browser>
+	</Element>
+	<Element name="CargoDetails_SubPacksType">
+		<Browser locator="name" name="chrome">subPackagetype</Browser>
+		<Browser locator="name" name="ie">subPackagetype</Browser>
+		<Browser locator="name" name="firefox">subPackagetype</Browser>
+	</Element>
+	<Element name="CargoDetails_GrossWt">
+		<Browser locator="name" name="chrome">packGrossWeight</Browser>
+		<Browser locator="name" name="ie">packGrossWeight</Browser>
+		<Browser locator="name" name="firefox">packGrossWeight</Browser>
+	</Element>
+	<Element name="CargoDetails_GrossWtUOW">
+		<Browser locator="name" name="chrome">packUOW</Browser>
+		<Browser locator="name" name="ie">packUOW</Browser>
+		<Browser locator="name" name="firefox">packUOW</Browser>
+	</Element>
+	<Element name="CargoDetails_NetWgt">
+		<Browser locator="name" name="chrome">packNetWeight</Browser>
+		<Browser locator="name" name="ie">packNetWeight</Browser>
+		<Browser locator="name" name="firefox">packNetWeight</Browser>
+	</Element>
+	<Element name="CargoDetails_Length">
+		<Browser locator="name" name="chrome">packLength</Browser>
+		<Browser locator="name" name="ie">packLength</Browser>
+		<Browser locator="name" name="firefox">packLength</Browser>
+	</Element>
+	<Element name="CargoDetails_Width">
+		<Browser locator="name" name="chrome">packWidth</Browser>
+		<Browser locator="name" name="ie">packWidth</Browser>
+		<Browser locator="name" name="firefox">packWidth</Browser>
+	</Element>
+	<Element name="CargoDetails_Height">
+		<Browser locator="name" name="chrome">packHeight</Browser>
+		<Browser locator="name" name="ie">packHeight</Browser>
+		<Browser locator="name" name="firefox">packHeight</Browser>
+	</Element>
+	<Element name="CargoDetails_PackVolume">
+		<Browser locator="name" name="chrome">packVolume</Browser>
+		<Browser locator="name" name="ie">packVolume</Browser>
+		<Browser locator="name" name="firefox">packVolume</Browser>
+	</Element>
+	<Element name="CargoDetails_PackCommodity">
+		<Browser locator="name" name="chrome">packCommodity</Browser>
+		<Browser locator="name" name="ie">packCommodity</Browser>
+		<Browser locator="name" name="firefox">packCommodity</Browser>
+	</Element>
+	<Element name="CargoDetails_PackCommodityLOV">
+		<Browser locator="name" name="chrome">commodityLOV1</Browser>
+		<Browser locator="name" name="ie">commodityLOV1</Browser>
+		<Browser locator="name" name="firefox">commodityLOV1</Browser>
+	</Element>
+	<Element name="CargoDetails_HSCommodity">
+		<Browser locator="name" name="chrome">hsCommodityId</Browser>
+		<Browser locator="name" name="ie">hsCommodityId</Browser>
+		<Browser locator="name" name="firefox">hsCommodityId</Browser>
+	</Element>
+	<Element name="CargoDetails_HSCommodityLOV">
+		<Browser locator="name" name="chrome">hsCommodityIdLOV1</Browser>
+		<Browser locator="name" name="ie">hsCommodityIdLOV1</Browser>
+		<Browser locator="name" name="firefox">hsCommodityIdLOV1</Browser>
+	</Element>
+	<Element name="CargoDetails_FrtClass">
+		<Browser locator="name" name="chrome">FRTClass</Browser>
+		<Browser locator="name" name="ie">FRTClass</Browser>
+		<Browser locator="name" name="firefox">FRTClass</Browser>
+	</Element>
+	<Element name="CargoDetails_FrtClassLov">
+		<Browser locator="name" name="chrome">frtClassLov</Browser>
+		<Browser locator="name" name="ie">frtClassLov</Browser>
+		<Browser locator="name" name="firefox">frtClassLov</Browser>
+	</Element>
+	<Element name="CargoDetails_ScheduleB">
+		<Browser locator="name" name="chrome">packScheduleBNo</Browser>
+		<Browser locator="name" name="ie">packScheduleBNo</Browser>
+		<Browser locator="name" name="firefox">packScheduleBNo</Browser>
+	</Element>
+	<Element name="CargoDetails_ScheduleBLov">
+		<Browser locator="id" name="chrome">scheduleBNoLov1</Browser>
+		<Browser locator="id" name="ie">scheduleBNoLov1</Browser>
+		<Browser locator="id" name="firefox">scheduleBNoLov1</Browser>
+	</Element>
+	<Element name="CargoDetails_GoodsDesc">
+		<Browser locator="name" name="chrome">goodsDescription</Browser>
+		<Browser locator="name" name="ie">goodsDescription</Browser>
+		<Browser locator="name" name="firefox">goodsDescription</Browser>
+	</Element>
+	<Element name="CargoDetails_MarksNumbers">
+		<Browser locator="name" name="chrome">marksAndNumbers</Browser>
+		<Browser locator="name" name="ie">marksAndNumbers</Browser>
+		<Browser locator="name" name="firefox">marksAndNumbers</Browser>
+	</Element>
+	<Element name="CargoDetails_GoodsValue">
+		<Browser locator="name" name="chrome">packGoodsValue</Browser>
+		<Browser locator="name" name="ie">packGoodsValue</Browser>
+		<Browser locator="name" name="firefox">packGoodsValue</Browser>
+	</Element>
+	<Element name="CargoDetails_GoodsCurrencyLov">
+		<Browser locator="name" name="chrome">currencyLov1</Browser>
+		<Browser locator="name" name="ie">currencyLov1</Browser>
+		<Browser locator="name" name="firefox">currencyLov1</Browser>
+	</Element>
+	<Element name="CargoDetails_Hazardous">
+		<Browser locator="name" name="chrome">hazardous</Browser>
+		<Browser locator="name" name="ie">hazardous</Browser>
+		<Browser locator="name" name="firefox">hazardous</Browser>
+	</Element>
+	<Element name="CargoDetails_AddButton">
+		<Browser locator="id" name="chrome">Image1111</Browser>
+		<Browser locator="id" name="ie">Image1111</Browser>
+		<Browser locator="id" name="firefox">Image1111</Browser>
+	</Element>
+	<Element name="CargoDetails_DeleteButton">
+		<Browser locator="id" name="chrome">Image222</Browser>
+		<Browser locator="id" name="ie">Image222</Browser>
+		<Browser locator="id" name="firefox">Image222</Browser>
+	</Element>
+	<Element name="CargoDetails_GridCheckBox">
+		<Browser locator="id" name="chrome">mappingCheck0</Browser>
+		<Browser locator="id" name="ie">mappingCheck0</Browser>
+		<Browser locator="id" name="firefox">mappingCheck0</Browser>
+	</Element>
+	<Element name="CargoDetails_UOM">
+		<Browser locator="name" name="chrome">UOM</Browser>
+		<Browser locator="name" name="ie">UOM</Browser>
+		<Browser locator="name" name="firefox">UOM</Browser>
+	</Element>
+	<Element name="CargoDetails_UOW">
+		<Browser locator="name" name="chrome">UOW</Browser>
+		<Browser locator="name" name="ie">UOW</Browser>
+		<Browser locator="name" name="firefox">UOW</Browser>
+	</Element>
+	<Element name="CargoDetails_TotalPcs">
+		<Browser locator="name" name="chrome">totalPieces</Browser>
+		<Browser locator="name" name="ie">totalPieces</Browser>
+		<Browser locator="name" name="firefox">totalPieces</Browser>
+	</Element>
+	<Element name="CargoDetails_ActualWgt">
+		<Browser locator="name" name="chrome">actualWeight</Browser>
+		<Browser locator="name" name="ie">actualWeight</Browser>
+		<Browser locator="name" name="firefox">actualWeight</Browser>
+	</Element>
+	<Element name="CargoDetails_TotalVolume">
+		<Browser locator="name" name="chrome">totalVolume</Browser>
+		<Browser locator="name" name="ie">totalVolume</Browser>
+		<Browser locator="name" name="firefox">totalVolume</Browser>
+	</Element>
+	<Element name="CargoDetails_ChargeableWgt">
+		<Browser locator="name" name="chrome">chargeableWeight</Browser>
+		<Browser locator="name" name="ie">chargeableWeight</Browser>
+		<Browser locator="name" name="firefox">chargeableWeight</Browser>
+	</Element>
+	<Element name="CargoDetails_Remarks">
+		<Browser locator="name" name="chrome">Remarks</Browser>
+		<Browser locator="name" name="ie">Remarks</Browser>
+		<Browser locator="name" name="firefox">Remarks</Browser>
+	</Element>
+	
+	 <!--OceanExport WareHouse  Invoice PO Details -->
+	<Element name="CargoDetails_Standard">
+		<Browser locator="id" name="chrome">Standard</Browser>
+		<Browser locator="id" name="ie">Standard</Browser>
+		<Browser locator="id" name="firefox">Standard</Browser>
+	</Element>
+	<Element name="CargoDetails_NonStandard">
+		<Browser locator="id" name="chrome">NonStandard</Browser>
+		<Browser locator="id" name="ie">NonStandard</Browser>
+		<Browser locator="id" name="firefox">NonStandard</Browser>
+	</Element>
+	<Element name="CargoDetails_InvoiceNum">
+		<Browser locator="name" name="chrome">invoiceNumber</Browser>
+		<Browser locator="name" name="ie">invoiceNumber</Browser>
+		<Browser locator="name" name="firefox">invoiceNumber</Browser>
+	</Element>
+	<Element name="CargoDetails_InvoiceDate">
+		<Browser locator="id" name="chrome">invoiceDate</Browser>
+		<Browser locator="id" name="ie">invoiceDate</Browser>
+		<Browser locator="id" name="firefox">invoiceDate</Browser>
+	</Element>
+	<Element name="CargoDetails_PONumber">
+		<Browser locator="name" name="chrome">poNumber</Browser>
+		<Browser locator="name" name="ie">poNumber</Browser>
+		<Browser locator="name" name="firefox">poNumber</Browser>
+	</Element>
+	<Element name="CargoDetails_SONumber">
+		<Browser locator="name" name="chrome">soNumber</Browser>
+		<Browser locator="name" name="ie">soNumber</Browser>
+		<Browser locator="name" name="firefox">soNumber</Browser>
+	</Element>
+	<Element name="CargoDetails_PartyIdExport">
+		<Browser locator="name" name="chrome">partId</Browser>
+		<Browser locator="name" name="ie">partId</Browser>
+		<Browser locator="name" name="firefox">partId</Browser>
+	</Element>
+	<Element name="CargoDetails_UnitPriceExport">
+		<Browser locator="name" name="chrome">unitPriceExport</Browser>
+		<Browser locator="name" name="ie">unitPriceExport</Browser>
+		<Browser locator="name" name="firefox">unitPriceExport</Browser>
+	</Element>
+	<Element name="CargoDetails_PartyIdImport">
+		<Browser locator="name" name="chrome">partyIdImport</Browser>
+		<Browser locator="name" name="ie">partyIdImport</Browser>
+		<Browser locator="name" name="firefox">partyIdImport</Browser>
+	</Element>
+	<Element name="CargoDetails_UnitPriceImport">
+		<Browser locator="name" name="chrome">unitPriceImport</Browser>
+		<Browser locator="name" name="ie">unitPriceImport</Browser>
+		<Browser locator="name" name="firefox">unitPriceImport</Browser>
+	</Element>
+	<Element name="CargoDetails_InvGrsWt">
+		<Browser locator="name" name="chrome">grossWeight</Browser>
+		<Browser locator="name" name="ie">grossWeight</Browser>
+		<Browser locator="name" name="firefox">grossWeight</Browser>
+	</Element>
+	<Element name="CargoDetails_InvNetWt">
+		<Browser locator="name" name="chrome">netWeight</Browser>
+		<Browser locator="name" name="ie">netWeight</Browser>
+		<Browser locator="name" name="firefox">netWeight</Browser>
+	</Element>
+	<Element name="CargoDetails_InvUOW">
+		<Browser locator="id" name="chrome">UOW3</Browser>
+		<Browser locator="id" name="ie">UOW3</Browser>
+		<Browser locator="id" name="firefox">UOW3</Browser>
+	</Element>
+	<Element name="CargoDetails_InvVolume">
+		<Browser locator="name" name="chrome">poVolume</Browser>
+		<Browser locator="name" name="ie">poVolume</Browser>
+		<Browser locator="name" name="firefox">poVolume</Browser>
+	</Element>
+	<Element name="CargoDetails_InvStatQty1">
+		<Browser locator="name" name="chrome">Qty1</Browser>
+		<Browser locator="name" name="ie">Qty1</Browser>
+		<Browser locator="name" name="firefox">Qty1</Browser>
+	</Element>
+	<Element name="CargoDetails_InvStatType1">
+		<Browser locator="name" name="chrome">UOW4</Browser>
+		<Browser locator="name" name="ie">UOW4</Browser>
+		<Browser locator="name" name="firefox">UOW4</Browser>
+	</Element>
+	<Element name="CargoDetails_InvStatType1Lov">
+		<Browser locator="id" name="chrome">UOW4lov</Browser>
+		<Browser locator="id" name="ie">UOW4lov</Browser>
+		<Browser locator="id" name="firefox">UOW4lov</Browser>
+	</Element>
+	<Element name="CargoDetails_InvStatQty2">
+		<Browser locator="name" name="chrome">Qty2</Browser>
+		<Browser locator="name" name="ie">Qty2</Browser>
+		<Browser locator="name" name="firefox">Qty2</Browser>
+	</Element>
+	<Element name="CargoDetails_InvStatType2">
+		<Browser locator="name" name="chrome">UOW5</Browser>
+		<Browser locator="name" name="ie">UOW5</Browser>
+		<Browser locator="name" name="firefox">UOW5</Browser>
+	</Element>
+	<Element name="CargoDetails_InvStatType2Lov">
+		<Browser locator="id" name="chrome">UOW5lov</Browser>
+		<Browser locator="id" name="ie">UOW5lov</Browser>
+		<Browser locator="id" name="firefox">UOW5lov</Browser>
+	</Element>
+	<Element name="CargoDetails_InvCommodity">
+		<Browser locator="name" name="chrome">commodity</Browser>
+		<Browser locator="name" name="ie">commodity</Browser>
+		<Browser locator="name" name="firefox">commodity</Browser>
+	</Element>
+	<Element name="CargoDetails_InvCommodityLov">
+		<Browser locator="id" name="chrome">commodityLOV</Browser>
+		<Browser locator="id" name="ie">commodityLOV</Browser>
+		<Browser locator="id" name="firefox">commodityLOV</Browser>
+	</Element>
+	<Element name="CargoDetails_InvHSCode">
+		<Browser locator="name" name="chrome">hsCodeId</Browser>
+		<Browser locator="name" name="ie">hsCodeId</Browser>
+		<Browser locator="name" name="firefox">hsCodeId</Browser>
+	</Element>
+	<Element name="CargoDetails_InvHSCodeLov">
+		<Browser locator="id" name="chrome">hsCodeLOV</Browser>
+		<Browser locator="id" name="ie">hsCodeLOV</Browser>
+		<Browser locator="id" name="firefox">hsCodeLOV</Browser>
+	</Element>
+	<Element name="CargoDetails_InvScheduleBNum">
+		<Browser locator="id" name="chrome">scheduleBNo</Browser>
+		<Browser locator="id" name="ie">scheduleBNo</Browser>
+		<Browser locator="id" name="firefox">scheduleBNo</Browser>
+	</Element>
+	<Element name="CargoDetails_InvScheduleBNumLov">
+		<Browser locator="id" name="chrome">scheduleBNoLov</Browser>
+		<Browser locator="id" name="ie">scheduleBNoLov</Browser>
+		<Browser locator="id" name="firefox">scheduleBNoLov</Browser>
+	</Element>
+	<Element name="CargoDetails_InvDescription">
+		<Browser locator="id" name="chrome">description</Browser>
+		<Browser locator="id" name="ie">description</Browser>
+		<Browser locator="id" name="firefox">description</Browser>
+	</Element>
+	<Element name="CargoDetails_InvGoodsValue">
+		<Browser locator="name" name="chrome">poGoodsValue</Browser>
+		<Browser locator="name" name="ie">poGoodsValue</Browser>
+		<Browser locator="name" name="firefox">poGoodsValue</Browser>
+	</Element>
+	<Element name="CargoDetails_InvCurrency">
+		<Browser locator="id" name="chrome">currency</Browser>
+		<Browser locator="id" name="ie">currency</Browser>
+		<Browser locator="id" name="firefox">currency</Browser>
+	</Element>
+	<Element name="CargoDetails_InvCurrencyLov">
+		<Browser locator="id" name="chrome">currencyLov</Browser>
+		<Browser locator="id" name="ie">currencyLov</Browser>
+		<Browser locator="id" name="firefox">currencyLov</Browser>
+	</Element>
+	<Element name="CargoDetails_InvCurrencyExport">
+		<Browser locator="id" name="chrome">currencyExport</Browser>
+		<Browser locator="id" name="ie">currencyExport</Browser>
+		<Browser locator="id" name="firefox">currencyExport</Browser>
+	</Element>
+	<Element name="CargoDetails_InvCurrencyExportLov">
+		<Browser locator="id" name="chrome">currencyExpLov</Browser>
+		<Browser locator="id" name="ie">currencyExpLov</Browser>
+		<Browser locator="id" name="firefox">currencyExpLov</Browser>
+	</Element>
+	<Element name="CargoDetails_InvOriginCountry">
+		<Browser locator="id" name="chrome">originCountry</Browser>
+		<Browser locator="id" name="ie">originCountry</Browser>
+		<Browser locator="id" name="firefox">originCountry</Browser>
+	</Element>
+	<Element name="CargoDetails_InvOriginCountryLov">
+		<Browser locator="id" name="chrome">originCountryLov</Browser>
+		<Browser locator="id" name="ie">originCountryLov</Browser>
+		<Browser locator="id" name="firefox">originCountryLov</Browser>
+	</Element>
+	<Element name="CargoDetails_InvBondedNormal">
+		<Browser locator="name" name="chrome">bondedOrNormal</Browser>
+		<Browser locator="name" name="ie">bondedOrNormal</Browser>
+		<Browser locator="name" name="firefox">bondedOrNormal</Browser>
+	</Element>
+	<Element name="CargoDetails_InvIncoTermExport">
+		<Browser locator="id" name="chrome">incoTermExp</Browser>
+		<Browser locator="id" name="ie">incoTermExp</Browser>
+		<Browser locator="id" name="firefox">incoTermExp</Browser>
+	</Element>
+	<Element name="CargoDetails_InvLocationExp">
+		<Browser locator="id" name="chrome">incoTermLocExpDKCode</Browser>
+		<Browser locator="id" name="ie">incoTermLocExpDKCode</Browser>
+		<Browser locator="id" name="firefox">incoTermLocExpDKCode</Browser>
+	</Element>
+	<Element name="CargoDetails_InvLocationExpLov">
+		<Browser locator="id" name="chrome">incoLocExpBtn</Browser>
+		<Browser locator="id" name="ie">incoLocExpBtn</Browser>
+		<Browser locator="id" name="firefox">incoLocExpBtn</Browser>
+	</Element>
+	<Element name="CargoDetails_InvIncoTermImport">
+		<Browser locator="id" name="chrome">incoTermLocDKCode</Browser>
+		<Browser locator="id" name="ie">incoTermLocDKCode</Browser>
+		<Browser locator="id" name="firefox">incoTermLocDKCode</Browser>
+	</Element>
+	<Element name="CargoDetails_InvIncoTermImportLov">
+		<Browser locator="id" name="chrome">incoLocBtn</Browser>
+		<Browser locator="id" name="ie">incoLocBtn</Browser>
+		<Browser locator="id" name="firefox">incoLocBtn</Browser>
+	</Element>
+	<Element name="CargoDetails_InvoiceAddButton">
+		<Browser locator="id" name="chrome">addImg</Browser>
+		<Browser locator="id" name="ie">addImg</Browser>
+		<Browser locator="id" name="firefox">addImg</Browser>
+	</Element>
+	<Element name="CargoDetails_InvoiceDeleteButton">
+		<Browser locator="id" name="chrome">delImg</Browser>
+		<Browser locator="id" name="ie">delImg</Browser>
+		<Browser locator="id" name="firefox">delImg</Browser>
+	</Element>
+	<Element name="CargoDetails_InvAdditionalInfo">
+		<Browser locator="xpath" name="chrome">html/body/form/table[7]/tbody/tr/td[2]/a/img</Browser>
+		<Browser locator="xpath" name="ie">html/body/form/table[7]/tbody/tr/td[2]/a/img</Browser>
+		<Browser locator="xpath" name="firefox">html/body/form/table[7]/tbody/tr/td[2]/a/img</Browser>
+	</Element>
+	<Element name="CargoDetails_InvNumofLineItems">
+		<Browser locator="id" name="chrome">noOfLineItems</Browser>
+		<Browser locator="id" name="ie">noOfLineItems</Browser>
+		<Browser locator="id" name="firefox">noOfLineItems</Browser>
+	</Element>
+	<Element name="CargoDetails_InvUpload">
+		<Browser locator="name" name="chrome">button</Browser>
+		<Browser locator="name" name="ie">button</Browser>
+		<Browser locator="name" name="firefox">button</Browser>
+	</Element>
+	<Element name="CargoDetails_InvExport">
+		<Browser locator="id" name="chrome">exportButton</Browser>
+		<Browser locator="id" name="ie">exportButton</Browser>
+		<Browser locator="id" name="firefox">exportButton</Browser>
+	</Element>
+	<Element name="CargoDetails_InvGridCheckSelectAll">
+		<Browser locator="name" name="chrome">selectall</Browser>
+		<Browser locator="name" name="ie">selectall</Browser>
+		<Browser locator="name" name="firefox">selectall</Browser>
+	</Element>
+	<Element name="CargoDetails_InvGridCheckBox">
+		<Browser locator="name" name="chrome">poCheck0</Browser>
+		<Browser locator="name" name="ie">poCheck0</Browser>
+		<Browser locator="name" name="firefox">poCheck0</Browser>
+	</Element>
+	<Element name="VerificationMsg">
+		<Browser locator="xpath" name="chrome">html/body/form/table/tbody/tr[3]/td/table/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr/td/table[1]/tbody/tr[1]/td/table/tbody/tr[1]/td/table/tbody/tr[1]/td/font/b</Browser>
+		<Browser locator="xpath" name="ie">html/body/form/table/tbody/tr[3]/td/table/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr/td/table[1]/tbody/tr[1]/td/table/tbody/tr[1]/td/table/tbody/tr[1]/td/font/b</Browser>
+		<Browser locator="xpath" name="firefox">html/body/form/table/tbody/tr[3]/td/table/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr/td/table[1]/tbody/tr[1]/td/table/tbody/tr[1]/td/table/tbody/tr[1]/td/font/b</Browser>
+	</Element>
+	<Element name="SeaWRHVerificationMsg">
+		<Browser locator="xpath" name="chrome">.//*[@id='head']/form/table/tbody/tr[3]/td/table/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr/td/table[1]/tbody/tr[1]/td/table/tbody/tr[1]/td/table/tbody/tr[1]/td</Browser>
+		<Browser locator="xpath" name="ie">.//*[@id='head']/form/table/tbody/tr[3]/td/table/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr/td/table[1]/tbody/tr[1]/td/table/tbody/tr[1]/td/table/tbody/tr[1]/td</Browser>
+		<Browser locator="xpath" name="firefox">.//*[@id='head']/form/table/tbody/tr[3]/td/table/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr/td/table[1]/tbody/tr[1]/td/table/tbody/tr[1]/td/table/tbody/tr[1]/td</Browser>
+	</Element>
+	<Element name="AirSearchListWarehouseID">
+		<Browser locator="name" name="chrome">warehouseId1</Browser>
+		<Browser locator="name" name="ie">warehouseId1</Browser>
+		<Browser locator="name" name="firefox">warehouseId1</Browser>
+	</Element>
+	
+	 <!--Below Locators are AirExport SearchList WareHouse -->
+	<Element name="AirWareHouseType">
+		<Browser locator="name" name="chrome">whType1</Browser>
+		<Browser locator="name" name="ie">whType1</Browser>
+		<Browser locator="name" name="firefox">whType1</Browser>
+	</Element>
+	
+	
+	<Element name="Air_Hazardous">
+		<Browser locator="id" name="chrome">cmbHazardous1</Browser>
+		<Browser locator="id" name="ie">cmbHazardous1</Browser>
+		<Browser locator="id" name="firefox">cmbHazardous1</Browser>
+	</Element>
+	
+	<Element name="Air_WareHouseNewBtn">
+		<Browser locator="id" name="chrome">button.new</Browser>
+		<Browser locator="id" name="ie">button.new</Browser>
+		<Browser locator="id" name="firefox">button.new</Browser>
+	</Element>
+	
+</page>

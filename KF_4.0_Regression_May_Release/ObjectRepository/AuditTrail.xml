@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page frame="" name="AuditTrail" title="">
+	<Element name="Booking_ID">
+		<Browser locator="id" name="chrome">dtDocNo1</Browser>
+		<Browser locator="id" name="ie">dtDocNo1</Browser>
+		<Browser locator="id" name="firefox">dtDocNo1</Browser>
+	</Element>
+	<Element name="UserName">
+		<Browser locator="id" name="chrome">dtUserId1</Browser>
+		<Browser locator="id" name="ie">dtUserId1</Browser>
+		<Browser locator="id" name="firefox">dtUserId1</Browser>
+	</Element>
+	<Element name="ActionID">
+		<Browser locator="id" name="chrome">dtAuditMasterDtlId1</Browser>
+		<Browser locator="id" name="ie">dtAuditMasterDtlId1</Browser>
+		<Browser locator="id" name="firefox">dtAuditMasterDtlId1</Browser>
+	</Element>
+	<Element name="AuditFieldChanges_Tab">
+		<Browser locator="id" name="chrome">AUDIT_FIELD_DATA</Browser>
+		<Browser locator="id" name="ie">AUDIT_FIELD_DATA</Browser>
+		<Browser locator="id" name="firefox">AUDIT_FIELD_DATA</Browser>
+	</Element>
+	<Element name="InterfaceAudit">
+		<Browser locator="id" name="chrome">TRANS_JRNL</Browser>
+		<Browser locator="id" name="ie">TRANS_JRNL</Browser>
+		<Browser locator="id" name="firefox">TRANS_JRNL</Browser>
+	</Element>
+	<Element name="InterfaceAudit_DocId">
+		<Browser locator="id" name="chrome">docId</Browser>
+		<Browser locator="id" name="ie">docId</Browser>
+		<Browser locator="id" name="firefox">docId</Browser>
+	</Element>
+	
+	
+</page>

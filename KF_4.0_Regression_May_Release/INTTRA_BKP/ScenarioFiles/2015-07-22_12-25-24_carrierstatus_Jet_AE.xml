@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><Message>
+  <Header>
+    <MessageType MessageVersion="1.0">Status</MessageType>
+    <DocumentIdentifier>EMJFBGLBGLNL00003919</DocumentIdentifier>  <!-- Console Id-->
+    <DateTime DateType="Document">201507220000</DateTime>          <!-- MBL Date--> 
+    <Parties>
+      <PartnerInformation PartnerRole="Sender">
+        <PartnerIdentifier Agency="AssignedBySender">INTTRA</PartnerIdentifier>
+      </PartnerInformation>
+      <PartnerInformation PartnerRole="Recipient">
+        <PartnerIdentifier Agency="AssignedByRecipient">4STAIRXML</PartnerIdentifier>
+      </PartnerInformation>
+    </Parties>
+  </Header>
+  <MessageBody>
+    <MessageProperties>
+      <EventCode>AE</EventCode>
+      <EventLocation>
+        <Location LocationType="ActivityLocation">
+          <LocationCode Agency="UN">NLRTM</LocationCode>
+          <LocationName>Rotterdam</LocationName>
+          <LocationCountry>NL</LocationCountry>
+          <DateTime DateType="StatusChange">201507220000</DateTime>		<!-- MBL Date-->
+        </Location>
+      </EventLocation>
+      <ReferenceInformation ReferenceType="BookingNumber">CBRHLCU1454</ReferenceInformation>    <!-- Carrier Booking Ref No -->
+      <ReferenceInformation ReferenceType="ContractNumber">CONTRACT0006</ReferenceInformation>	<!-- Contract Number if you have the shipment -->
+      <ReferenceInformation ReferenceType="TransactionReferenceNumber">032520151000</ReferenceInformation> <!-- ITN Number if you have the shipment -->
+      <Instructions>
+        <ShipmentComments CommentType="General">Surrendered</ShipmentComments>   <!-- BL Comments from INTTRA Tab -->
+      </Instructions>
+      <TransportationDetails TransportMode="Maritime" TransportStage="Main">
+        <ConveyanceInformation>
+          <ConveyanceName>CANMAR VICTORY</ConveyanceName>  <!-- Vessel Name -->
+          <VoyageTripNumber>879N</VoyageTripNumber> <!-- Voyage Name -->
+          <CarrierSCAC>HLCU</CarrierSCAC> <!-- Carrier Id -->
+          <TransportIdentification TransportIdentificationType="LloydsCode">9004217</TransportIdentification> <!-- Lloyds Code of the Vessel -->
+        </ConveyanceInformation>
+        <Location LocationType="PortOfLoading">
+          <LocationCode Agency="UN">NLRTM</LocationCode>
+          <LocationCountry>NL</LocationCountry>
+          <DateTime DateType="DepartureEstimated">201507221207</DateTime> <!-- ETD Date-->
+        </Location>
+        <Location LocationType="PortOfDischarge">
+          <LocationCode Agency="UN">USNYC</LocationCode>
+          <LocationCountry>US</LocationCountry>
+          <DateTime DateType="ArrivalEstimated">201508281207</DateTime>   <!-- ETA Date-->
+        </Location>
+      </TransportationDetails>
+      <Parties>
+        <PartnerInformation PartnerRole="Carrier">
+          <PartnerIdentifier Agency="AssignedByCarrier">HLCU</PartnerIdentifier> <!-- Carrier Id -->
+        </PartnerInformation>
+      </Parties>
+    </MessageProperties>
+    <MessageDetails>
+      <EquipmentDetails>
+        <LineNumber>1</LineNumber>
+        <EquipmentIdentifier LoadType="Full">UJXZ5555608</EquipmentIdentifier>  <!-- Container Number1 -->
+        <EquipmentType>
+          <EquipmentTypeCode>40GP</EquipmentTypeCode>  <!-- Container Type -->
+        </EquipmentType>
+      </EquipmentDetails>
+    </MessageDetails>
+  </MessageBody>
+</Message>

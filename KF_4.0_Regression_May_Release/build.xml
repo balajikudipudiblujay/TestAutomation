@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<project basedir="." default="run" name="KF4.0_REG">
+	<property name="src.path" value=".\src" />
+	<property name="class.path" value=".\bin" />
+	<property name="Data.path" value=".\TestData\VirtualTestData" />
+	<property name="user.dir" value="${user.dir}" />
+	
+	<path id="libs">
+		<fileset dir="ReferenceLibraries">
+			<include name="*.jar" />
+			<include name="**/*.class" />
+		</fileset>
+		<pathelement path="${class.path}" />
+	</path>
+
+	<target name="compile">
+		<javac debug="true" srcdir="${src.path}" destdir="${class.path}" classpathref="libs">
+		</javac>
+	</target>
+
+	<target name="clean">
+		<echo>Deleting Name${classes.dir}</echo>
+		<delete dir="${Data.path}" />
+		<delete dir="${class.path}" />
+		<!--<delete dir=".\Reports\RecordingFiles" /> -->
+		<delete includeemptydirs="true">
+			<fileset dir="Reports" includes="**/*" />
+		</delete>
+		<delete>
+			<fileset dir=".\ControlFiles" />
+		</delete>
+		<mkdir dir="${class.path}" />
+	</target>
+
+	<target name="cleanReports">
+		<delete includeemptydirs="true">
+			<fileset dir="Reports" includes="**/*" />
+		</delete>
+	</target>
+	<target name="Dump">
+		<echo>Dumping Excel Files</echo>
+		<java classpathref="libs" fork="false" spawn="no" classname="global.reusables.DumpExcelFiles">
+
+			<arg value="${class.path}" />
+		</java>
+	</target>
+
+
+	<target name="GenerateCntrlFiles">
+		<echo>Generate Cntrl files</echo>
+		<java classpathref="libs" fork="false" spawn="no" classname="global.reusables.GenerateControlfiles">
+			<sysproperty key="user.dir" value="${user.dir}"/>
+			<arg value="${class.path}" />
+		</java>
+	</target>
+
+	<target name="run" depends="compile,Dump,GenerateCntrlFiles">
+		<mkdir dir="${testng.output}" />
+		<taskdef resource="testngtasks" classpathref="libs">
+		</taskdef>
+		<testng outputdir="${testng.output}" classpathref="libs">
+			<xmlfileset dir=".\ControlFiles" includes="SWB.xml" />
+		</testng>
+	</target>
+	<target name="runWithOutDumping" depends="compile,GenerateCntrlFiles">
+			<mkdir dir="${testng.output}" />
+			<taskdef resource="testngtasks" classpathref="libs">
+			</taskdef>
+			<testng outputdir="${testng.output}" classpathref="libs">
+				<xmlfileset dir=".\ControlFiles" includes="SWB.xml" />
+			</testng>
+		</target>
+</project>

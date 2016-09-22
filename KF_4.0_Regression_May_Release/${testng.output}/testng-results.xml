@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="159094" started-at="2015-01-21T06:14:19Z" finished-at="2015-01-21T06:16:59Z">
+    <groups>
+    </groups>
+    <test name="KFPICTScenario_SubScenarioSubScenario1_chrome" duration-ms="159094" started-at="2015-01-21T06:14:19Z" finished-at="2015-01-21T06:16:59Z">
+      <class name="business.scenarios.KFPICTScenario">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:business.scenarios.KFPICTScenario@13d93f4]" name="beforeSuite" is-config="true" duration-ms="78" started-at="2015-01-21T11:44:19Z" finished-at="2015-01-21T11:44:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:business.scenarios.KFPICTScenario@13d93f4]" name="beforeTest" is-config="true" duration-ms="0" started-at="2015-01-21T11:44:19Z" finished-at="2015-01-21T11:44:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[KFPICTScenario]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SubScenario1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="KFPICTScenarioMain(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:business.scenarios.KFPICTScenario@13d93f4]" name="KFPICTScenarioMain" duration-ms="159078" started-at="2015-01-21T11:44:19Z" finished-at="2015-01-21T11:46:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[KFPICTScenario]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SubScenario1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- KFPICTScenarioMain -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:business.scenarios.KFPICTScenario@13d93f4]" name="afterSuite" is-config="true" duration-ms="1469" started-at="2015-01-21T11:46:59Z" finished-at="2015-01-21T11:47:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- business.scenarios.KFPICTScenario -->
+    </test> <!-- KFPICTScenario_SubScenarioSubScenario1_chrome -->
+  </suite> <!-- Suite -->
+</testng-results>

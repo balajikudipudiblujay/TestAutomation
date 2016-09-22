@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page frame="" name="PRS" title="Company">
+
+
+   <!--Pavan Below Locators are for Ocean MIS Reports -->
+   
+   <Element name="Frame_MainDetails">
+		<Browser locator="name" name="chrome">ESMenuMainPageiFrame</Browser>
+		<Browser locator="name" name="ie">ESMenuMainPageiFrame</Browser>
+		<Browser locator="name" name="firefox">ESMenuMainPageiFrame</Browser>
+	</Element>
+	
+	<Element name="Frame_Text">
+		<Browser locator="name" name="chrome">ESMenuMainPageiFrame</Browser>
+		<Browser locator="name" name="ie">ESMenuMainPageiFrame</Browser>
+		<Browser locator="name" name="firefox">ESMenuMainPageiFrame</Browser>
+	</Element>
+	
+	<Element name="Link_Next">
+		<Browser locator="LinkText" name="chrome">Next</Browser>
+		<Browser locator="LinkText" name="ie">Next</Browser>
+		<Browser locator="LinkText" name="firefox">Next</Browser>
+	</Element>
+	
+	<Element name="Link_Previous">
+		<Browser locator="LinkText" name="chrome">Previous</Browser>
+		<Browser locator="LinkText" name="ie">Previous</Browser>
+		<Browser locator="LinkText" name="firefox">Previous</Browser>
+	</Element>
+	
+	<Element name="Link_Cancel">
+		<Browser locator="LinkText" name="chrome">Cancel</Browser>
+		<Browser locator="LinkText" name="ie">Cancel</Browser>
+		<Browser locator="LinkText" name="firefox">Cancel</Browser>
+	</Element>
+	
+	<Element name="DDL_ShipmentType">
+		<Browser locator="name" name="chrome">shipmentType</Browser>
+		<Browser locator="name" name="ie">shipmentType</Browser>
+		<Browser locator="name" name="firefox">shipmentType</Browser>
+	</Element>
+	
+	<Element name="Textbox_FromDate">
+		<Browser locator="name" name="chrome">fromdate</Browser>
+		<Browser locator="name" name="ie">fromdate</Browser>
+		<Browser locator="name" name="firefox">fromdate</Browser>
+	</Element>
+	<Element name="Textbox_ToDate">
+		<Browser locator="name" name="chrome">todate</Browser>
+		<Browser locator="name" name="ie">todate</Browser>
+		<Browser locator="name" name="firefox">todate</Browser>
+	</Element>
+	
+	
+	<Element name="RDB_Status">
+		<Browser locator="name" name="chrome">status</Browser>
+		<Browser locator="name" name="ie">status</Browser>
+		<Browser locator="name" name="firefox">status</Browser>
+	</Element>
+	
+	generalMaster
+	agentTerminal
+	carrier
+	
+	<Element name="Textbox_AgentTerminalId">
+		<Browser locator="name" name="chrome">originTerminal</Browser>
+		<Browser locator="name" name="ie">originTerminal</Browser>
+		<Browser locator="name" name="firefox">originTerminal</Browser>
+	</Element>
+	
+	<Element name="LOV_AgentTerminalId">
+		<Browser locator="name" name="chrome">agentTerminalLOV</Browser>
+		<Browser locator="name" name="ie">agentTerminalLOV</Browser>
+		<Browser locator="name" name="firefox">agentTerminalLOV</Browser>
+	</Element>
+	
+	<Element name="LOV_Textbox_AgentTerminalId">
+		<Browser locator="id" name="chrome">commandObjectdataObjectcriteriacodevalue</Browser>
+		<Browser locator="id" name="ie">commandObjectdataObjectcriteriacodevalue</Browser>
+		<Browser locator="id" name="firefox">commandObjectdataObjectcriteriacodevalue</Browser>
+	</Element>
+	
+	<Element name="Textbox_CarrierId">
+		<Browser locator="id" name="chrome">carrierId</Browser>
+		<Browser locator="id" name="ie">carrierId</Browser>
+		<Browser locator="id" name="firefox">carrierId</Browser>
+	</Element>
+	
+	<Element name="LOV_CarrierId">
+		<Browser locator="name" name="chrome">carrierLov</Browser>
+		<Browser locator="name" name="ie">carrierLov</Browser>
+		<Browser locator="name" name="firefox">carrierLov</Browser>
+	</Element>
+	
+	<Element name="LOV_Textbox_CarrierId">
+		<Browser locator="id" name="chrome">carrierId</Browser>
+		<Browser locator="id" name="ie">carrierId</Browser>
+		<Browser locator="id" name="firefox">carrierId</Browser>
+	</Element>
+	
+	
+	<Element name="Button_Next">
+		<Browser locator="name" name="chrome">submitButton</Browser>
+		<Browser locator="name" name="ie">submitButton</Browser>
+		<Browser locator="name" name="firefox">submitButton</Browser>
+	</Element>
+	
+	<Element name="Button_Reset">
+		<Browser locator="name" name="chrome">resetButton</Browser>
+		<Browser locator="name" name="ie">resetButton</Browser>
+		<Browser locator="name" name="firefox">resetButton</Browser>
+	</Element>
+	
+	
+	<Element name="Button_Message">
+		<Browser locator="name" name="chrome">Message</Browser>
+		<Browser locator="name" name="ie">Message</Browser>
+		<Browser locator="name" name="firefox">Message</Browser>
+	</Element>
+	
+	<Element name="Button_Close">
+		<Browser locator="name" name="chrome">Button</Browser>
+		<Browser locator="name" name="ie">Button</Browser>
+		<Browser locator="name" name="firefox">Button</Browser>
+	</Element>
+	
+	<!--Below locators are for Tonnage Reports-->
+	<Element name="Textbox_CustomerId">
+		<Browser locator="id" name="chrome">customerIdNickName</Browser>
+		<Browser locator="id" name="ie">customerIdNickName</Browser>
+		<Browser locator="id" name="firefox">customerIdNickName</Browser>
+	</Element>
+	
+	<Element name="LOV_CustomerId">
+		<Browser locator="name" name="chrome">cuto</Browser>
+		<Browser locator="name" name="ie">cuto</Browser>
+		<Browser locator="name" name="firefox">cuto</Browser>
+	</Element>
+	
+	<Element name="LOV_Textbox_CustomerId">
+		<Browser locator="id" name="chrome">partyId</Browser>
+		<Browser locator="id" name="ie">partyId</Browser>
+		<Browser locator="id" name="firefox">partyId</Browser>
+	</Element>
+	
+	<Element name="Tonnage_Textbox_FromDate">
+		<Browser locator="id" name="chrome">fromDateT</Browser>
+		<Browser locator="id" name="ie">fromDateT</Browser>
+		<Browser locator="id" name="firefox">fromDateT</Browser>
+	</Element>
+	
+	<Element name="DDL_ShipmentMode">
+		<Browser locator="name" name="chrome">smode</Browser>
+		<Browser locator="name" name="ie">smode</Browser>
+		<Browser locator="name" name="firefox">smode</Browser>
+	</Element>
+	
+	<Element name="Tonnage_Textbox_ToDate">
+		<Browser locator="id" name="chrome">toDateT</Browser>
+		<Browser locator="id" name="ie">toDateT</Browser>
+		<Browser locator="id" name="firefox">toDateT</Browser>
+	</Element>
+	
+	<Element name="Textbox_CurrencyID">
+		<Browser locator="id" name="chrome">currencyIdT</Browser>
+		<Browser locator="id" name="ie">currencyIdT</Browser>
+		<Browser locator="id" name="firefox">currencyIdT</Browser>
+	</Element>
+	
+	<Element name="LOV_CurrencyID">
+		<Browser locator="name" name="chrome">button</Browser>
+		<Browser locator="name" name="ie">button</Browser>
+		<Browser locator="name" name="firefox">button</Browser>
+	</Element>
+	
+	<Element name="LOV_CurrencyID">
+		<Browser locator="name" name="chrome">button</Browser>
+		<Browser locator="name" name="ie">button</Browser>
+		<Browser locator="name" name="firefox">button</Browser>
+	</Element>
+	
+	<Element name="LOV_Textbox_CurrencyID">
+		<Browser locator="id" name="chrome">code</Browser>
+		<Browser locator="id" name="ie">code</Browser>
+		<Browser locator="id" name="firefox">code</Browser>
+	</Element>
+	
+	
+	<Element name="Button_Tonnage_Next">
+		<Browser locator="name" name="chrome">Submit3</Browser>
+		<Browser locator="name" name="ie">Submit3</Browser>
+		<Browser locator="name" name="firefox">Submit3</Browser>
+	</Element>
+	
+	<Element name="Button_Tonnage_Reset">
+		<Browser locator="name" name="chrome">Submit2</Browser>
+		<Browser locator="name" name="ie">Submit2</Browser>
+		<Browser locator="name" name="firefox">Submit2</Browser>
+	</Element>
+	
+	<!--Below locators are for TAT Reports-->
+	
+	<Element name="TAT_Texbox_FromDate">
+		<Browser locator="name" name="chrome">fromDate</Browser>
+		<Browser locator="name" name="ie">fromDate</Browser>
+		<Browser locator="name" name="firefox">fromDate</Browser>
+	</Element>
+	
+	<Element name="TAT_Texbox_ToDate">
+		<Browser locator="name" name="chrome">toDate</Browser>
+		<Browser locator="name" name="ie">toDate</Browser>
+		<Browser locator="name" name="firefox">toDate</Browser>
+	</Element>
+	
+	
+	<Element name="DDL_TAT_DayFrom">
+		<Browser locator="name" name="chrome">from</Browser>
+		<Browser locator="name" name="ie">from</Browser>
+		<Browser locator="name" name="firefox">from</Browser>
+	</Element>
+	
+	<Element name="DDL_TAT_DayTo">
+		<Browser locator="name" name="chrome">to</Browser>
+		<Browser locator="name" name="ie">to</Browser>
+		<Browser locator="name" name="firefox">to</Browser>
+	</Element>
+	<Element name="Textbox_DestinationTerminal">
+		<Browser locator="name" name="chrome">destinationId</Browser>
+		<Browser locator="name" name="ie">destinationId</Browser>
+		<Browser locator="name" name="firefox">destinationId</Browser>
+	</Element>
+	<Element name="Button_SelectAll">
+		<Browser locator="name" name="chrome">selectAll</Browser>
+		<Browser locator="name" name="ie">selectAll</Browser>
+		<Browser locator="name" name="firefox">selectAll</Browser>
+	</Element>
+	
+	
+	
+	<!--Below locators are for Booking booking but not partially received Reports-->
+	
+	<Element name="Button_PartiallyReceived_Continue">
+		<Browser locator="name" name="chrome">b1</Browser>
+		<Browser locator="name" name="ie">b1</Browser>
+		<Browser locator="name" name="firefox">b1</Browser>
+	</Element>
+	
+	
+	<!--Below locators are for Booking done PRS not done-->
+	
+	<Element name="Link_PRS_Not_Done_BookingID">
+		<Browser locator="xpath" name="chrome">//form[@name='report']//table[2]//td[1]//b/a</Browser>
+		<Browser locator="xpath" name="ie">//form[@name='report']//table[2]//td[1]//b/a</Browser>
+		<Browser locator="xpath" name="firefox">//form[@name='report']//table[2]//td[1]//b/a</Browser>
+	</Element>
+	
+	<Element name="Link_PRS_Not_Done_DateForPickup">
+		<Browser locator="xpath" name="chrome">//form[@name='report']//table[2]//td[2]//b/a</Browser>
+		<Browser locator="xpath" name="ie">//form[@name='report']//table[2]//td[2]//b/a</Browser>
+		<Browser locator="xpath" name="firefox">//form[@name='report']//table[2]//td[2]//b/a</Browser>
+	</Element>
+	
+	<Element name="Link_PRS_Not_Done_Next">
+		<Browser locator="xpath" name="chrome">//a[text()='Next']</Browser>
+		<Browser locator="xpath" name="ie">//a[text()='Next']</Browser>
+		<Browser locator="xpath" name="firefox">//a[text()='Next']</Browser>
+	</Element>
+	
+	<Element name="Link_PRS_Not_Done_Previous">
+		<Browser locator="xpath" name="chrome">//a[text()='Previous']</Browser>
+		<Browser locator="xpath" name="ie">//a[text()='Previous']</Browser>
+		<Browser locator="xpath" name="firefox">//a[text()='Previous']</Browser>
+	</Element>
+	
+	<Element name="Link_PRS_Not_Done_Cancel">
+		<Browser locator="xpath" name="chrome">//a[text()='Cancel']</Browser>
+		<Browser locator="xpath" name="ie">//a[text()='Cancel']</Browser>
+		<Browser locator="xpath" name="firefox">//a[text()='Cancel']</Browser>
+	</Element>
+	
+	
+	<!--Below locators are for Booking not assined to HBL  reports-->
+	
+	<Element name="Link_Not_Assigned_To_HBL_BookingID">
+		<Browser locator="xpath" name="chrome">//form[@name='report']//table[2]//tr[1]/td[1]/b/a</Browser>
+		<Browser locator="xpath" name="ie">//form[@name='report']//table[2]//tr[1]/td[1]/b/a</Browser>
+		<Browser locator="xpath" name="firefox">//form[@name='report']//table[2]//tr[1]/td[1]/b/a</Browser>
+	</Element>
+	<Element name="Link_Not_Assigned_To_HBL_BookingStatus">
+		<Browser locator="xpath" name="chrome">//form[@name='report']//table[2]//tr[1]/td[2]/b/a</Browser>
+		<Browser locator="xpath" name="ie">//form[@name='report']//table[2]//tr[1]/td[2]/b/a</Browser>
+		<Browser locator="xpath" name="firefox">//form[@name='report']//table[2]//tr[1]/td[2]/b/a</Browser>
+	</Element>
+	<Element name="Link_Not_Assigned_To_HBL_Next">
+		<Browser locator="xpath" name="chrome">//a[text()='Next']</Browser>
+		<Browser locator="xpath" name="ie">//a[text()='Next']</Browser>
+		<Browser locator="xpath" name="firefox">//a[text()='Next']</Browser>
+	</Element>
+	
+	<Element name="Link_Not_Assigned_To_HBL_Previous">
+		<Browser locator="xpath" name="chrome">//a[text()='Previous']</Browser>
+		<Browser locator="xpath" name="ie">//a[text()='Previous']</Browser>
+		<Browser locator="xpath" name="firefox">//a[text()='Previous']</Browser>
+	</Element>
+	
+	<Element name="Link_Not_Assigned_To_HBL_Cancel">
+		<Browser locator="xpath" name="chrome">//a[text()='Cancel']</Browser>
+		<Browser locator="xpath" name="ie">//a[text()='Cancel']</Browser>
+		<Browser locator="xpath" name="firefox">//a[text()='Cancel']</Browser>
+	</Element>
+	
+	<!--Below locators are for Booking without a Console  reports-->
+	
+	<Element name="Link_Booking_Without_Console_BookingID">
+		<Browser locator="xpath" name="chrome">//form[@name='report']//table[2]//tr[1]/td[1]/b/a</Browser>
+		<Browser locator="xpath" name="ie">//form[@name='report']//table[2]//tr[1]/td[1]/b/a</Browser>
+		<Browser locator="xpath" name="firefox">//form[@name='report']//table[2]//tr[1]/td[1]/b/a</Browser>
+	</Element>
+	
+	<Element name="Link_Without_Console_Next">
+		<Browser locator="xpath" name="chrome">//form[@name='report']//table[3]//tr[2]/td[1]/a</Browser>
+		<Browser locator="xpath" name="ie">//form[@name='report']//table[3]//tr[2]/td[1]/a</Browser>
+		<Browser locator="xpath" name="firefox">//form[@name='report']//table[3]//tr[2]/td[1]/a</Browser>
+	</Element>
+	
+	<Element name="Link_Without_Console_Previous">
+		<Browser locator="xpath" name="chrome">//a[text()='Previous']</Browser>
+		<Browser locator="xpath" name="ie">//a[text()='Previous']</Browser>
+		<Browser locator="xpath" name="firefox">//a[text()='Previous']</Browser>
+	</Element>
+	
+	<Element name="Link_Without_Console_Cancel">
+		<Browser locator="xpath" name="chrome">//a[text()='Cancel']</Browser>
+		<Browser locator="xpath" name="ie">//a[text()='Cancel']</Browser>
+		<Browser locator="xpath" name="firefox">//a[text()='Cancel']</Browser>
+	</Element>
+	
+</page>

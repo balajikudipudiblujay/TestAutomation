@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="BrowserType" value="chrome"/>
+  <parameter name="SubScenario" value="SubScenario9"/>
+  <parameter name="ScenarioName" value="KFPICTScenario"/>
+  <test name="KFPICTScenario_SubScenarioSubScenario9_chrome(failed)">
+    <parameter name="BrowserType" value="chrome"/>
+    <parameter name="SubScenario" value="SubScenario9"/>
+    <parameter name="ScenarioName" value="KFPICTScenario"/>
+    <classes>
+      <class name="business.scenarios.KFPICTScenario">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="KFPICTScenarioMain" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- business.scenarios.KFPICTScenario -->
+    </classes>
+  </test> <!-- KFPICTScenario_SubScenarioSubScenario9_chrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->

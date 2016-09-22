@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page frame="AirMawb" name="" title="">
+
+ <!--Below Locators are for Air MAWB Search and Provisional Close  -->
+	<Element name="SearchMawbId">
+		<Browser locator="id" name="chrome">masterDocId</Browser>
+		<Browser locator="id" name="ie">masterDocId</Browser>
+		<Browser locator="id" name="firefox">masterDocId</Browser>
+	</Element>
+	<Element name="MawbId_Grid">
+		<Browser locator="id" name="chrome">dtMasterDocId1</Browser>
+		<Browser locator="id" name="ie">dtMasterDocId1</Browser>
+		<Browser locator="id" name="firefox">dtMasterDocId1</Browser>
+	</Element>
+	<Element name="MawbId_CheckBox">
+		<Browser locator="id" name="chrome">multiSelectCheckbox1</Browser>
+		<Browser locator="id" name="ie">multiSelectCheckbox1</Browser>
+		<Browser locator="id" name="firefox">multiSelectCheckbox1</Browser>
+	</Element>
+	<Element name="MawbSearch_DateFrom">
+		<Browser locator="id" name="chrome">dateFrom</Browser>
+		<Browser locator="id" name="ie">dateFrom</Browser>
+		<Browser locator="id" name="firefox">dateFrom</Browser>
+	</Element>
+	<Element name="MawbSearch_DateTo">
+		<Browser locator="id" name="chrome">dateTo</Browser>
+		<Browser locator="id" name="ie">dateTo</Browser>
+		<Browser locator="id" name="firefox">dateTo</Browser>
+	</Element>
+	<Element name="MawbSearch_ReferenceType">
+		<Browser locator="id" name="chrome">referenceType</Browser>
+		<Browser locator="id" name="ie">referenceType</Browser>
+		<Browser locator="id" name="firefox">referenceType</Browser>
+	</Element>
+	<Element name="MawbSearch_ReferenceNumber">
+		<Browser locator="id" name="chrome">referenceNo</Browser>
+		<Browser locator="id" name="ie">referenceNo</Browser>
+		<Browser locator="id" name="firefox">referenceNo</Browser>
+	</Element>
+	<Element name="Mawb_ProvisionalClose">
+		<Browser locator="name" name="chrome">navigationList</Browser>
+		<Browser locator="name" name="ie">navigationList</Browser>
+		<Browser locator="name" name="firefox">navigationList</Browser>
+	</Element>
+	<Element name="Mawb_ProvisionalCloseImage">
+		<Browser locator="name" name="chrome">navigationListImage</Browser>
+		<Browser locator="name" name="ie">navigationListImage</Browser>
+		<Browser locator="name" name="firefox">navigationListImage</Browser>
+	</Element>
+	
+	 <!--Below Locators are for Air MAWB COB  -->
+	<Element name="Mawb_COBTab">
+		<Browser locator="id" name="chrome">MAWB_COB</Browser>
+		<Browser locator="id" name="ie">MAWB_COB</Browser>
+		<Browser locator="id" name="firefox">MAWB_COB</Browser>
+	</Element>
+	<Element name="FlightCob_CheckBox">
+		<Browser locator="id" name="chrome">flight1CobSelected</Browser>
+		<Browser locator="id" name="ie">flight1CobSelected</Browser>
+		<Browser locator="id" name="firefox">flight1CobSelected</Browser>
+	</Element>
+	<Element name="MawbMulti_CheckBox">
+		<Browser locator="id" name="chrome">multiSelectCheckbox1</Browser>
+		<Browser locator="id" name="ie">multiSelectCheckbox1</Browser>
+		<Browser locator="id" name="firefox">multiSelectCheckbox1</Browser>
+	</Element>
+</page>

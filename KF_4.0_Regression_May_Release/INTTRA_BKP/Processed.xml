@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<Message>
+    <Header>
+        <MessageType MessageVersion="1.0">ShippingInstruction</MessageType>
+        <DocumentIdentifier>14069</DocumentIdentifier>
+        <DateTime DateType="Document">1507210742</DateTime>
+        <Parties>
+            <PartnerInformation PartnerRole="Sender">
+                <PartnerIdentifier Agency="AssignedBySender">KW-FLYJAC</PartnerIdentifier>
+                <PartnerName>BGLUSNYC</PartnerName>
+                <ContactInformation>
+                    <ContactName ContactType="Informational">BRUCE</ContactName>
+                    <CommunicationValue CommunicationType="Telephone">31504289571</CommunicationValue>
+                    <CommunicationValue CommunicationType="Fax">31504289571</CommunicationValue>
+                    <CommunicationValue CommunicationType="Email">miroslava@example.com</CommunicationValue>
+                </ContactInformation>
+            </PartnerInformation>
+            <PartnerInformation PartnerRole="Recipient">
+                <PartnerIdentifier Agency="AssignedByRecipient">INTTRA</PartnerIdentifier>
+            </PartnerInformation>
+        </Parties>
+    </Header>
+    <MessageBody>
+        <MessageProperties>
+            <ShipmentID>
+                <ShipmentIdentifier MessageStatus="Original">EMJFBGLBGLNL00003902</ShipmentIdentifier>
+                <DocumentVersion>000001</DocumentVersion>
+            </ShipmentID>
+            <DateTime DateType="Message">201507210742</DateTime>
+            <ChargeCategory ChargeType="AllCharges" PrepaidorCollectIndicator="Prepaid"/>
+            <ShipmentDeclaredValue Currency="USD">20000.0</ShipmentDeclaredValue>
+            <BlLocations>
+                <Location LocationType="BillOfLadingRelease">
+                    <LocationCode Agency="UN">USNYC</LocationCode>
+                    <LocationName>New York</LocationName>
+                </Location>
+                <Location LocationType="FreightPaymentLocation">
+                    <LocationCode Agency="UN">USOSW</LocationCode>
+                    <LocationName>Oswego</LocationName>
+                </Location>
+            </BlLocations>
+            <ReferenceInformation ReferenceType="BookingNumber">CBRHLCU5708</ReferenceInformation>
+            <ReferenceInformation ReferenceType="BillOfLadingNumber">HLCU5708</ReferenceInformation>
+            <ReferenceInformation ReferenceType="FreightForwarderReference">EMJFBGLBGLNL00003902</ReferenceInformation>
+            <Instructions>
+                <ShipmentComments CommentType="General">General</ShipmentComments>
+            </Instructions>
+            <ControlTotal>
+                <NumberOfEquipment>2</NumberOfEquipment>
+                <NumberOfPackages>250</NumberOfPackages>
+                <GrossWeight UOM="KGM">2550</GrossWeight>
+                <GrossVolume UOM="MTQ">11.556</GrossVolume>
+            </ControlTotal>
+            <HaulageDetails ServiceType="FullLoad" MovementType="PortToPort"/>
+            <TransportationDetails TransportMode="Maritime" TransportStage="Main">
+                <ConveyanceInformation>
+                    <ConveyanceName>CANMARVICTORY</ConveyanceName>
+                    <VoyageTripNumber>879N</VoyageTripNumber>
+                    <CarrierSCAC>HLCU</CarrierSCAC>
+                </ConveyanceInformation>
+                <Location LocationType="PlaceOfReceipt">
+                    <LocationCode Agency="UN">DEBER</LocationCode>
+                    <LocationName>Berlin</LocationName>
+                    <LocationCountry>DE</LocationCountry>
+                </Location>
+                <Location LocationType="PortOfLoading">
+                    <LocationCode Agency="UN">NLRTM</LocationCode>
+                    <LocationName>Rotterdam</LocationName>
+                    <LocationCountry>NL</LocationCountry>
+                </Location>
+                <Location LocationType="PortOfDischarge">
+                    <LocationCode Agency="UN">USNYC</LocationCode>
+                    <LocationName>New York</LocationName>
+                    <LocationCountry>US</LocationCountry>
+                </Location>
+                <Location LocationType="PlaceOfDelivery">
+                    <LocationCode Agency="UN">USOSW</LocationCode>
+                    <LocationName>Oswego</LocationName>
+                    <LocationCountry>US</LocationCountry>
+                </Location>
+            </TransportationDetails>
+            <Parties>
+                <PartnerInformation PartnerRole="Carrier">
+                    <PartnerIdentifier Agency="AssignedBySender">HLCU</PartnerIdentifier>
+                    <PartnerName>HAPAG LLOYD (AMERICA) INC</PartnerName>
+                    <ContactInformation>
+                        <ContactName ContactType="Informational">suzuki</ContactName>
+                        <CommunicationValue CommunicationType="Telephone">985684224</CommunicationValue>
+                        <CommunicationValue CommunicationType="Fax">985684277</CommunicationValue>
+                        <CommunicationValue CommunicationType="Email">tomsuzuki@shinwart.co.jp</CommunicationValue>
+                    </ContactInformation>
+                    <AddressInformation>
+                        <AddressLine>NA</AddressLine>
+                        <City>Tokyo</City>
+                        <PostalCode>103-0012</PostalCode>
+                        <CountryCode>JP</CountryCode>
+                    </AddressInformation>
+                </PartnerInformation>
+                <PartnerInformation PartnerRole="Consignee">
+                    <PartnerName>BGLUSNYC</PartnerName>
+                    <ContactInformation>
+                        <ContactName ContactType="Informational">John Isrial</ContactName>
+                        <CommunicationValue CommunicationType="Telephone">2131313213</CommunicationValue>
+                        <CommunicationValue CommunicationType="Fax">321231313</CommunicationValue>
+                        <CommunicationValue CommunicationType="Email">bluegrace@bg.com</CommunicationValue>
+                    </ContactInformation>
+                    <AddressInformation>
+                        <AddressLine>BLUE GRACE LOGISTICS LIMITED BLDG#1</AddressLine>
+                        <AddressLine>MOUNT STREET#1</AddressLine>
+                        <City>NEW YORK</City>
+                        <StateProvince>NEW YORK</StateProvince>
+                        <PostalCode>10584</PostalCode>
+                        <CountryCode>US</CountryCode>
+                    </AddressInformation>
+                </PartnerInformation>
+                <PartnerInformation PartnerRole="FreightForwarder">
+                    <PartnerIdentifier/>
+                    <PartnerName>BGLNLRTM</PartnerName>
+                    <ContactInformation>
+                        <ContactName ContactType="Informational">BRUCE</ContactName>
+                        <CommunicationValue CommunicationType="Telephone">31504289571</CommunicationValue>
+                        <CommunicationValue CommunicationType="Fax">31504289571</CommunicationValue>
+                        <CommunicationValue CommunicationType="Email">miroslava@example.com</CommunicationValue>
+                    </ContactInformation>
+                    <AddressInformation>
+                        <AddressLine>BLUE GRACE LOGISTICS LIMITED BLDG#1</AddressLine>
+                        <AddressLine>Laan van Londen 100</AddressLine>
+                        <City>Rotterdam</City>
+                        <PostalCode>00210</PostalCode>
+                        <CountryCode>US</CountryCode>
+                    </AddressInformation>
+                </PartnerInformation>
+                <PartnerInformation PartnerRole="Requestor">
+                    <PartnerIdentifier/>
+                    <PartnerName>BGLNLRTM</PartnerName>
+                    <ContactInformation>
+                        <ContactName ContactType="Informational">BRUCE</ContactName>
+                        <CommunicationValue CommunicationType="Telephone">31504289571</CommunicationValue>
+                        <CommunicationValue CommunicationType="Fax">31504289571</CommunicationValue>
+                        <CommunicationValue CommunicationType="Email">miroslava@example.com</CommunicationValue>
+                    </ContactInformation>
+                    <AddressInformation>
+                        <AddressLine>BLUE GRACE LOGISTICS LIMITED BLDG#1</AddressLine>
+                        <AddressLine>Laan van Londen 100</AddressLine>
+                        <City>Rotterdam</City>
+                        <PostalCode>00210</PostalCode>
+                        <CountryCode>US</CountryCode>
+                    </AddressInformation>
+                    <DocumentationRequirements>
+                        <Documents Freighted="True" DocumentType="BillOfLadingCopy"/>
+                        <Quantity>3</Quantity>
+                    </DocumentationRequirements>
+                </PartnerInformation>
+                <PartnerInformation PartnerRole="MessageRecipient">
+                    <ContactInformation>
+                        <ContactName ContactType="SINotification">BRUCE</ContactName>
+                        <CommunicationValue CommunicationType="Email">miroslava@example.com</CommunicationValue>
+                    </ContactInformation>
+                </PartnerInformation>
+                <PartnerInformation PartnerRole="Shipper">
+                    <PartnerIdentifier Agency="AssignedBySender"/>
+                    <PartnerName>BGLNLRTM</PartnerName>
+                    <ContactInformation>
+                        <ContactName ContactType="Informational">BRUCE</ContactName>
+                        <CommunicationValue CommunicationType="Telephone">31504289571</CommunicationValue>
+                        <CommunicationValue CommunicationType="Fax">31504289571</CommunicationValue>
+                        <CommunicationValue CommunicationType="Email">miroslava@example.com</CommunicationValue>
+                    </ContactInformation>
+                    <AddressInformation>
+                        <AddressLine>BLUE GRACE LOGISTICS LIMITED BLDG#1</AddressLine>
+                        <AddressLine>Laan van Londen 100</AddressLine>
+                        <City>Rotterdam</City>
+                        <PostalCode>00210</PostalCode>
+                        <CountryCode>US</CountryCode>
+                    </AddressInformation>
+                </PartnerInformation>
+            </Parties>
+        </MessageProperties>
+        <MessageDetails>
+            <EquipmentDetails>
+                <LineNumber>1</LineNumber>
+                <EquipmentIdentifier EquipmentSupplier="Carrier">UJXZ5555608</EquipmentIdentifier>
+                <EquipmentType>
+                    <EquipmentTypeCode>42G0</EquipmentTypeCode>
+                    <EquipmentDescription>40 Standard Dry</EquipmentDescription>
+                </EquipmentType>
+                <EquipmentGrossWeight UOM="KGM">1224.0</EquipmentGrossWeight>
+                <EquipmentTareWeight UOM="KGM">7800.0</EquipmentTareWeight>
+                <EquipmentGrossVolume UOM="MTQ">5.55</EquipmentGrossVolume>
+                <EquipmentSeal SealingParty="Carrier">S125</EquipmentSeal>
+                <EquipmentSeal SealingParty="Carrier">S234</EquipmentSeal>
+                <EquipmentLocation LocationType="Consolidator">
+                    <LocationCode Agency="UN">DEBER</LocationCode>
+                    <LocationName>Berlin</LocationName>
+                    <LocationCountry>DE</LocationCountry>
+                </EquipmentLocation>
+            </EquipmentDetails>
+            <EquipmentDetails>
+                <LineNumber>2</LineNumber>
+                <EquipmentIdentifier EquipmentSupplier="Carrier">UJXZ5555609</EquipmentIdentifier>
+                <EquipmentType>
+                    <EquipmentTypeCode>22G0</EquipmentTypeCode>
+                    <EquipmentDescription>General Purpose (Hanging Garments)</EquipmentDescription>
+                </EquipmentType>
+                <EquipmentGrossWeight UOM="KGM">1326.0</EquipmentGrossWeight>
+                <EquipmentTareWeight UOM="KGM">7500.0</EquipmentTareWeight>
+                <EquipmentGrossVolume UOM="MTQ">6.01</EquipmentGrossVolume>
+                <EquipmentSeal SealingParty="Carrier">S126</EquipmentSeal>
+                <EquipmentSeal SealingParty="Carrier">S235</EquipmentSeal>
+                <EquipmentLocation LocationType="Consolidator">
+                    <LocationCode Agency="UN">DEBER</LocationCode>
+                    <LocationName>Berlin</LocationName>
+                    <LocationCountry>DE</LocationCountry>
+                </EquipmentLocation>
+            </EquipmentDetails>
+            <GoodsDetails>
+                <LineNumber>1</LineNumber>
+                <PackageDetail Level="Outer">
+                    <NumberOfPackages>250</NumberOfPackages>
+                    <PackageTypeCode>PK</PackageTypeCode>
+                    <PackageTypeDescription>Package</PackageTypeDescription>
+                </PackageDetail>
+                <PackageDetailComments CommentType="GoodsDescription">Home Textiles</PackageDetailComments>
+                <ProductId ItemTypeIdCode="HarmonizedSystem">2511</ProductId>
+                <ProductId ItemTypeIdCode="USCensusScheduleB">8460190005</ProductId>
+                <PackageDetailGrossVolume UOM="MTQ">11.556</PackageDetailGrossVolume>
+                <PackageDetailGrossWeight UOM="KGM">2550.0</PackageDetailGrossWeight>
+                <PackageMarks>
+                    <Marks>PO65875875</Marks>
+                </PackageMarks>
+                <PackageMarks>
+                    <Marks>PO65875875</Marks>
+                </PackageMarks>
+                <SplitGoodsDetails>
+                    <EquipmentIdentifier>UJXZ5555609</EquipmentIdentifier>
+                    <SplitGoodsNumberOfPackages>130</SplitGoodsNumberOfPackages>
+                    <SplitGoodsGrossVolume UOM="MTQ">6.01</SplitGoodsGrossVolume>
+                    <SplitGoodsGrossWeight UOM="KGM">1326.0</SplitGoodsGrossWeight>
+                </SplitGoodsDetails>
+                <SplitGoodsDetails>
+                    <EquipmentIdentifier>UJXZ5555608</EquipmentIdentifier>
+                    <SplitGoodsNumberOfPackages>120</SplitGoodsNumberOfPackages>
+                    <SplitGoodsGrossVolume UOM="MTQ">5.55</SplitGoodsGrossVolume>
+                    <SplitGoodsGrossWeight UOM="KGM">1224.0</SplitGoodsGrossWeight>
+                </SplitGoodsDetails>
+                <DetailsCustomsInformation>
+                    <DetailsCustomsFilerInstruction ManifestFilerStatus="Carrier">
+                        <ManifestFilingCountryCode Agency="UN">US</ManifestFilingCountryCode>
+                    </DetailsCustomsFilerInstruction>
+                </DetailsCustomsInformation>
+            </GoodsDetails>
+        </MessageDetails>
+    </MessageBody>
+</Message>

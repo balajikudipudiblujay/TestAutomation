@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page frame="" name="Common" title="CommonObjects">
+	<Element name="BannerTitle">
+		<Browser locator="Xpath" name="chrome">//tr/td[@class='bannerTitle']</Browser>
+		<Browser locator="Xpath" name="ie">//tr/td[@class='bannerTitle']</Browser>
+		<Browser locator="Xpath" name="firefox">//tr/td[@class='bannerTitle']</Browser>
+	</Element>
+	<Element name="SearchButton">
+		<Browser locator="id" name="chrome">button.search</Browser>
+		<Browser locator="id" name="ie">button.search</Browser>
+		<Browser locator="id" name="firefox">button.search</Browser>
+	</Element>
+	<Element name="SearchButton2">
+		<Browser locator="id" name="chrome">button.Search</Browser>
+		<Browser locator="id" name="ie">button.Search</Browser>
+		<Browser locator="id" name="firefox">button.Search</Browser>
+	</Element>
+	<Element name="ETDDate">
+		<Browser locator="id" name="chrome">etdDate</Browser>
+		<Browser locator="id" name="ie">etdDate</Browser>
+		<Browser locator="id" name="firefox">etdDate</Browser>
+	</Element>
+	<Element name="ETDTime">
+		<Browser locator="id" name="chrome">etdTime</Browser>
+		<Browser locator="id" name="ie">etdTime</Browser>
+		<Browser locator="id" name="firefox">etdTime</Browser>
+	</Element>
+	<Element name="ETADate">
+		<Browser locator="id" name="chrome">etaDate</Browser>
+		<Browser locator="id" name="ie">etaDate</Browser>
+		<Browser locator="id" name="firefox">etaDate</Browser>
+	</Element>
+	<Element name="ETATime">
+		<Browser locator="id" name="chrome">etaTime</Browser>
+		<Browser locator="id" name="ie">etaTime</Browser>
+		<Browser locator="id" name="firefox">etaTime</Browser>
+	</Element>
+	<Element name="SaveButton">
+		<Browser locator="id" name="chrome">button.save</Browser>
+		<Browser locator="id" name="ie">button.save</Browser>
+		<Browser locator="id" name="firefox">button.save</Browser>
+	</Element>
+	<Element name="ButtonSavecontinue">
+		<Browser locator="id" name="chrome">button.save-Continue</Browser>
+		<Browser locator="id" name="ie">button.save-Continue</Browser>
+		<Browser locator="id" name="firefox">button.save-Continue</Browser>
+	</Element>
+	
+	<Element name="SaveButton2">
+		<Browser locator="id" name="chrome">button.Save</Browser>
+		<Browser locator="id" name="ie">button.Save</Browser>
+		<Browser locator="id" name="firefox">button.Save</Browser>
+	</Element>
+	<Element name="FromDate">
+		<Browser locator="id" name="chrome">dateFrom</Browser>
+		<Browser locator="id" name="ie">dateFrom</Browser>
+		<Browser locator="id" name="firefox">dateFrom</Browser>
+	</Element>
+	<Element name="ToDate">
+		<Browser locator="id" name="chrome">dateTo</Browser>
+		<Browser locator="id" name="ie">dateTo</Browser>
+		<Browser locator="id" name="firefox">dateTo</Browser>
+	</Element>
+	<Element name="FromDate">
+		<Browser locator="id" name="chrome">dateFrom</Browser>
+		<Browser locator="id" name="ie">dateFrom</Browser>
+		<Browser locator="id" name="firefox">dateFrom</Browser>
+	</Element>
+	<Element name="AddButton">
+		<Browser locator="id" name="chrome">button.new</Browser>
+		<Browser locator="id" name="ie">button.new</Browser>
+		<Browser locator="id" name="firefox">button.new</Browser>
+	</Element>
+	<Element name="AddButton1">
+		<Browser locator="id" name="chrome">buttonNew</Browser>
+		<Browser locator="id" name="ie">buttonNew</Browser>
+		<Browser locator="id" name="firefox">buttonNew</Browser>
+	</Element>
+	<Element name="CopyButton">
+		<Browser locator="id" name="chrome">button.copy</Browser>
+		<Browser locator="id" name="ie">button.copy</Browser>
+		<Browser locator="id" name="firefox">button.copy</Browser>
+	</Element>
+	<Element name="EditButton">
+		<Browser locator="id" name="chrome">button.edit</Browser>
+		<Browser locator="id" name="ie">button.edit</Browser>
+		<Browser locator="id" name="firefox">button.edit</Browser>
+	</Element>
+	<Element name="DeleteButton">
+		<Browser locator="id" name="chrome">button.cancel</Browser>
+		<Browser locator="id" name="ie">button.cancel</Browser>
+		<Browser locator="id" name="firefox">button.cancel</Browser>
+	</Element>
+	<Element name="CloseButton">
+		<Browser locator="id" name="chrome">button.close</Browser>
+		<Browser locator="id" name="ie">button.close</Browser>
+		<Browser locator="id" name="firefox">button.close</Browser>
+	</Element>
+	<Element name="ViewButton">
+		<Browser locator="id" name="chrome">button.view</Browser>
+		<Browser locator="id" name="ie">button.view</Browser>
+		<Browser locator="id" name="firefox">button.view</Browser>
+	</Element>
+	<Element name="NewWindowButton">
+		<Browser locator="id" name="chrome">button.newWindow</Browser>
+		<Browser locator="id" name="ie">button.newWindow</Browser>
+		<Browser locator="id" name="firefox">button.newWindow</Browser>
+	</Element>
+	<Element name="AuditButton">
+		<Browser locator="id" name="chrome">button.audit</Browser>
+		<Browser locator="id" name="ie">button.audit</Browser>
+		<Browser locator="id" name="firefox">button.audit</Browser>
+	</Element>
+	<Element name="AlertButton">
+		<Browser locator="id" name="chrome">button.alert</Browser>
+		<Browser locator="id" name="ie">button.alert</Browser>
+		<Browser locator="id" name="firefox">button.alert</Browser>
+	</Element>
+	<Element name="ResetButton">
+		<Browser locator="id" name="chrome">button.reset</Browser>
+		<Browser locator="id" name="ie">button.reset</Browser>
+		<Browser locator="id" name="firefox">button.reset</Browser>
+	</Element>
+	<Element name="SwitchTerminalButton">
+		<Browser locator="id" name="chrome">button.positions</Browser>
+		<Browser locator="id" name="ie">button.positions</Browser>
+		<Browser locator="id" name="firefox">button.positions</Browser>
+	</Element>
+	<Element name="SwitchTerminalButton2">
+		<Browser locator="Name" name="chrome">toggle</Browser>
+		<Browser locator="Name" name="ie">toggle</Browser>
+		<Browser locator="Name" name="firefox">toggle</Browser>
+	</Element>
+	<Element name="LogOutButton">
+		<Browser locator="id" name="chrome">button.logout</Browser>
+		<Browser locator="id" name="ie">button.logout</Browser>
+		<Browser locator="id" name="firefox">button.logout</Browser>
+	</Element>
+	<Element name="ExitButton">
+		<Browser locator="id" name="chrome">button.exit</Browser>
+		<Browser locator="id" name="ie">button.exit</Browser>
+		<Browser locator="id" name="firefox">button.exit</Browser>
+	</Element>
+	<Element name="AlertButton">
+		<Browser locator="id" name="chrome">button.alert</Browser>
+		<Browser locator="id" name="ie">button.alert</Browser>
+		<Browser locator="id" name="firefox">button.alert</Browser>
+	</Element>
+	<Element name="TextFrame">
+		<Browser locator="Name" name="chrome">text</Browser>
+		<Browser locator="Name" name="ie">text</Browser>
+		<Browser locator="Name" name="firefox">text</Browser>
+	</Element>
+	<Element name="MainFrame">
+		<Browser locator="Name" name="chrome">ESMenuMainPageiFrame</Browser>
+		<Browser locator="Name" name="ie">ESMenuMainPageiFrame</Browser>
+		<Browser locator="Name" name="firefox">ESMenuMainPageiFrame</Browser>
+	</Element>
+	<Element name="OceanExports">
+		<Browser locator="Xpath" name="chrome">//a[text()='Ocean Exports']</Browser>
+		<Browser locator="Xpath" name="ie">//a[text()='Ocean Exports']</Browser>
+		<Browser locator="Xpath" name="firefox">//a[text()='Ocean Exports']</Browser>
+	</Element>
+	<Element name="AirImports">
+		<Browser locator="xpath" name="chrome">//a[text()='Air Imports']</Browser>
+		<Browser locator="xpath" name="ie">//a[text()='Air Imports']</Browser>
+		<Browser locator="xpath" name="firefox">//a[text()='Air Imports']</Browser>
+	</Element>
+	<Element name="HBlMenu">
+		<Browser locator="xpath" name="chrome">//a[text()='HBL']</Browser>
+		<Browser locator="xpath" name="ie">//a[text()='HBL']</Browser>
+		<Browser locator="xpath" name="firefox">//a[text()='HBL']</Browser>
+	</Element>
+	<Element name="SelectButton">
+		<Browser locator="id" name="chrome">button.yes</Browser>
+		<Browser locator="id" name="ie">button.yes</Browser>
+		<Browser locator="id" name="firefox">button.yes</Browser>
+	</Element>
+	<Element name="MainDetails">
+		<Browser locator="id" name="chrome">MAIN_DETAILS</Browser>
+		<Browser locator="id" name="ie">MAIN_DETAILS</Browser>
+		<Browser locator="id" name="firefox">MAIN_DETAILS</Browser>
+	</Element>
+	<Element name="Parties_Tab">
+		<Browser locator="id" name="chrome">PARTY_DETAILS</Browser>
+		<Browser locator="id" name="ie">PARTY_DETAILS</Browser>
+		<Browser locator="id" name="firefox">PARTY_DETAILS</Browser>
+	</Element>
+	<Element name="Consolidation_Tab">
+		<Browser locator="id" name="chrome">CONSOLIDATION</Browser>
+		<Browser locator="id" name="ie">CONSOLIDATION</Browser>
+		<Browser locator="id" name="firefox">CONSOLIDATION</Browser>
+	</Element>
+	<Element name="ContainerDetails_Tab">
+		<Browser locator="id" name="chrome">CONTAINER_DETAILS</Browser>
+		<Browser locator="id" name="ie">CONTAINER_DETAILS</Browser>
+		<Browser locator="id" name="firefox">CONTAINER_DETAILS</Browser>
+	</Element>
+	<Element name="FreightandOtherCharges_Tab">
+		<Browser locator="id" name="chrome">DOC_CHARGES</Browser>
+		<Browser locator="id" name="ie">DOC_CHARGES</Browser>
+		<Browser locator="id" name="firefox">DOC_CHARGES</Browser>
+	</Element>
+	<Element name="PickUpInstructions_Tab">
+		<Browser locator="id" name="chrome">PICKUP_INSTRUCTIONS</Browser>
+		<Browser locator="id" name="ie">PICKUP_INSTRUCTIONS</Browser>
+		<Browser locator="id" name="firefox">PICKUP_INSTRUCTIONS</Browser>
+	</Element>
+	<Element name="ChargesAndCosts_Tab">
+		<Browser locator="id" name="chrome">CHARGES_COST</Browser>
+		<Browser locator="id" name="ie">CHARGES_COST</Browser>
+		<Browser locator="id" name="firefox">CHARGES_COST</Browser>
+	</Element>
+	<Element name="OverRide_Tab">
+		<Browser locator="id" name="chrome">OVERRIDE</Browser>
+		<Browser locator="id" name="ie">OVERRIDE</Browser>
+		<Browser locator="id" name="firefox">OVERRIDE</Browser>
+	</Element>
+	<Element name="NotesAndStatus_Tab">
+		<Browser locator="id" name="chrome">NOTES_STATUS</Browser>
+		<Browser locator="id" name="ie">NOTES_STATUS</Browser>
+		<Browser locator="id" name="firefox">NOTES_STATUS</Browser>
+	</Element>
+	<Element name="EDoc_Tab">
+		<Browser locator="id" name="chrome">E_DOC</Browser>
+		<Browser locator="id" name="ie">E_DOC</Browser>
+		<Browser locator="id" name="firefox">E_DOC</Browser>
+	</Element>
+	<Element name="ALLOCATIONS_Tab">
+		<Browser locator="id" name="chrome">ALLOCATIONS</Browser>
+		<Browser locator="id" name="ie">ALLOCATIONS</Browser>
+		<Browser locator="id" name="firefox">ALLOCATIONS</Browser>
+	</Element>
+	<Element name="ASSEMBLY_Tab">
+		<Browser locator="id" name="chrome">ASSEMBLY</Browser>
+		<Browser locator="id" name="ie">ASSEMBLY</Browser>
+		<Browser locator="id" name="firefox">ASSEMBLY</Browser>
+	</Element>
+	
+	<!--Sangeeta Below locators are added for Decision Table scenario in License branch -->
+  <Element name="ExitPopup">
+		<Browser locator="name" name="chrome">Exit</Browser>
+		<Browser locator="name" name="ie">Exit</Browser>
+		<Browser locator="name" name="firefox">Exit</Browser>
+	</Element>
+	<Element name="DT_Search">
+		<Browser locator="id" name="chrome">buttonSearch</Browser>
+		<Browser locator="id" name="ie">buttonSearch</Browser>
+		<Browser locator="id" name="firefox">buttonSearch</Browser>
+	</Element>
+	<Element name="TableEntries_Tab">
+		<Browser locator="xpath" name="chrome">.//*[@id='tabs']/tbody/tr/td[5]</Browser>
+		<Browser locator="xpath" name="ie">.//*[@id='tabs']/tbody/tr/td[5]</Browser>
+		<Browser locator="xpath" name="firefox">.//*[@id='tabs']/tbody/tr/td[5]</Browser>
+	</Element>
+	<Element name="EntryDetails_Tab">
+		<Browser locator="xpath" name="chrome">.//*[@id='tabs']/tbody/tr/td[6]</Browser>
+		<Browser locator="xpath" name="ie">.//*[@id='tabs']/tbody/tr/td[6]</Browser>
+		<Browser locator="xpath" name="firefox">.//*[@id='tabs']/tbody/tr/td[6]</Browser>
+	</Element>
+	<Element name="SearchList_Tab">
+		<Browser locator="xpath" name="chrome">//table[@id='tabs']/tbody/tr/td[1]</Browser>
+		<Browser locator="xpath" name="ie">//table[@id='tabs']/tbody/tr/td[1]</Browser>
+		<Browser locator="xpath" name="firefox">//table[@id='tabs']/tbody/tr/td[1]</Browser>
+	</Element>
+	
+	
+	<Element name="DT_Save">
+		<Browser locator="id" name="chrome">buttonSave</Browser>
+		<Browser locator="id" name="ie">buttonSave</Browser>
+		<Browser locator="id" name="firefox">buttonSave</Browser>
+	</Element>
+	<Element name="DT_Delete">
+		<Browser locator="id" name="chrome">buttonDelete</Browser>
+		<Browser locator="id" name="ie">buttonDelete</Browser>
+		<Browser locator="id" name="firefox">buttonDelete</Browser>
+	</Element>
+	<Element name="DT_SavePopup">
+		<Browser locator="id" name="chrome">buttonyes</Browser>
+		<Browser locator="id" name="ie">buttonyes</Browser>
+		<Browser locator="id" name="firefox">buttonyes</Browser>
+	</Element>
+    <Element name="Button_View">
+		<Browser locator="id" name="chrome">buttonview</Browser>
+		<Browser locator="id" name="ie">buttonview</Browser>
+		<Browser locator="id" name="firefox">buttonview</Browser>
+	</Element>
+	
+    
+    	<!--Pavan Below locators are added for Blocked Shipments -->
+     <Element name="Text_DocumentNo">
+        <Browser locator="id" name="chrome">documentNo</Browser>
+        <Browser locator="id" name="ie">documentNo</Browser>
+        <Browser locator="id" name="firefox">documentNo</Browser>
+   </Element>
+    <!--End -->
+<!--  Duplicate   
+  <Element name="Text_DocumentNo">
+  <Browser locator="id" name="chrome">documentNo</Browser>
+  <Browser locator="id" name="ie">documentNo</Browser>
+  <Browser locator="id" name="firefox">documentNo</Browser>
+</Element> -->
+<!--Added by Masthan for for Charges n Cost-->
+   <Element name="CancelButton">
+        <Browser locator="name" name="chrome">Cancel</Browser>
+        <Browser locator="name" name="ie">Cancel</Browser>
+        <Browser locator="name" name="firefox">Cancel</Browser>
+   </Element> 
+ <!--Added by Priyaranjan for  Charges n Cost tab navigation-->
+ <Element name="Tab_Chargesacost">
+        <Browser locator="id" name="chrome">CHARGES_COST</Browser>
+        <Browser locator="id" name="ie">CHARGES_COST</Browser>
+        <Browser locator="id" name="firefox">CHARGES_COST</Browser>
+   </Element>
+   <Element name="Tab_HBLMainDetails">
+        <Browser locator="id" name="chrome">HBL_MAIN_DETAILS</Browser>
+        <Browser locator="id" name="ie">HBL_MAIN_DETAILS</Browser>
+        <Browser locator="id" name="firefox">HBL_MAIN_DETAILS</Browser>
+   </Element>
+ 
+ 
+    <Element name="GroupPrintIcon">
+        <Browser locator="id" name="chrome">button.groupPrint</Browser>
+        <Browser locator="id" name="ie">button.groupPrint</Browser>
+        <Browser locator="id" name="firefox">button.groupPrint</Browser>
+   </Element>
+   
+   
+ <Element name="SelectAllChkBox">
+        <Browser locator="id" name="chrome">selectAllChk</Browser>
+        <Browser locator="id" name="ie">selectAllChk</Browser>
+        <Browser locator="id" name="firefox">selectAllChk</Browser>
+   </Element>
+   
+  
+   <Element name="ArrivalNoticeUS_ChkBox">
+        <Browser locator="xpath" name="chrome">//*[text()='Arrival Notice (US)']/preceding-sibling::*/input</Browser>
+        <Browser locator="xpath" name="ie">//*[text()='Arrival Notice (US)']/preceding-sibling::*/input</Browser>
+        <Browser locator="xpath" name="firefox">//*[text()='Arrival Notice (US)']/preceding-sibling::*/input</Browser>
+   </Element>
+   
+    <Element name="ArrivalNoticeASIA_ChkBox">
+        <Browser locator="xpath" name="chrome">//*[text()='Sales Invoice (Asia)']/preceding-sibling::*/input</Browser>
+        <Browser locator="xpath" name="ie">//*[text()='Sales Invoice (Asia)']/preceding-sibling::*/input</Browser>
+        <Browser locator="xpath" name="firefox">//*[text()='Sales Invoice (Asia)']/preceding-sibling::*/input</Browser>
+   </Element>
+   
+   <Element name="UnblockSuccessMSG">
+        <Browser locator="xpath" name="chrome">html/body/form/table/tbody/tr[2]/td/table/tbody/tr/td/font/b</Browser>
+        <Browser locator="xpath" name="ie">html/body/form/table/tbody/tr[2]/td/table/tbody/tr/td/font/b</Browser>
+        <Browser locator="xpath" name="firefox">html/body/form/table/tbody/tr[2]/td/table/tbody/tr/td/font/b</Browser>
+   </Element>
+   
+</page>

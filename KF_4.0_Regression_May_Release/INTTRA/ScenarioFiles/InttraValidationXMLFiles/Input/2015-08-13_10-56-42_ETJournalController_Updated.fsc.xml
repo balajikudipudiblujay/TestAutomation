@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?><Message>
+    <Header>
+        <MessageType MessageVersion="1.0">ShippingInstruction</MessageType>
+        <DocumentIdentifier>14308</DocumentIdentifier>
+        <DateTime DateType="Document">1508110838</DateTime>
+        <Parties>
+            <PartnerInformation PartnerRole="Sender">
+                <PartnerIdentifier Agency="AssignedBySender">KW-FLYJAC</PartnerIdentifier>
+                <PartnerName>BGLUSNYC</PartnerName>
+                <ContactInformation>
+                    <ContactName ContactType="Informational">BRUCE</ContactName>
+                    <CommunicationValue CommunicationType="Telephone">31504289571</CommunicationValue>
+                    <CommunicationValue CommunicationType="Fax">31504289571</CommunicationValue>
+                    <CommunicationValue CommunicationType="Email">miroslava@example.com</CommunicationValue>
+                </ContactInformation>
+            </PartnerInformation>
+            <PartnerInformation PartnerRole="Recipient">
+                <PartnerIdentifier Agency="AssignedByRecipient">INTTRA</PartnerIdentifier>
+            </PartnerInformation>
+        </Parties>
+    </Header>
+    <MessageBody>
+        <MessageProperties>
+            <ShipmentID>
+                <ShipmentIdentifier MessageStatus="Amendment">EMJFBGLBGLNL00003998</ShipmentIdentifier>
+                <DocumentVersion>000001</DocumentVersion>
+            </ShipmentID>
+            <DateTime DateType="Message">201508110838</DateTime>
+            <ChargeCategory ChargeType="AdditionalCharges" PrepaidorCollectIndicator="Collect"/>
+            <ChargeCategory ChargeType="BasicFreight" PrepaidorCollectIndicator="Collect"/>
+            <ChargeCategory ChargeType="DestinationHaulageCharges" PrepaidorCollectIndicator="Collect"/>
+            <ChargeCategory ChargeType="DestinationPortCharges" PrepaidorCollectIndicator="Collect"/>
+            <ChargeCategory ChargeType="OriginPortCharges" PrepaidorCollectIndicator="Prepaid"/>
+            <ChargeCategory ChargeType="OriginHaulageCharges" PrepaidorCollectIndicator="Prepaid"/>
+            <LetterOfCreditDetails>
+                <LetterOfCreditNumber>LC55249</LetterOfCreditNumber>
+                <DateTime DateType="ExpiryDate">20150330</DateTime>
+                <DateTime DateType="IssueDate">20140312</DateTime>
+            </LetterOfCreditDetails>
+            <BlLocations>
+                <Location LocationType="BillOfLadingRelease">
+                    <LocationCode Agency="UN">USNYC</LocationCode>
+                    <LocationName>New York</LocationName>
+                </Location>
+                <Location LocationType="FreightPaymentLocation">
+                    <LocationCode Agency="UN">USNYC</LocationCode>
+                    <LocationName>New York</LocationName>
+                </Location>
+            </BlLocations>
+            <ReferenceInformation ReferenceType="BookingNumber">CBREF20744</ReferenceInformation>
+            <ReferenceInformation ReferenceType="BillOfLadingNumber">HLCU84555</ReferenceInformation>
+            <ReferenceInformation ReferenceType="FreightForwarderReference">EMJFBGLBGLNL00003998</ReferenceInformation>
+            <Instructions>
+                <ShipmentComments CommentType="General">General</ShipmentComments>
+            </Instructions>
+            <ControlTotal>
+                <NumberOfEquipment>1</NumberOfEquipment>
+                <NumberOfPackages>350</NumberOfPackages>
+                <GrossWeight UOM="KGM">400</GrossWeight>
+                <GrossVolume UOM="MTQ">10.5</GrossVolume>
+            </ControlTotal>
+            <HaulageDetails MovementType="PortToPort" ServiceType="FullLoad"/>
+            <TransportationDetails TransportMode="Maritime" TransportStage="Main">
+                <ConveyanceInformation>
+                    <ConveyanceName>CANMAR VICTORY</ConveyanceName>
+                    <VoyageTripNumber>V334</VoyageTripNumber>
+                    <CarrierSCAC>HLCU</CarrierSCAC>
+                </ConveyanceInformation>
+                <Location LocationType="PlaceOfReceipt">
+                    <LocationCode Agency="UN">NLRTM</LocationCode>
+                    <LocationName>Rotterdam</LocationName>
+                    <LocationCountry>NL</LocationCountry>
+                </Location>
+                <Location LocationType="PortOfLoading">
+                    <LocationCode Agency="UN">NLAHO</LocationCode>
+                    <LocationName>Achthoven</LocationName>
+                    <LocationCountry>NL</LocationCountry>
+                </Location>
+                <Location LocationType="PortOfDischarge">
+                    <LocationCode Agency="UN">USNYC</LocationCode>
+                    <LocationName>New York</LocationName>
+                    <LocationCountry>US</LocationCountry>
+                </Location>
+            </TransportationDetails>
+            <Parties>
+                <PartnerInformation PartnerRole="Carrier">
+                    <PartnerIdentifier Agency="AssignedBySender">HLCU</PartnerIdentifier>
+                    <PartnerName>HAPAG LLOYD (AMERICA) INC</PartnerName>
+                    <ContactInformation>
+                        <ContactName ContactType="Informational">Sujuki</ContactName>
+                        <CommunicationValue CommunicationType="Telephone">985684224</CommunicationValue>
+                        <CommunicationValue CommunicationType="Fax">985684277</CommunicationValue>
+                        <CommunicationValue CommunicationType="Email">tomsuzuki@shinwart.co.jp</CommunicationValue>
+                    </ContactInformation>
+                    <AddressInformation>
+                        <AddressLine>NA</AddressLine>
+                        <City>Tokyo</City>
+                        <PostalCode>103-0012</PostalCode>
+                        <CountryCode>JP</CountryCode>
+                    </AddressInformation>
+                </PartnerInformation>
+                <PartnerInformation PartnerRole="Consignee">
+                    <PartnerName>BGLUSNYC</PartnerName>
+                    <ContactInformation>
+                        <ContactName ContactType="Informational">John Isrial John Isrial John Isrial</ContactName>
+                        <CommunicationValue CommunicationType="Telephone">2131313213 2131313213 2131313213 21</CommunicationValue>
+                        <CommunicationValue CommunicationType="Fax">321231313</CommunicationValue>
+                        <CommunicationValue CommunicationType="Email">bluegrace@bg.com</CommunicationValue>
+                    </ContactInformation>
+                    <AddressInformation>
+                        <AddressLine>BLUE GRACE LOGISTICS LIMITED BLDG#1</AddressLine>
+                        <AddressLine>MOUNT STREET#1</AddressLine>
+                        <City>NEW YORK NEW YORK NEW YORK NEW YORK</City>
+                        <StateProvince>NEW YORK </StateProvince>
+                        <PostalCode>10584 10584 10584</PostalCode>
+                        <CountryCode>NL </CountryCode>
+                    </AddressInformation>
+                </PartnerInformation>
+                <PartnerInformation PartnerRole="FreightForwarder">
+                    <PartnerIdentifier/>
+                    <PartnerName>BGLUSNYC BGLUSNYC BGLUSNYC BGLUSNYC</PartnerName>
+                    <ContactInformation>
+                        <ContactName ContactType="Informational">BRUCE</ContactName>
+                        <CommunicationValue CommunicationType="Telephone">31504289571</CommunicationValue>
+                        <CommunicationValue CommunicationType="Fax">31504289571</CommunicationValue>
+                        <CommunicationValue CommunicationType="Email">miroslava@example.com</CommunicationValue>
+                    </ContactInformation>
+                    <AddressInformation>
+                        <AddressLine>BLUE GRACE LOGISTICS LIMITED BLDG#1</AddressLine>
+                        <AddressLine>Laan van Londen 100 Laan van Londen</AddressLine>
+                        <City>Rotterdam</City>
+                        <PostalCode>1236A</PostalCode>
+                        <CountryCode>CN</CountryCode>
+                    </AddressInformation>
+                </PartnerInformation>
+                <PartnerInformation PartnerRole="Requestor">
+                    <PartnerIdentifier/>
+                    <PartnerName>BGLUSNYC BGLUSNYC BGLUSNYC BGLUSNYC</PartnerName>
+                    <ContactInformation>
+                        <ContactName ContactType="Informational">BRUCE</ContactName>
+                        <CommunicationValue CommunicationType="Telephone">31504289571</CommunicationValue>
+                        <CommunicationValue CommunicationType="Fax">31504289571</CommunicationValue>
+                        <CommunicationValue CommunicationType="Email">miroslava@example.com</CommunicationValue>
+                    </ContactInformation>
+                    <AddressInformation>
+                        <AddressLine>BLUE GRACE LOGISTICS LIMITED BLDG#1</AddressLine>
+                        <AddressLine>Laan van Londen 100 Laan van Londen</AddressLine>
+                        <City>Rotterdam</City>
+                        <PostalCode>1236A</PostalCode>
+                        <CountryCode>CN</CountryCode>
+                    </AddressInformation>
+                    <DocumentationRequirements>
+                        <Documents DocumentType="BillOfLadingCopy" Freighted="True"/>
+                        <Quantity>10</Quantity>
+                    </DocumentationRequirements>
+                </PartnerInformation>
+                <PartnerInformation PartnerRole="MessageRecipient">
+                    <ContactInformation>
+                        <ContactName ContactType="SINotification">BRUCE</ContactName>
+                        <CommunicationValue CommunicationType="Email">miroslava@example.com</CommunicationValue>
+                    </ContactInformation>
+                </PartnerInformation>
+                <PartnerInformation PartnerRole="Shipper">
+                    <PartnerIdentifier Agency="AssignedBySender"/>
+                    <PartnerName>BGLUSNYC BGLUSNYC BGLUSNYC BGLUSNYC</PartnerName>
+                    <ContactInformation>
+                        <ContactName ContactType="Informational">BRUCE</ContactName>
+                        <CommunicationValue CommunicationType="Telephone">31504289571</CommunicationValue>
+                        <CommunicationValue CommunicationType="Fax">31504289571</CommunicationValue>
+                        <CommunicationValue CommunicationType="Email">miroslava@example.com</CommunicationValue>
+                    </ContactInformation>
+                    <AddressInformation>
+                        <AddressLine>BLUE GRACE LOGISTICS LIMITED BLDG#1</AddressLine>
+                        <AddressLine>Laan van Londen 100 Laan van Londen</AddressLine>
+                        <City>Rotterdam</City>
+                        <PostalCode>1236A</PostalCode>
+                        <CountryCode>CN</CountryCode>
+                    </AddressInformation>
+                </PartnerInformation>
+            </Parties>
+        </MessageProperties>
+        <MessageDetails>
+            <EquipmentDetails>
+                <LineNumber>1</LineNumber>
+                <EquipmentIdentifier EquipmentSupplier="Carrier">HLCU0000001</EquipmentIdentifier>
+                <EquipmentType>
+                    <EquipmentDescription>wer</EquipmentDescription>
+                </EquipmentType>
+                <EquipmentGrossWeight UOM="KGM">400.0</EquipmentGrossWeight>
+                <EquipmentGrossVolume UOM="MTQ">10.5</EquipmentGrossVolume>
+                <EquipmentSeal SealingParty="Carrier">342</EquipmentSeal>
+                <EquipmentSeal SealingParty="Carrier">5565</EquipmentSeal>
+                <EquipmentLocation LocationType="Consolidator">
+                    <LocationCode Agency="UN">NLRTM</LocationCode>
+                    <LocationName>Rotterdam</LocationName>
+                    <LocationCountry>NL</LocationCountry>
+                </EquipmentLocation>
+            </EquipmentDetails>
+              <GoodsDetails>
+                <LineNumber>1</LineNumber>
+                <PackageDetail Level="Outer">
+                    <NumberOfPackages>33</NumberOfPackages>
+                    <PackageTypeCode>PK</PackageTypeCode>
+                    <PackageTypeDescription>Package</PackageTypeDescription>
+                </PackageDetail>
+                <PackageDetailComments CommentType="GoodsDescription">33 ( THIRTY THREE PALLETS ) ONLY CONTAINING:
+BRAKE PADS FOR MOTOR VEHICLE
+INV NO. : 1501017516 DT 30.06.2015
+SB NO. : 1501299 DT 30.06.2015
+IEC NO. : 0502015373
+HS CODE NO. : 8708.33.00
+FREIGHT COLLECT
+THC PREPAID</PackageDetailComments>
+                <ProductId ItemTypeIdCode="HarmonizedSystem">8708301010</ProductId>
+                <ProductId ItemTypeIdCode="NCMCode">**EMPTY**</ProductId>
+                <ProductId ItemTypeIdCode="USCensusScheduleB">**EMPTY**</ProductId>
+                <PackageDetailGrossVolume UOM="MTQ">0.0</PackageDetailGrossVolume>
+                <PackageDetailGrossWeight UOM="KGM">12632.0</PackageDetailGrossWeight>
+                <PackageMarks>
+                    <Marks>33 PALLETSNOS. 3000194568 TO 19459</Marks>
+                    <Marks>9  195050</Marks>
+                </PackageMarks>
+                <SplitGoodsDetails>
+                    <EquipmentIdentifier>GLDU2945516</EquipmentIdentifier>
+                    <SplitGoodsNumberOfPackages>33</SplitGoodsNumberOfPackages>
+                    <SplitGoodsGrossVolume UOM="MTQ">0.0</SplitGoodsGrossVolume>
+                    <SplitGoodsGrossWeight UOM="KGM">12632.0</SplitGoodsGrossWeight>
+                </SplitGoodsDetails>
+                <DetailsCustomsInformation>
+                    <DetailsCustomsFilerInstruction ManifestFilerStatus="Carrier">
+                        <ManifestFilingCountryCode Agency="UN">PL</ManifestFilingCountryCode>
+                    </DetailsCustomsFilerInstruction>
+                </DetailsCustomsInformation>
+            </GoodsDetails>
+             <GoodsDetails>
+                <LineNumber>1</LineNumber>
+                <PackageDetail Level="Inner">
+                    <NumberOfPackages>110</NumberOfPackages>
+                    <PackageTypeCode>PK</PackageTypeCode>
+                    <PackageTypeDescription>Package</PackageTypeDescription>
+                </PackageDetail>
+                <PackageDetailComments CommentType="GoodsDescription">POTTASIUM CLORATE</PackageDetailComments>
+                <ProductId ItemTypeIdCode="HarmonizedSystem">0904120000</ProductId>
+                <ProductId ItemTypeIdCode="NCMCode">44332354</ProductId>
+                <ProductId ItemTypeIdCode="USCensusScheduleB">8460190005</ProductId>
+                <PackageDetailGrossVolume UOM="MTQ">0.864</PackageDetailGrossVolume>
+                <PackageDetailGrossWeight UOM="KGM">2100.0</PackageDetailGrossWeight>
+                <SplitGoodsDetails>
+                    <EquipmentIdentifier>HLCU5453224</EquipmentIdentifier>
+                    <SplitGoodsNumberOfPackages>200</SplitGoodsNumberOfPackages>
+                    <SplitGoodsGrossVolume UOM="MTQ">0.864</SplitGoodsGrossVolume>
+                    <SplitGoodsGrossWeight UOM="KGM">2100.0</SplitGoodsGrossWeight>
+                </SplitGoodsDetails>
+                <DetailsCustomsInformation>
+                    <DetailsCustomsFilerInstruction ManifestFilerStatus="Self">
+                        <ManifestFilingCountryCode Agency="UN">US</ManifestFilingCountryCode>
+                        <ManifestFilingIdentification>HLCU</ManifestFilingIdentification>
+                    </DetailsCustomsFilerInstruction>
+                </DetailsCustomsInformation>
+            </GoodsDetails>
+        </MessageDetails>
+    </MessageBody>
+</Message>

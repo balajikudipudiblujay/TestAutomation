@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<Message>
+    <Header>
+        <MessageType MessageVersion="1.0">ShippingInstruction</MessageType>
+        <DocumentIdentifier>29189</DocumentIdentifier>
+        <DateTime DateType="Document">1507031241</DateTime>
+        <Parties>
+            <PartnerInformation PartnerRole="Sender">
+                <PartnerIdentifier Agency="AssignedBySender">KW-FLYJAC</PartnerIdentifier>
+                <PartnerName>BLUE WATER SHIPPING A/S</PartnerName>
+                <ContactInformation>
+                    <ContactName ContactType="Informational">MAHESH SHARMA</ContactName>
+                    <CommunicationValue CommunicationType="Telephone">01130936820</CommunicationValue>
+                    <CommunicationValue CommunicationType="Fax">01125526004</CommunicationValue>
+                    <CommunicationValue CommunicationType="Email">fjldel@flyjac.com</CommunicationValue>
+                </ContactInformation>
+            </PartnerInformation>
+            <PartnerInformation PartnerRole="Recipient">
+                <PartnerIdentifier Agency="AssignedByRecipient">INTTRA</PartnerIdentifier>
+            </PartnerInformation>
+        </Parties>
+    </Header>
+    <MessageBody>
+        <MessageProperties>
+            <ShipmentID>
+                <ShipmentIdentifier MessageStatus="Original">MJOBDELSE1506703</ShipmentIdentifier>
+                <DocumentVersion>000001</DocumentVersion>
+            </ShipmentID>
+            <DateTime DateType="Message">201507031241</DateTime>
+            <ChargeCategory ChargeType="AdditionalCharges" PrepaidorCollectIndicator="Collect1"/>
+            <ChargeCategory ChargeType="BasicFreight" PrepaidorCollectIndicator="Collect2"/>
+            <ChargeCategory ChargeType="DestinationHaulageCharges" PrepaidorCollectIndicator="Collect3"/>
+            <ChargeCategory ChargeType="DestinationPortCharges" PrepaidorCollectIndicator="Collect4"/>
+            <ChargeCategory ChargeType="OriginPortCharges" PrepaidorCollectIndicator="Prepaid5"/>
+            <ChargeCategory ChargeType="OriginHaulageCharges" PrepaidorCollectIndicator="Prepaid6"/>
+            <BlLocations>
+                <Location LocationType="BillOfLadingRelease">
+                    <LocationCode Agency="UN">INDEL</LocationCode>
+                    <LocationName>DELHI</LocationName>
+                </Location>
+                <Location LocationType="FreightPaymentLocation">
+                    <LocationCode Agency="UN">PLGDY</LocationCode>
+                    <LocationName>GDYNIA</LocationName>
+                </Location>
+            </BlLocations>
+            <ReferenceInformation ReferenceType="BookingNumber">CAD0239141</ReferenceInformation>
+            <ReferenceInformation ReferenceType="FreightForwarderReference">MJOBDELSE1506703</ReferenceInformation>
+            <Instructions>
+                <ShipmentComments CommentType="General">General</ShipmentComments>
+            </Instructions>
+            <ControlTotal>
+                <NumberOfEquipment>1</NumberOfEquipment>
+                <NumberOfPackages>33</NumberOfPackages>
+                <GrossWeight UOM="KGM">12632</GrossWeight>
+                <GrossVolume UOM="MTQ">0</GrossVolume>
+            </ControlTotal>
+            <HaulageDetails ServiceType="FullLoad" MovementType="PortToPort"/>
+            <TransportationDetails TransportMode="Maritime" TransportStage="Main">
+                <ConveyanceInformation>
+                    <ConveyanceName>CMACGM CARMEN</ConveyanceName>
+                    <VoyageTripNumber>86W</VoyageTripNumber>
+                    <CarrierSCAC>CMDU</CarrierSCAC>
+                </ConveyanceInformation>
+                <Location LocationType="PlaceOfReceipt">
+                    <LocationCode Agency="UN">INTKD</LocationCode>
+                    <LocationName>TUGHLAKABAD</LocationName>
+                    <LocationCountry>IN</LocationCountry>
+                </Location>
+                <Location LocationType="PortOfLoading">
+                    <LocationCode Agency="UN">INMUN</LocationCode>
+                    <LocationName>MUNDRA</LocationName>
+                    <LocationCountry>IN</LocationCountry>
+                </Location>
+                <Location LocationType="PortOfDischarge">
+                    <LocationCode Agency="UN">PLGDY</LocationCode>
+                    <LocationName>GDYNIA</LocationName>
+                    <LocationCountry>PL</LocationCountry>
+                </Location>
+                <Location LocationType="PlaceOfDelivery">
+                    <LocationCode Agency="UN">PLGDY</LocationCode>
+                    <LocationName>GDYNIA</LocationName>
+                    <LocationCountry>PL</LocationCountry>
+                </Location>
+            </TransportationDetails>
+            <Parties>
+                <PartnerInformation PartnerRole="Carrier">
+                    <PartnerIdentifier Agency="AssignedBySender">CMDU</PartnerIdentifier>
+                    <PartnerName>CMACGM</PartnerName>
+                    <ContactInformation>
+                        <ContactName ContactType="Informational">RUCHIKA CHAUHAN</ContactName>
+                        <CommunicationValue CommunicationType="Telephone">30019211</CommunicationValue>
+                        <CommunicationValue CommunicationType="Fax">30019000</CommunicationValue>
+                        <CommunicationValue CommunicationType="Email">tomsuzuki@shinwart.co.jp</CommunicationValue>
+                    </ContactInformation>
+                    <AddressInformation>
+                        <AddressLine>NA</AddressLine>
+                        <City>Tokyo</City>
+                        <CountryCode>JP</CountryCode>
+                    </AddressInformation>
+                </PartnerInformation>
+                <PartnerInformation PartnerRole="Consignee">
+                    <PartnerName>BLUE WATER SHIPPING A/S</PartnerName>
+                    <ContactInformation>
+                        <ContactName ContactType="Informational">MARK MAGLUND</ContactName>
+                        <CommunicationValue CommunicationType="Telephone">4579134265 </CommunicationValue>
+                        <CommunicationValue CommunicationType="Fax">4579134265 </CommunicationValue>
+                        <CommunicationValue CommunicationType="Email">mgl@bws.dk</CommunicationValue>
+                    </ContactInformation>
+                    <AddressInformation>
+                        <AddressLine>EMIL NECKELMANNS VEJ 20</AddressLine>
+                        <AddressLine>5220 ODENSE SO</AddressLine>
+                        <City>ODENSE</City>
+                        <CountryCode>DK</CountryCode>
+                    </AddressInformation>
+                </PartnerInformation>
+                <PartnerInformation PartnerRole="FreightForwarder">
+                    <PartnerIdentifier/>
+                    <PartnerName>FLYJAC LOGISTICS PVT LTD</PartnerName>
+                    <ContactInformation>
+                        <ContactName ContactType="Informational">MAHESH SHARMA</ContactName>
+                        <CommunicationValue CommunicationType="Telephone">01130936820</CommunicationValue>
+                        <CommunicationValue CommunicationType="Fax">01125526004</CommunicationValue>
+                        <CommunicationValue CommunicationType="Email">fjldel@flyjac.com</CommunicationValue>
+                    </ContactInformation>
+                    <AddressInformation>
+                        <AddressLine>516-517 VISHAL TOWER</AddressLine>
+                        <AddressLine>10 DISTRICT CENTER,JANAKPURI</AddressLine>
+                        <City>NEW DELHI-110058</City>
+                        <CountryCode>IN</CountryCode>
+                    </AddressInformation>
+                </PartnerInformation>
+                <PartnerInformation PartnerRole="Requestor">
+                    <PartnerIdentifier/>
+                    <PartnerName>FLYJAC LOGISTICS PVT LTD</PartnerName>
+                    <ContactInformation>
+                        <ContactName ContactType="Informational">MAHESH SHARMA</ContactName>
+                        <CommunicationValue CommunicationType="Telephone">01130936820</CommunicationValue>
+                        <CommunicationValue CommunicationType="Fax">01125526004</CommunicationValue>
+                        <CommunicationValue CommunicationType="Email">fjldel@flyjac.com</CommunicationValue>
+                    </ContactInformation>
+                    <AddressInformation>
+                        <AddressLine>516-517 VISHAL TOWER</AddressLine>
+                        <AddressLine>10 DISTRICT CENTER,JANAKPURI</AddressLine>
+                        <City>NEW DELHI-110058</City>
+                        <CountryCode>IN</CountryCode>
+                    </AddressInformation>
+                    <DocumentationRequirements>
+                        <Documents Freighted="False" DocumentType="SeaWaybill"/>
+                        <Quantity>1</Quantity>
+                    </DocumentationRequirements>
+                </PartnerInformation>
+                <PartnerInformation PartnerRole="MessageRecipient">
+                    <ContactInformation>
+                        <ContactName ContactType="SINotification">MAHESH SHARMA</ContactName>
+                        <CommunicationValue CommunicationType="Email">fjldel@flyjac.com</CommunicationValue>
+                    </ContactInformation>
+                </PartnerInformation>
+                <PartnerInformation PartnerRole="Shipper">
+                    <PartnerIdentifier Agency="AssignedBySender"/>
+                    <PartnerName>FLYJAC LOGISTICS PVT LTD</PartnerName>
+                    <ContactInformation>
+                        <ContactName ContactType="Informational">MAHESH SHARMA</ContactName>
+                        <CommunicationValue CommunicationType="Telephone">01130936820</CommunicationValue>
+                        <CommunicationValue CommunicationType="Fax">01125526004</CommunicationValue>
+                        <CommunicationValue CommunicationType="Email">fjldel@flyjac.com</CommunicationValue>
+                    </ContactInformation>
+                    <AddressInformation>
+                        <AddressLine>516-517 VISHAL TOWER</AddressLine>
+                        <AddressLine>10 DISTRICT CENTER,JANAKPURI</AddressLine>
+                        <City>NEW DELHI-110058</City>
+                        <CountryCode>IN</CountryCode>
+                    </AddressInformation>
+                </PartnerInformation>
+            </Parties>
+        </MessageProperties>
+        <MessageDetails>
+            <EquipmentDetails>
+                <LineNumber>1</LineNumber>
+                <EquipmentIdentifier EquipmentSupplier="Carrier">GLDU2945516</EquipmentIdentifier>
+                <EquipmentType>
+                    <EquipmentDescription>20ft HR Container</EquipmentDescription>
+                </EquipmentType>
+                <EquipmentGrossWeight UOM="KGM">12632.0</EquipmentGrossWeight>
+                <EquipmentGrossVolume UOM="MTQ">0.0</EquipmentGrossVolume>
+                <EquipmentSeal SealingParty="Carrier">278154</EquipmentSeal>
+                <EquipmentLocation LocationType="Consolidator">
+                    <LocationCode Agency="UN">INTKD</LocationCode>
+                    <LocationName>TUGHLAKABAD</LocationName>
+                    <LocationCountry>IN</LocationCountry>
+                </EquipmentLocation>
+            </EquipmentDetails>
+            <GoodsDetails>
+                <LineNumber>1</LineNumber>
+                <PackageDetail Level="Outer">
+                    <NumberOfPackages>33</NumberOfPackages>
+                    <PackageTypeCode>PK</PackageTypeCode>
+                    <PackageTypeDescription>Package</PackageTypeDescription>
+                </PackageDetail>
+                <PackageDetailComments CommentType="GoodsDescription">33 ( THIRTY THREE PALLETS ) ONLY CONTAINING:
+BRAKE PADS FOR MOTOR VEHICLE
+INV NO. : 1501017516 DT 30.06.2015
+SB NO. : 1501299 DT 30.06.2015
+IEC NO. : 0502015373
+HS CODE NO. : 8708.33.00
+FREIGHT COLLECT
+THC PREPAID</PackageDetailComments>
+                <ProductId ItemTypeIdCode="HarmonizedSystem">8708301010</ProductId>
+                <ProductId ItemTypeIdCode="NCMCode">**EMPTY**</ProductId>
+                <ProductId ItemTypeIdCode="USCensusScheduleB">**EMPTY**</ProductId>
+                <PackageDetailGrossVolume UOM="MTQ">0.0</PackageDetailGrossVolume>
+                <PackageDetailGrossWeight UOM="KGM">12632.0</PackageDetailGrossWeight>
+                <PackageMarks>
+                    <Marks>33 PALLETSNOS. 3000194568 TO 19459</Marks>
+                    <Marks>9  195050</Marks>
+                </PackageMarks>
+                <SplitGoodsDetails>
+                    <EquipmentIdentifier>GLDU2945516</EquipmentIdentifier>
+                    <SplitGoodsNumberOfPackages>33</SplitGoodsNumberOfPackages>
+                    <SplitGoodsGrossVolume UOM="MTQ">0.0</SplitGoodsGrossVolume>
+                    <SplitGoodsGrossWeight UOM="KGM">12632.0</SplitGoodsGrossWeight>
+                </SplitGoodsDetails>
+                <DetailsCustomsInformation>
+                    <DetailsCustomsFilerInstruction ManifestFilerStatus="Carrier">
+                        <ManifestFilingCountryCode Agency="UN">PL</ManifestFilingCountryCode>
+                    </DetailsCustomsFilerInstruction>
+                </DetailsCustomsInformation>
+            </GoodsDetails>
+        </MessageDetails>
+    </MessageBody>
+</Message>

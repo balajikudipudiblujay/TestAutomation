@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><TEST_PLAN name="KFPICTScenario"><TEST_SUITE value="SubScenario1"><TEST_CASE dataSet="1" name="business.scenarios.OceanPRS/pictOceanPRS_Add"/><TEST_CASE dataSet="1" name="business.scenarios.OceanPRS/pictOceanPRS_Close"/></TEST_SUITE></TEST_PLAN>

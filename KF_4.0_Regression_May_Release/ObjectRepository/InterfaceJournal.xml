@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page frame="" name="Interface Journal" title="Company">
+
+<Element name="DocNo_Search">
+		<Browser locator="id" name="chrome">docNo</Browser>
+		<Browser locator="id" name="ie">docNo</Browser>
+		<Browser locator="id" name="firefox">docNo</Browser>
+</Element>
+	
+	<Element name="Search">
+		<Browser locator="name" name="chrome">search</Browser>
+		<Browser locator="name" name="ie">search</Browser>
+		<Browser locator="name" name="firefox">search</Browser>
+	</Element>
+	
+	<Element name="DocId_Search">
+		<Browser locator="name" name="chrome">docId</Browser>
+		<Browser locator="name" name="ie">docId</Browser>
+		<Browser locator="name" name="firefox">docId</Browser>
+	</Element>
+	
+	
+</page>

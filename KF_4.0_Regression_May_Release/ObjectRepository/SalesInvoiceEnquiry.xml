@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page frame="" name="SalesInvoiceEnquiry" title="">
+	<Element name="Input_InvoiceNumber">
+		<Browser locator="Name" name="chrome">transactionId</Browser>
+		<Browser locator="Name" name="ie">transactionId</Browser>
+		<Browser locator="Name" name="firefox">transactionId</Browser>
+	</Element>
+	<Element name="DropDown_NavigationList">
+		<Browser locator="Name" name="chrome">navigationList</Browser>
+		<Browser locator="Name" name="ie">navigationList</Browser>
+		<Browser locator="Name" name="firefox">navigationList</Browser>
+	</Element>
+	<Element name="Image_Go">
+		<Browser locator="Xpath" name="chrome">//img[@title='Go']</Browser>
+		<Browser locator="Xpath" name="ie">//img[@title='Go']</Browser>
+		<Browser locator="Xpath" name="firefox">//img[@title='Go']</Browser>
+	</Element>
+	<Element name="DropDown_CreditNoteType">
+		<Browser locator="id" name="chrome">cnType</Browser>
+		<Browser locator="id" name="ie">cnType</Browser>
+		<Browser locator="id" name="firefox">cnType</Browser>
+	</Element>
+	
+	<Element name="GridRows_CreditNote">
+		<Browser locator="xpath" name="chrome">//tr[@class='summaryHeader']/following-sibling::tr</Browser>
+		<Browser locator="xpath" name="ie">//tr[@class='summaryHeader']/following-sibling::tr</Browser>
+		<Browser locator="xpath" name="firefox">//tr[@class='summaryHeader']/following-sibling::tr</Browser>
+	</Element>
+	
+	<Element name="Input_BillToParty">
+		<Browser locator="id" name="chrome">billToPartyNickName</Browser>
+		<Browser locator="id" name="ie">billToPartyNickName</Browser>
+		<Browser locator="id" name="firefox">billToPartyNickName</Browser>
+	</Element>
+	
+	<Element name="Button_Confirm">
+		<Browser locator="Name" name="chrome">confirm</Browser>
+		<Browser locator="Name" name="ie">confirm</Browser>
+		<Browser locator="Name" name="firefox">confirm</Browser>
+	</Element>
+	
+	<Element name="TextArea_Message">
+		<Browser locator="Name" name="chrome">Message</Browser>
+		<Browser locator="Name" name="ie">Message</Browser>
+		<Browser locator="Name" name="firefox">Message</Browser>
+	</Element>
+	
+	<Element name="Button_Continue">
+		<Browser locator="Name" name="chrome">b1</Browser>
+		<Browser locator="Name" name="ie">b1</Browser>
+		<Browser locator="Name" name="firefox">b1</Browser>
+	</Element>
+	
+	<Element name="Input_OsAmount">
+		<Browser locator="Name" name="chrome">OSAmount</Browser>
+		<Browser locator="Name" name="ie">OSAmount</Browser>
+		<Browser locator="Name" name="firefox">OSAmount</Browser>
+	</Element>
+	
+	<Element name="Input_CancelAmount">
+		<Browser locator="Name" name="chrome">cancelAmount</Browser>
+		<Browser locator="Name" name="ie">cancelAmount</Browser>
+		<Browser locator="Name" name="firefox">cancelAmount</Browser>
+	</Element>
+	<Element name="Input_InternalRemarks">
+		<Browser locator="Name" name="chrome">internalRemarks</Browser>
+		<Browser locator="Name" name="ie">internalRemarks</Browser>
+		<Browser locator="Name" name="firefox">internalRemarks</Browser>
+	</Element>
+	<Element name="Input_TransactionId">
+		<Browser locator="Name" name="chrome">transactionId</Browser>
+		<Browser locator="Name" name="ie">transactionId</Browser>
+		<Browser locator="Name" name="firefox">transactionId</Browser>
+	</Element>
+	
+</page>

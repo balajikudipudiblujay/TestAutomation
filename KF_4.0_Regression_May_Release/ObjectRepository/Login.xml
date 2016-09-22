@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page frame="" name="Login" title="Company">
+	<Element name="UserName">
+		<Browser locator="Name" name="chrome">userId</Browser>
+		<Browser locator="Name" name="ie">userId</Browser>
+		<Browser locator="Name" name="firefox">userId</Browser>
+	</Element>
+	<Element name="Password">
+		<Browser locator="Name" name="chrome">password</Browser>
+		<Browser locator="Name" name="ie">password</Browser>
+		<Browser locator="Name" name="firefox">password</Browser>
+	</Element>
+	<Element name="LoginButton">
+		<Browser locator="Name" name="chrome">image1</Browser>
+		<Browser locator="Name" name="ie">image1</Browser>
+		<Browser locator="Name" name="firefox">image1</Browser>
+	</Element>
+	<Element name="ResetButton">
+		<Browser locator="Name" name="chrome">image2</Browser>
+		<Browser locator="Name" name="ie">image2</Browser>
+		<Browser locator="Name" name="firefox">image2</Browser>
+	</Element>
+	<!--<Element name="UserName">
+		<Browser locator="Name" name="chrome">userId</Browser>
+		<Browser locator="Name" name="ie">userId</Browser>
+		<Browser locator="Name" name="firefox">userId</Browser>
+	</Element>
+	--><Element name="Invalidate">
+		<Browser locator="Xpath" name="chrome">//input[@value='Invalidate'][@name='image1']</Browser>
+		<Browser locator="Xpath" name="ie">//input[@value='Invalidate'][@name='image1']</Browser>
+		<Browser locator="Xpath" name="firefox">//input[@value='Invalidate'][@name='image1']</Browser>
+	</Element>
+	<Element name="Cancel">
+		<Browser locator="Xpath" name="chrome">//input[@value='Cancel'][@name='image1']</Browser>
+		<Browser locator="Xpath" name="ie">//input[@value='Cancel'][@name='image1']</Browser>
+		<Browser locator="Xpath" name="firefox">//input[@value='Cancel'][@name='image1']</Browser>
+	</Element>
+	<Element name="Save">
+		<Browser locator="Name" name="chrome">Yes</Browser>
+		<Browser locator="Name" name="ie">Yes</Browser>
+		<Browser locator="Name" name="firefox">Yes</Browser>
+	</Element>
+</page>

@@ -1,0 +1,975 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FreightForwardingDetails>
+	<MessageHeader>
+		<MessageID>742159</MessageID>
+		<MessageVersion>1.0</MessageVersion>
+		<MsgDateAndTime>2015-07-29 07:17</MsgDateAndTime>
+		<SenderID>IRN3849830</SenderID>
+		<ReceiverID>INTTRA</ReceiverID>
+		<MessageAction>A</MessageAction>
+	</MessageHeader>
+	<MasterDetails>
+		<MasterHeader>
+			<ID>6287</ID>
+			<ISDirect>Consol</ISDirect>
+			<ModeOfTransport>Ocean</ModeOfTransport>
+			<LoadType>FCL_TO_FCL</LoadType>
+			<ISSBC>N</ISSBC>
+			<eAWB />
+			<ShipmentReference>EMJFBGLBGLNL00003940</ShipmentReference>
+			<CarrierBookingRefNo>CBRHLCU4285</CarrierBookingRefNo>
+			<MBLID>HLCU4285</MBLID>
+			<ContainersForMaster>2</ContainersForMaster>
+			<Profile>
+				<ID>259916</ID>
+				<ProfileQualifier>ORIGINAGENT</ProfileQualifier>
+				<ETShimentOrderID>48502</ETShimentOrderID>
+				<ProfileID>BGLNLRTM</ProfileID>
+				<ProfileName>BGLNLRTM</ProfileName>
+				<ProfileNickName>BGLNLRTMBLUEGR</ProfileNickName>
+				<ExternalAppSequence />
+				<Address>
+					<ID>256664</ID>
+					<AddressType>1</AddressType>
+					<LanguageCode>en</LanguageCode>
+					<LegalName>BGLNLRTM</LegalName>
+					<Name2>BLUE GRACE LOGISTICS LIMITED US NYC</Name2>
+					<Building>BLUE GRACE LOGISTICS LIMITED BLDG#1</Building>
+					<Street>Laan van Londen 100</Street>
+					<Street1>Postbus 3115</Street1>
+					<SuburbORLocality>NL</SuburbORLocality>
+					<City>Rotterdam</City>
+					<StateCode>14</StateCode>
+					<PostalCode>1236A</PostalCode>
+					<CountryCode>CN</CountryCode>
+					<ContactPerson>BRUCE</ContactPerson>
+					<Email>miroslava@example.com</Email>
+					<Telephone>31504289571</Telephone>
+					<Fax>31504289571</Fax>
+					<TextAddress>Laan van Londen 100
+						Rotterdam</TextAddress>
+					<IATACode>16-3-4415-1</IATACode>
+					<ExternalAppSequence />
+				</Address>
+			</Profile>
+			<Profile>
+				<ID>259925</ID>
+				<ProfileQualifier>ORIGINAGENT</ProfileQualifier>
+				<ETShimentOrderID>48502</ETShimentOrderID>
+				<ProfileType>PARTY</ProfileType>
+				<ProfileID>BGLNLRTM</ProfileID>
+				<ProfileName>BGLNLRTM</ProfileName>
+				<ProfileNickName>BGLNLRTMBLUEGR</ProfileNickName>
+				<ExternalAppSequence />
+				<Address>
+					<ID>256672</ID>
+					<AddressType>1</AddressType>
+					<LanguageCode>en</LanguageCode>
+					<LegalName>BGLNLRTM</LegalName>
+					<Name2>BLUE GRACE LOGISTICS LIMITED US NYC</Name2>
+					<Building>BLUE GRACE LOGISTICS LIMITED BLDG#1</Building>
+					<Street>Laan van Londen 100</Street>
+					<Street1>Postbus 3115</Street1>
+					<SuburbORLocality>NL</SuburbORLocality>
+					<City>Rotterdam</City>
+					<StateCode>14</StateCode>
+					<PostalCode>1236A</PostalCode>
+					<CountryCode>CN</CountryCode>
+					<ContactPerson>BRUCE</ContactPerson>
+					<Email>miroslava@example.com</Email>
+					<Telephone>31504289571</Telephone>
+					<Fax>31504289571</Fax>
+					<IATACode>16-3-4415-1</IATACode>
+					<ExternalAppSequence />
+				</Address>
+			</Profile>
+			<Profile>
+				<ID>259917</ID>
+				<ProfileQualifier>DESTINATIONAGENT</ProfileQualifier>
+				<ETShimentOrderID>48502</ETShimentOrderID>
+				<ProfileID>BGLUSNYC</ProfileID>
+				<ProfileName>BGLUSNYC</ProfileName>
+				<ProfileNickName>BGLUSNYC</ProfileNickName>
+				<ExternalAppSequence />
+				<Address>
+					<ID>256665</ID>
+					<AddressType>1</AddressType>
+					<LanguageCode>en</LanguageCode>
+					<LegalName>BGLUSNYC</LegalName>
+					<Name2>BLUE GRACE LOGISTICS LIMITED US NYC</Name2>
+					<Building>BLUE GRACE LOGISTICS LIMITED BLDG#1</Building>
+					<Street>MOUNT STREET#1</Street>
+					<Street1>PEAK STREET#2</Street1>
+					<SuburbORLocality>US</SuburbORLocality>
+					<City>NEW YORK</City>
+					<StateProvinceCounty>NEW YORK</StateProvinceCounty>
+					<StateCode>NY</StateCode>
+					<PostalCode>10584</PostalCode>
+					<CountryCode>US</CountryCode>
+					<ContactPerson>John Isrial</ContactPerson>
+					<Email>bluegrace@bg.com</Email>
+					<Telephone>2131313213</Telephone>
+					<Fax>321231313</Fax>
+					<TextAddress>MOUNT STREET#1
+						NEW YORK</TextAddress>
+					<IATACode>1330005002</IATACode>
+					<ExternalAppSequence />
+				</Address>
+			</Profile>
+			<Profile>
+				<ID>259926</ID>
+				<ProfileQualifier>DESTINATIONAGENT</ProfileQualifier>
+				<ETShimentOrderID>48502</ETShimentOrderID>
+				<ProfileType>PARTY</ProfileType>
+				<ProfileID>BGLUSNYC</ProfileID>
+				<ProfileName>BGLUSNYC</ProfileName>
+				<ProfileNickName>BGLUSNYC</ProfileNickName>
+				<ExternalAppSequence />
+				<Address>
+					<ID>256673</ID>
+					<AddressType>1</AddressType>
+					<LanguageCode>en</LanguageCode>
+					<LegalName>BGLUSNYC</LegalName>
+					<Name2>BLUE GRACE LOGISTICS LIMITED US NYC</Name2>
+					<Building>BLUE GRACE LOGISTICS LIMITED BLDG#1</Building>
+					<Street>MOUNT STREET#1</Street>
+					<Street1>PEAK STREET#2</Street1>
+					<SuburbORLocality>US</SuburbORLocality>
+					<City>NEW YORK</City>
+					<StateProvinceCounty>NEW YORK</StateProvinceCounty>
+					<StateCode>NY</StateCode>
+					<PostalCode>10584</PostalCode>
+					<CountryCode>US</CountryCode>
+					<ContactPerson>John Isrial</ContactPerson>
+					<Email>bluegrace@bg.com</Email>
+					<Telephone>2131313213</Telephone>
+					<Fax>321231313</Fax>
+					<IATACode>1330005002</IATACode>
+					<ExternalAppSequence />
+				</Address>
+			</Profile>
+			<Profile>
+				<ID>259915</ID>
+				<ProfileQualifier>CARRIER</ProfileQualifier>
+				<ETShimentOrderID>48502</ETShimentOrderID>
+				<ProfileID>HLCU</ProfileID>
+				<ProfileName>HAPAG LLOYD (AMERICA) INC</ProfileName>
+				<StandardCarrierAlphaCode>HLCU</StandardCarrierAlphaCode>
+				<ExternalAppSequence />
+				<Address>
+					<ID>256663</ID>
+					<AddressType>1</AddressType>
+					<LanguageCode>en</LanguageCode>
+					<LegalName>HAPAG LLOYD (AMERICA) INC</LegalName>
+					<Name2>HAPAG LLOYD</Name2>
+					<Street>NA</Street>
+					<Street1>Tokyo</Street1>
+					<City>Tokyo</City>
+					<StateCode>TK</StateCode>
+					<PostalCode>103-0012</PostalCode>
+					<CountryCode>JP</CountryCode>
+					<Email>tomsuzuki@shinwart.co.jp</Email>
+					<Telephone>985684224</Telephone>
+					<Fax>985684277</Fax>
+					<TextAddress>NA
+						Tokyo</TextAddress>
+					<ExternalAppSequence />
+				</Address>
+			</Profile>
+			<Profile>
+				<ID>259924</ID>
+				<ProfileQualifier>CARRIER</ProfileQualifier>
+				<ETShimentOrderID>48502</ETShimentOrderID>
+				<ProfileType>PARTY</ProfileType>
+				<ProfileID>HLCU</ProfileID>
+				<ProfileName>HAPAG LLOYD (AMERICA) INC</ProfileName>
+				<StandardCarrierAlphaCode>HLCU</StandardCarrierAlphaCode>
+				<ExternalAppSequence />
+				<Address>
+					<ID>256671</ID>
+					<AddressType>1</AddressType>
+					<LanguageCode>en</LanguageCode>
+					<LegalName>HAPAG LLOYD (AMERICA) INC</LegalName>
+					<Name2>HAPAG LLOYD</Name2>
+					<Street>NA</Street>
+					<Street1>Tokyo</Street1>
+					<City>Tokyo</City>
+					<StateCode>TK</StateCode>
+					<PostalCode>103-0012</PostalCode>
+					<CountryCode>JP</CountryCode>
+					<ContactPerson>suzuki</ContactPerson>
+					<Email>tomsuzuki@shinwart.co.jp</Email>
+					<Telephone>985684224</Telephone>
+					<Fax>985684277</Fax>
+					<ExternalAppSequence />
+				</Address>
+			</Profile>
+			<Dates>
+				<DatesQualifier>ETD</DatesQualifier>
+				<Date>2015-07-29 11:32</Date>
+			</Dates>
+			<Dates>
+				<DatesQualifier>ETA</DatesQualifier>
+				<Date>2015-09-04 11:32</Date>
+			</Dates>
+			<Dates>
+				<DatesQualifier>CARRIER_CUT_OFF</DatesQualifier>
+				<Date>2015-07-26 11:32</Date>
+			</Dates>
+			<Dates>
+				<DatesQualifier>MBL_DATE</DatesQualifier>
+				<Date>2015-07-29 00:00</Date>
+			</Dates>
+			<Dates>
+				<DatesQualifier>LOADED_ON_BOARD</DatesQualifier>
+				<Date>2015-07-29 05:45</Date>
+			</Dates>
+			<Reference>
+				<ReferenceType>CONSOLE</ReferenceType>
+				<ReferenceNo>EMJFBGLBGLNL00003940</ReferenceNo>
+			</Reference>
+			<Reference>
+				<ReferenceType>ORDER_NUMBER</ReferenceType>
+				<ReferenceNo>EMJFBGLBGLNL00003940</ReferenceNo>
+			</Reference>
+			<Reference>
+				<ReferenceType>SHIPMENT REF NO</ReferenceType>
+				<ReferenceNo>EMJFBGLBGLNL00003940</ReferenceNo>
+			</Reference>
+			<Location>
+				<LocationQualifier>PLR</LocationQualifier>
+				<LocationCode>DEBER</LocationCode>
+				<Description>Berlin</Description>
+				<ShortDescription>Berlin</ShortDescription>
+				<Country>DE</Country>
+				<State />
+				<TimeZone />
+				<UNLCODE>DEBER</UNLCODE>
+				<IATAAirportCode>BER</IATAAirportCode>
+				<IATACityCode>BER</IATACityCode>
+				<ScheduleK>42879</ScheduleK>
+				<AirPort>1</AirPort>
+				<SeaPort>1</SeaPort>
+				<CollectShipment />
+				<ShipmentType />
+				<ApplicableChargeType>0</ApplicableChargeType>
+				<Status />
+			</Location>
+			<Location>
+				<LocationQualifier>POL</LocationQualifier>
+				<LocationCode>NLRTM</LocationCode>
+				<Description>Rotterdam</Description>
+				<ShortDescription>Rotterdam</ShortDescription>
+				<Country>NL</Country>
+				<State />
+				<TimeZone />
+				<UNLCODE>NLRTM</UNLCODE>
+				<IATAAirportCode>RTM</IATAAirportCode>
+				<IATACityCode>RTM</IATACityCode>
+				<ScheduleK>42157</ScheduleK>
+				<AirPort>1</AirPort>
+				<SeaPort>1</SeaPort>
+				<CollectShipment />
+				<ShipmentType />
+				<ApplicableChargeType>0</ApplicableChargeType>
+				<Status />
+			</Location>
+			<Location>
+				<LocationQualifier>POD</LocationQualifier>
+				<LocationCode>USNYC</LocationCode>
+				<Description>New York</Description>
+				<ShortDescription>New York</ShortDescription>
+				<Country>US</Country>
+				<State />
+				<TimeZone />
+				<UNLCODE>USNYC</UNLCODE>
+				<IATAAirportCode>NYC</IATAAirportCode>
+				<IATACityCode>NYC</IATACityCode>
+				<ScheduleD>1001</ScheduleD>
+				<AirPort>1</AirPort>
+				<SeaPort>1</SeaPort>
+				<CollectShipment />
+				<ShipmentType />
+				<ApplicableChargeType>0</ApplicableChargeType>
+				<Status />
+			</Location>
+			<Location>
+				<LocationQualifier>PLD</LocationQualifier>
+				<LocationCode>USOSW</LocationCode>
+				<Description>Oswego</Description>
+				<ShortDescription>Oswego</ShortDescription>
+				<Country>US</Country>
+				<State />
+				<TimeZone />
+				<UNLCODE>USOSW</UNLCODE>
+				<IATACityCode>OSW</IATACityCode>
+				<ScheduleD>904</ScheduleD>
+				<AirPort>0</AirPort>
+				<SeaPort>1</SeaPort>
+				<CollectShipment />
+				<ShipmentType />
+				<ApplicableChargeType>0</ApplicableChargeType>
+				<Status />
+			</Location>
+			<PaymentTerms>Prepaid</PaymentTerms>
+			<ServiceLevel>AW</ServiceLevel>
+			<VesselSchedule>VSIDNLRTMUSNYC5385</VesselSchedule>
+			<Vessel>CANMARVICTORY</Vessel>
+			<VoyageOrDirection>879N</VoyageOrDirection>
+			<CarrierID>HLCU</CarrierID>
+			<TransportSchedule />
+			<CarrierMoveTypeOrigin>PORT</CarrierMoveTypeOrigin>
+			<CarrierMoveTypeDestination>PORT</CarrierMoveTypeDestination>
+			<NoOfHBLsBookingsAttached>1</NoOfHBLsBookingsAttached>
+			<BoxesReceived>250</BoxesReceived>
+			<Weight>2550</Weight>
+			<Volume>11.556</Volume>
+			<ChargeableVolumeCBM>11.556</ChargeableVolumeCBM>
+		</MasterHeader>
+		<MasterInformation>
+			<ContainerDetails>
+				<ContainerInformation>
+					<ID>16279</ID>
+					<ExternalAppSequence>1</ExternalAppSequence>
+					<ISOverSize>N</ISOverSize>
+					<ContainerType EquipmentOwner="Carrier"
+						ISOEquipmentType="42G0" Description="40 Standard Dry"
+						ContainerTareWeight="7800" ContainerTareWeightUOM="KG">40GP
+					</ContainerType>
+					<ContainerNo>UJXZ5555608</ContainerNo>
+					<SealNo1>S125</SealNo1>
+					<SealNo2>S234</SealNo2>
+					<NetWeight>0.000</NetWeight>
+					<GrossWeight>1224.000</GrossWeight>
+					<Volume>5.550</Volume>
+					<ISPickUpRequired>N</ISPickUpRequired>
+					<ShippingOrderNo>CBRHLCU4285</ShippingOrderNo>
+					<ISEquipmentSubtitution>N</ISEquipmentSubtitution>
+					<Additionalnformation>
+						<ID>9162</ID>
+						<Allowed>
+							<GrossWeightMaxUOM>0</GrossWeightMaxUOM>
+							<Volume>0.000</Volume>
+							<TempControl>0</TempControl>
+							<TempSetPoint>0</TempSetPoint>
+						</Allowed>
+						<Actual>
+							<GrossWeightMaxUOM>0</GrossWeightMaxUOM>
+							<Volume>0.000</Volume>
+							<TempControl>0</TempControl>
+							<TempSetPoint>0</TempSetPoint>
+						</Actual>
+						<Standard>
+							<GrossWeightMaxUOM>0</GrossWeightMaxUOM>
+							<Volume>0.000</Volume>
+							<TempControl>0</TempControl>
+							<TempSetPoint>0</TempSetPoint>
+						</Standard>
+						<EquipmentAirFlow>0</EquipmentAirFlow>
+						<SealingParty>Carrier</SealingParty>
+					</Additionalnformation>
+				</ContainerInformation>
+				<ContainerInformation>
+					<ID>16280</ID>
+					<ExternalAppSequence>2</ExternalAppSequence>
+					<ISOverSize>N</ISOverSize>
+					<ContainerType EquipmentOwner="Carrier"
+						ISOEquipmentType="22G0" Description="General Purpose (Hanging Garments)"
+						ContainerTareWeight="7500" ContainerTareWeightUOM="KG">20GP
+					</ContainerType>
+					<ContainerNo>UJXZ5555609</ContainerNo>
+					<SealNo1>S126</SealNo1>
+					<SealNo2>S235</SealNo2>
+					<NetWeight>0.000</NetWeight>
+					<GrossWeight>1326.000</GrossWeight>
+					<Volume>6.010</Volume>
+					<ISPickUpRequired>N</ISPickUpRequired>
+					<ShippingOrderNo>CBRHLCU4285</ShippingOrderNo>
+					<ISEquipmentSubtitution>N</ISEquipmentSubtitution>
+					<Additionalnformation>
+						<ID>9163</ID>
+						<Allowed>
+							<GrossWeightMaxUOM>0</GrossWeightMaxUOM>
+							<Volume>0.000</Volume>
+							<TempControl>0</TempControl>
+							<TempSetPoint>0</TempSetPoint>
+						</Allowed>
+						<Actual>
+							<GrossWeightMaxUOM>1326</GrossWeightMaxUOM>
+							<Volume>6.010</Volume>
+							<TempControl>0</TempControl>
+							<TempSetPoint>0</TempSetPoint>
+						</Actual>
+						<Standard>
+							<GrossWeightMaxUOM>0</GrossWeightMaxUOM>
+							<Volume>0.000</Volume>
+							<TempControl>0</TempControl>
+							<TempSetPoint>0</TempSetPoint>
+						</Standard>
+						<EquipmentAirFlow>0</EquipmentAirFlow>
+						<SealingParty>Carrier</SealingParty>
+					</Additionalnformation>
+				</ContainerInformation>
+				<StuffingInformation>
+					<ID>37415</ID>
+					<ExternalAppSequence />
+					<SrNo>1</SrNo>
+					<SUBSrNo>2</SUBSrNo>
+					<PackId>61003</PackId>
+					<ShipmentRef>EMJFBGLBGLNL00003940</ShipmentRef>
+					<PackRecvd>130</PackRecvd>
+					<Commodity Description="Home Textiles" HSCODE="2511"
+						ScheduleB="8460190005">GCR</Commodity>
+					<GrossWt>2550.000</GrossWt>
+					<Length>107.000</Length>
+					<Width>36.000</Width>
+					<Height>12.000</Height>
+					<Volume>11.556</Volume>
+					<ContainerNo>UJXZ5555609</ContainerNo>
+					<Packages>250</Packages>
+					<PackagesType>CT</PackagesType>
+					<SubPackages>0</SubPackages>
+					<SubPackagesType>BX</SubPackagesType>
+					<GrossWtStuffed>1326.000</GrossWtStuffed>
+					<VolumeStuffed>6.010</VolumeStuffed>
+					<Balance>0</Balance>
+					<ISHAZ>N</ISHAZ>
+					<ContainerType>20GP</ContainerType>
+					<GoodsDescription>Home Textiles</GoodsDescription>
+					<PackageMarks>PO65875875</PackageMarks>
+				</StuffingInformation>
+				<StuffingInformation>
+					<ID>37414</ID>
+					<ExternalAppSequence />
+					<SrNo>1</SrNo>
+					<SUBSrNo>1</SUBSrNo>
+					<PackId>61003</PackId>
+					<ShipmentRef>EMJFBGLBGLNL00003940</ShipmentRef>
+					<PackRecvd>120</PackRecvd>
+					<Commodity Description="Home Textiles" HSCODE="2511"
+						ScheduleB="8460190005">GCR</Commodity>
+					<GrossWt>2550.000</GrossWt>
+					<Length>107.000</Length>
+					<Width>36.000</Width>
+					<Height>12.000</Height>
+					<Volume>11.556</Volume>
+					<ContainerNo>UJXZ5555608</ContainerNo>
+					<Packages>250</Packages>
+					<PackagesType>CT</PackagesType>
+					<SubPackages>1000</SubPackages>
+					<SubPackagesType>BX</SubPackagesType>
+					<GrossWtStuffed>1224.000</GrossWtStuffed>
+					<VolumeStuffed>5.550</VolumeStuffed>
+					<Balance>130</Balance>
+					<ISHAZ>N</ISHAZ>
+					<ContainerType>40GP</ContainerType>
+					<GoodsDescription>Home Textiles</GoodsDescription>
+					<PackageMarks>PO65875875</PackageMarks>
+				</StuffingInformation>
+			</ContainerDetails>
+			<InttraInfomration>
+				<ID>14153</ID>
+				<MessageType>ShippingInstruction</MessageType>
+				<MessageVersion>000001</MessageVersion>
+				<INTTRARegistrationNumber />
+				<DateType />
+				<DocumentVersion />
+				<DateTime>2015-07-29 07:17</DateTime>
+				<CommentsType>General</CommentsType>
+				<OceanFreightPaybleAt>Origin</OceanFreightPaybleAt>
+				<Currency>USD</Currency>
+				<ShipperDeclaredValue>20000</ShipperDeclaredValue>
+				<ChargeCategory>
+					<PrepaidorCollectIndicator>Prepaid</PrepaidorCollectIndicator>
+					<ChargeType>AllCharges</ChargeType>
+				</ChargeCategory>
+				<BLComments>surrendered</BLComments>
+				<Location>
+					<LocationQualifier>BLLOCATION</LocationQualifier>
+					<LocationCode>USNYC</LocationCode>
+					<Description>New York</Description>
+					<ShortDescription>New York</ShortDescription>
+					<Country>US</Country>
+					<State />
+					<TimeZone />
+					<UNLCODE>USNYC</UNLCODE>
+					<IATAAirportCode>NYC</IATAAirportCode>
+					<IATACityCode>NYC</IATACityCode>
+					<ScheduleD>1001</ScheduleD>
+					<AirPort>1</AirPort>
+					<SeaPort>1</SeaPort>
+					<CollectShipment />
+					<ShipmentType />
+					<ApplicableChargeType>0</ApplicableChargeType>
+					<Status />
+				</Location>
+				<BLReleaseDate>2015-07-29 00:00</BLReleaseDate>
+				<OriginalBLs>3</OriginalBLs>
+				<OriginalBLsFRTNonFRT>True</OriginalBLsFRTNonFRT>
+				<CopyBLs>3</CopyBLs>
+				<CopyBLsFRTNonFRT>True</CopyBLsFRTNonFRT>
+				<NonNegotiable>0</NonNegotiable>
+				<NonNegotiableFRTNonFRT>True</NonNegotiableFRTNonFRT>
+				<Seaway>0</Seaway>
+				<Express />
+				<ManifestFilerStatus>Carrier</ManifestFilerStatus>
+				<BLDocType>DraftRated</BLDocType>
+				<DocumentationRequirements>
+					<Documents DocumentType="BillOfLadingOriginal" Freighted="True" />
+					<Quantity>3</Quantity>
+				</DocumentationRequirements>
+				<DocumentationRequirements>
+					<Documents DocumentType="BillOfLadingCopy" Freighted="True" />
+					<Quantity>3</Quantity>
+				</DocumentationRequirements>
+				<PartyReferenceInformation ReferenceType="GovtReferenceNumber" />
+			</InttraInfomration>
+		</MasterInformation>
+	</MasterDetails>
+	<OrderDetails>
+		<OrderHeader>
+			<ID>16139</ID>
+			<ModeOfTransport>Sea</ModeOfTransport>
+			<hawbBasis>fromBooking</hawbBasis>
+			<ShipmentType />
+			<eAWB />
+			<HouseID>16139</HouseID>
+			<ManualHouseID>HBLBGLLNLRT000001587</ManualHouseID>
+			<BookingID>SBKBGLLNLRT02239</BookingID>
+			<ManualBookingID />
+			<LoadType>FCL_TO_FCL</LoadType>
+			<Profile>
+				<ID>259931</ID>
+				<ProfileQualifier>ORIGINAGENT</ProfileQualifier>
+				<ETShimentOrderID>48504</ETShimentOrderID>
+				<ProfileType>PARTY</ProfileType>
+				<ProfileID>BGLNLRTM</ProfileID>
+				<ProfileName>BGLNLRTM</ProfileName>
+				<ProfileNickName>BGLNLRTMBLUEGR</ProfileNickName>
+				<ExternalAppSequence />
+				<Address>
+					<ID>256677</ID>
+					<AddressType>1</AddressType>
+					<LanguageCode>en</LanguageCode>
+					<LegalName>BGLNLRTM</LegalName>
+					<Name2>BLUE GRACE LOGISTICS LIMITED US NYC</Name2>
+					<Building>BLUE GRACE LOGISTICS LIMITED BLDG#1</Building>
+					<Street>Laan van Londen 100</Street>
+					<Street1>Postbus 3115</Street1>
+					<SuburbORLocality>NL</SuburbORLocality>
+					<City>Rotterdam</City>
+					<StateCode>14</StateCode>
+					<PostalCode>1236A</PostalCode>
+					<CountryCode>CN</CountryCode>
+					<ContactPerson>BRUCE</ContactPerson>
+					<Email>miroslava@example.com</Email>
+					<Telephone>31504289571</Telephone>
+					<Fax>31504289571</Fax>
+					<IATACode>16-3-4415-1</IATACode>
+					<ExternalAppSequence />
+				</Address>
+			</Profile>
+			<Profile>
+				<ID>259932</ID>
+				<ProfileQualifier>DESTINATIONAGENT</ProfileQualifier>
+				<ETShimentOrderID>48504</ETShimentOrderID>
+				<ProfileType>PARTY</ProfileType>
+				<ProfileID>BGLUSNYC</ProfileID>
+				<ProfileName>BGLUSNYC</ProfileName>
+				<ProfileNickName>BGLUSNYC</ProfileNickName>
+				<ExternalAppSequence />
+				<Address>
+					<ID>256678</ID>
+					<AddressType>1</AddressType>
+					<LanguageCode>en</LanguageCode>
+					<LegalName>BGLUSNYC</LegalName>
+					<Name2>BLUE GRACE LOGISTICS LIMITED US NYC</Name2>
+					<Building>BLUE GRACE LOGISTICS LIMITED BLDG#1</Building>
+					<Street>MOUNT STREET#1</Street>
+					<Street1>PEAK STREET#2</Street1>
+					<SuburbORLocality>US</SuburbORLocality>
+					<City>NEW YORK</City>
+					<StateProvinceCounty>NEW YORK</StateProvinceCounty>
+					<StateCode>NY</StateCode>
+					<PostalCode>10584</PostalCode>
+					<CountryCode>US</CountryCode>
+					<ContactPerson>John Isrial</ContactPerson>
+					<Email>bluegrace@bg.com</Email>
+					<Telephone>2131313213</Telephone>
+					<Fax>321231313</Fax>
+					<IATACode>1330005002</IATACode>
+					<ExternalAppSequence />
+				</Address>
+			</Profile>
+			<Profile>
+				<ID>259930</ID>
+				<ProfileQualifier>CONSIGNEE</ProfileQualifier>
+				<ETShimentOrderID>48504</ETShimentOrderID>
+				<ProfileType>PARTY</ProfileType>
+				<ProfileID>CNWUJ00019</ProfileID>
+				<ProfileName>Wujiang Youtong Textiles Co., Ltd.</ProfileName>
+				<ProfileNickName>WUJIANGYOUTONG</ProfileNickName>
+				<ExternalAppSequence />
+				<Address>
+					<ID>256676</ID>
+					<AddressType>1</AddressType>
+					<LanguageCode>en</LanguageCode>
+					<LegalName>Wujiang Youtong Textiles Co., Ltd.</LegalName>
+					<Name2>Wujiang Youtong Textiles Co., Ltd.</Name2>
+					<Street>1361 North Sichuan Road</Street>
+					<Street1>Hong Kou District</Street1>
+					<City>Shanghai</City>
+					<PostalCode>200080</PostalCode>
+					<CountryCode>CN</CountryCode>
+					<ContactPerson>Chen</ContactPerson>
+					<Email>contact@wuj.com</Email>
+					<Telephone>02122011888</Telephone>
+					<Fax>02122011777</Fax>
+					<ExternalAppSequence />
+				</Address>
+			</Profile>
+			<Profile>
+				<ID>259928</ID>
+				<ProfileQualifier>CUSTOMER</ProfileQualifier>
+				<ETShimentOrderID>48504</ETShimentOrderID>
+				<ProfileType>PARTY</ProfileType>
+				<ProfileID>DEADI00020</ProfileID>
+				<ProfileName>ADIDAS DEUTSCHLAND</ProfileName>
+				<ProfileNickName>ADIDASDEUTSCHL</ProfileNickName>
+				<ExternalAppSequence />
+				<Address>
+					<ID>256674</ID>
+					<AddressType>1</AddressType>
+					<LanguageCode>en</LanguageCode>
+					<LegalName>ADIDAS DEUTSCHLAND</LegalName>
+					<Name2>ADIDAS DEUTSCHLAND</Name2>
+					<Street>U &amp; S-Bahn Hakescher Markt</Street>
+					<City>Berlin</City>
+					<PostalCode>254111</PostalCode>
+					<CountryCode>DE</CountryCode>
+					<ContactPerson>Jennie</ContactPerson>
+					<Email>JENNIE@ADIDAS.COM</Email>
+					<Telephone>345673847654</Telephone>
+					<Fax>345673847654</Fax>
+					<ExternalAppSequence />
+				</Address>
+			</Profile>
+			<Profile>
+				<ID>259929</ID>
+				<ProfileQualifier>SHIPPER</ProfileQualifier>
+				<ETShimentOrderID>48504</ETShimentOrderID>
+				<ProfileType>PARTY</ProfileType>
+				<ProfileID>CHTEJ00018</ProfileID>
+				<ProfileName>Tejgaon Eminent Fashions Limited</ProfileName>
+				<ProfileNickName>TEJGAONEMINENT</ProfileNickName>
+				<ExternalAppSequence />
+				<Address>
+					<ID>256675</ID>
+					<AddressType>1</AddressType>
+					<LanguageCode>en</LanguageCode>
+					<LegalName>Tejgaon Eminent Fashions Limited</LegalName>
+					<Name2>Tejgaon Eminent Fashions Limited</Name2>
+					<Building>Textile &amp; Mode Center (Tmc)</Building>
+					<Street>Zurich Thurgauerstrasse 117</Street>
+					<City>Zurich</City>
+					<CountryCode>CH</CountryCode>
+					<ContactPerson>Md.</ContactPerson>
+					<Email>contact@ma.com</Email>
+					<Telephone>765942799</Telephone>
+					<Fax>448110472</Fax>
+					<ExternalAppSequence />
+				</Address>
+			</Profile>
+			<Profile>
+				<ID>259933</ID>
+				<ProfileQualifier>CARRIER</ProfileQualifier>
+				<ETShimentOrderID>48504</ETShimentOrderID>
+				<ProfileType>PARTY</ProfileType>
+				<ProfileID>HLCU</ProfileID>
+				<ProfileName>HAPAG LLOYD (AMERICA) INC</ProfileName>
+				<StandardCarrierAlphaCode>HLCU</StandardCarrierAlphaCode>
+				<ExternalAppSequence />
+				<Address>
+					<ID>256679</ID>
+					<AddressType>1</AddressType>
+					<LanguageCode>en</LanguageCode>
+					<LegalName>HAPAG LLOYD (AMERICA) INC</LegalName>
+					<Name2>HAPAG LLOYD</Name2>
+					<Street>NA</Street>
+					<Street1>Tokyo</Street1>
+					<City>Tokyo</City>
+					<StateCode>TK</StateCode>
+					<PostalCode>103-0012</PostalCode>
+					<CountryCode>JP</CountryCode>
+					<ContactPerson>suzuki</ContactPerson>
+					<Email>tomsuzuki@shinwart.co.jp</Email>
+					<Telephone>985684224</Telephone>
+					<Fax>985684277</Fax>
+					<ExternalAppSequence />
+				</Address>
+			</Profile>
+			<Reference>
+				<ReferenceType>BOOKING_SEA</ReferenceType>
+				<ReferenceNo>SBKBGLLNLRT02239</ReferenceNo>
+			</Reference>
+			<Reference>
+				<ReferenceType>COMMON_REF</ReferenceType>
+				<ReferenceNo>0057436</ReferenceNo>
+			</Reference>
+			<Reference>
+				<ReferenceType>HBL</ReferenceType>
+				<ReferenceNo>HBLBGLLNLRT000001587</ReferenceNo>
+			</Reference>
+			<Reference>
+				<ReferenceType>SHIPMENT REF NO</ReferenceType>
+				<ReferenceNo>EHJFBGLLNLRT00005735</ReferenceNo>
+			</Reference>
+			<ULDReqd />
+			<Dates>
+				<DatesQualifier>ETD</DatesQualifier>
+				<Date>2015-07-29 11:32</Date>
+			</Dates>
+			<Dates>
+				<DatesQualifier>ETA</DatesQualifier>
+				<Date>2015-09-04 11:32</Date>
+			</Dates>
+			<Dates>
+				<DatesQualifier>CARRIER_CUT_OFF</DatesQualifier>
+				<Date>2015-07-26 11:32</Date>
+			</Dates>
+			<Dates>
+				<DatesQualifier>HOUSEDOCDATE</DatesQualifier>
+				<Date>2015-07-29 00:00</Date>
+			</Dates>
+			<Location>
+				<LocationQualifier>POL</LocationQualifier>
+				<LocationCode>NLRTM</LocationCode>
+				<Description>Rotterdam</Description>
+				<ShortDescription>Rotterdam</ShortDescription>
+				<Country>NL</Country>
+				<State />
+				<TimeZone />
+				<UNLCODE>NLRTM</UNLCODE>
+				<IATAAirportCode>RTM</IATAAirportCode>
+				<IATACityCode>RTM</IATACityCode>
+				<ScheduleK>42157</ScheduleK>
+				<AirPort>1</AirPort>
+				<SeaPort>1</SeaPort>
+				<CollectShipment />
+				<ShipmentType />
+				<ApplicableChargeType>0</ApplicableChargeType>
+				<Status />
+			</Location>
+			<Location>
+				<LocationQualifier>POD</LocationQualifier>
+				<LocationCode>USNYC</LocationCode>
+				<Description>New York</Description>
+				<ShortDescription>New York</ShortDescription>
+				<Country>US</Country>
+				<State />
+				<TimeZone />
+				<UNLCODE>USNYC</UNLCODE>
+				<IATAAirportCode>NYC</IATAAirportCode>
+				<IATACityCode>NYC</IATACityCode>
+				<ScheduleD>1001</ScheduleD>
+				<AirPort>1</AirPort>
+				<SeaPort>1</SeaPort>
+				<CollectShipment />
+				<ShipmentType />
+				<ApplicableChargeType>0</ApplicableChargeType>
+				<Status />
+			</Location>
+			<OriginShipmentTerms>PORT</OriginShipmentTerms>
+			<DestShipmentTerms>PORT</DestShipmentTerms>
+			<PaymentTerms>EXPORT</PaymentTerms>
+			<ServiceLevel>AW</ServiceLevel>
+			<PickUpRequired>N</PickUpRequired>
+			<DeliveryRequired>N</DeliveryRequired>
+			<InstructionsRemarks>Shipment movement with FCL Load and 250 Cartons
+			</InstructionsRemarks>
+			<HoldShipment>N</HoldShipment>
+			<HoldShptReason />
+			<CargoReceived />
+			<ISFFillingRequired />
+			<UOM>CM</UOM>
+			<UOW>KG</UOW>
+			<TotalPieces>250</TotalPieces>
+			<VolumeCBM>11.556</VolumeCBM>
+			<VolumeWeight>11.556</VolumeWeight>
+			<GrossWeight>11.556</GrossWeight>
+			<ChargeWeight>11.556</ChargeWeight>
+			<Remarks>Shipment movement with FCL Load and 250 Cartons</Remarks>
+			<CarrierID>HLCU</CarrierID>
+			<CarrierBookingRefNo />
+			<StuffingAt>N</StuffingAt>
+			<GCLBL>Y</GCLBL>
+			<CreatedBy>AUTOUSER1</CreatedBy>
+		</OrderHeader>
+		<OrderInformation>
+			<CargoDetails>
+				<PackDetails>
+					<ID>61003</ID>
+					<ExternalAppSequence>1</ExternalAppSequence>
+					<SrNo>1</SrNo>
+					<Packages>250</Packages>
+					<PackagesType>CT</PackagesType>
+					<SubPack>1000</SubPack>
+					<SubPackagesType>BX</SubPackagesType>
+					<GrossWeight>2550.000</GrossWeight>
+					<UOW>KG</UOW>
+					<NetWeight>2500.000</NetWeight>
+					<Length>107.000</Length>
+					<Width>36.000</Width>
+					<Height>12.000</Height>
+					<VolumeCBM>11.556</VolumeCBM>
+					<Commodity>GCR</Commodity>
+					<IATACommodityCode>2511</IATACommodityCode>
+					<ScheduleB>8460190005</ScheduleB>
+					<GoodsDescription>Home Textiles</GoodsDescription>
+					<MarksAndNumbers>PO65875875</MarksAndNumbers>
+					<GoodsValue>250.00</GoodsValue>
+					<Currency>EUR</Currency>
+					<isHaz>N</isHaz>
+				</PackDetails>
+			</CargoDetails>
+			<ContainerDetails>
+				<ContainerInformation>
+					<ID>16279</ID>
+					<ExternalAppSequence>1</ExternalAppSequence>
+					<ISOverSize>N</ISOverSize>
+					<ContainerType>40GP</ContainerType>
+					<ContainerNo>UJXZ5555608</ContainerNo>
+					<SealNo1>S125</SealNo1>
+					<SealNo2>S234</SealNo2>
+					<NetWeight>0.000</NetWeight>
+					<GrossWeight>1224.000</GrossWeight>
+					<Volume>5.550</Volume>
+					<ISPickUpRequired>N</ISPickUpRequired>
+					<ShippingOrderNo>CBRHLCU4285</ShippingOrderNo>
+					<ISEquipmentSubtitution>N</ISEquipmentSubtitution>
+					<Additionalnformation>
+						<ID>9162</ID>
+						<Allowed>
+							<GrossWeightMaxUOM>0</GrossWeightMaxUOM>
+							<Volume>0.000</Volume>
+							<TempControl>0</TempControl>
+							<TempSetPoint>0</TempSetPoint>
+						</Allowed>
+						<Actual>
+							<GrossWeightMaxUOM>0</GrossWeightMaxUOM>
+							<Volume>0.000</Volume>
+							<TempControl>0</TempControl>
+							<TempSetPoint>0</TempSetPoint>
+						</Actual>
+						<Standard>
+							<GrossWeightMaxUOM>0</GrossWeightMaxUOM>
+							<Volume>0.000</Volume>
+							<TempControl>0</TempControl>
+							<TempSetPoint>0</TempSetPoint>
+						</Standard>
+						<EquipmentAirFlow>0</EquipmentAirFlow>
+						<SealingParty>Carrier</SealingParty>
+					</Additionalnformation>
+				</ContainerInformation>
+				<ContainerInformation>
+					<ID>16280</ID>
+					<ExternalAppSequence>2</ExternalAppSequence>
+					<ISOverSize>N</ISOverSize>
+					<ContainerType>20GP</ContainerType>
+					<ContainerNo>UJXZ5555609</ContainerNo>
+					<SealNo1>S126</SealNo1>
+					<SealNo2>S235</SealNo2>
+					<NetWeight>0.000</NetWeight>
+					<GrossWeight>1326.000</GrossWeight>
+					<Volume>6.010</Volume>
+					<ISPickUpRequired>N</ISPickUpRequired>
+					<ShippingOrderNo>CBRHLCU4285</ShippingOrderNo>
+					<ISEquipmentSubtitution>N</ISEquipmentSubtitution>
+					<Additionalnformation>
+						<ID>9163</ID>
+						<Allowed>
+							<GrossWeightMaxUOM>0</GrossWeightMaxUOM>
+							<Volume>0.000</Volume>
+							<TempControl>0</TempControl>
+							<TempSetPoint>0</TempSetPoint>
+						</Allowed>
+						<Actual>
+							<GrossWeightMaxUOM>1326</GrossWeightMaxUOM>
+							<Volume>6.010</Volume>
+							<TempControl>0</TempControl>
+							<TempSetPoint>0</TempSetPoint>
+						</Actual>
+						<Standard>
+							<GrossWeightMaxUOM>0</GrossWeightMaxUOM>
+							<Volume>0.000</Volume>
+							<TempControl>0</TempControl>
+							<TempSetPoint>0</TempSetPoint>
+						</Standard>
+						<EquipmentAirFlow>0</EquipmentAirFlow>
+						<SealingParty>Carrier</SealingParty>
+					</Additionalnformation>
+				</ContainerInformation>
+				<StuffingInformation>
+					<ID>37415</ID>
+					<ExternalAppSequence />
+					<SrNo>1</SrNo>
+					<SUBSrNo>2</SUBSrNo>
+					<ShipmentRef>EMJFBGLBGLNL00003940</ShipmentRef>
+					<PackRecvd>130</PackRecvd>
+					<Commodity Description="Home Textiles" HSCODE="2511"
+						ScheduleB="8460190005">GCR</Commodity>
+					<GrossWt>2550.000</GrossWt>
+					<Length>107.000</Length>
+					<Width>36.000</Width>
+					<Height>12.000</Height>
+					<Volume>11.556</Volume>
+					<ContainerNo>UJXZ5555609</ContainerNo>
+					<Packages>250</Packages>
+					<PackagesType>CT</PackagesType>
+					<SubPackages>0</SubPackages>
+					<SubPackagesType>BX</SubPackagesType>
+					<GrossWtStuffed>1326.000</GrossWtStuffed>
+					<VolumeStuffed>6.010</VolumeStuffed>
+					<Balance>0</Balance>
+					<ISHAZ>N</ISHAZ>
+					<ContainerType>20GP</ContainerType>
+					<GoodsDescription>Home Textiles</GoodsDescription>
+					<PackageMarks>PO65875875</PackageMarks>
+				</StuffingInformation>
+				<StuffingInformation>
+					<ID>37414</ID>
+					<ExternalAppSequence />
+					<SrNo>1</SrNo>
+					<SUBSrNo>1</SUBSrNo>
+					<ShipmentRef>EMJFBGLBGLNL00003940</ShipmentRef>
+					<PackRecvd>120</PackRecvd>
+					<Commodity Description="Home Textiles" HSCODE="2511"
+						ScheduleB="8460190005">GCR</Commodity>
+					<GrossWt>2550.000</GrossWt>
+					<Length>107.000</Length>
+					<Width>36.000</Width>
+					<Height>12.000</Height>
+					<Volume>11.556</Volume>
+					<ContainerNo>UJXZ5555608</ContainerNo>
+					<Packages>250</Packages>
+					<PackagesType>CT</PackagesType>
+					<SubPackages>1000</SubPackages>
+					<SubPackagesType>BX</SubPackagesType>
+					<GrossWtStuffed>1224.000</GrossWtStuffed>
+					<VolumeStuffed>5.550</VolumeStuffed>
+					<Balance>130</Balance>
+					<ISHAZ>N</ISHAZ>
+					<ContainerType>40GP</ContainerType>
+					<GoodsDescription>Home Textiles</GoodsDescription>
+					<PackageMarks>PO65875875</PackageMarks>
+				</StuffingInformation>
+			</ContainerDetails>
+			<DocCharges>
+				<ID>15023</ID>
+				<CarriageAmount>NVD</CarriageAmount>
+				<CustomsAmount>NVD</CustomsAmount>
+				<InsuranceAmount>NVD</InsuranceAmount>
+			</DocCharges>
+		</OrderInformation>
+	</OrderDetails>
+</FreightForwardingDetails>

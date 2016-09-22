@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page frame="" name="Profit Share Satlement" title="">
+	<Element name="DropDown_ModeOfTransport">
+		<Browser locator="Name" name="chrome">modeOfTransport</Browser>
+		<Browser locator="Name" name="ie">modeOfTransport</Browser>
+		<Browser locator="Name" name="firefox">modeOfTransport</Browser>
+	</Element>
+	<Element name="Image_OBLId">
+		<Browser locator="Name" name="chrome">button12</Browser>
+		<Browser locator="Name" name="ie">button12</Browser>
+		<Browser locator="Name" name="firefox">button12</Browser>
+	</Element>
+	<Element name="LOV_ShipmentRefNo">
+		<Browser locator="id" name="chrome">shipmentRefNo</Browser>
+		<Browser locator="id" name="ie">shipmentRefNo</Browser>
+		<Browser locator="id" name="firefox">shipmentRefNo</Browser>
+	</Element>
+	<Element name="CheckBox_Obl">
+		<Browser locator="id" name="chrome">wrappedTBB-cell-14-0-box-marker</Browser>
+		<Browser locator="id" name="ie">wrappedTBB-cell-14-0-box-marker</Browser>
+		<Browser locator="id" name="firefox">wrappedTBB-cell-14-0-box-marker</Browser>
+	</Element>
+	
+	<Element name="GridRows_ProfitShareCalculation">
+		<Browser locator="xpath" name="chrome">//span[@id='aw51-rows-0']/span[@aw='row']</Browser>
+		<Browser locator="xpath" name="ie">//span[@id='aw51-rows-0']/span[@aw='row']</Browser>
+		<Browser locator="xpath" name="firefox">//span[@id='aw51-rows-0']/span[@aw='row']</Browser>
+	</Element>
+	
+	<Element name="Input_AgentQuote">
+		<Browser locator="Name" name="chrome">agentQuote</Browser>
+		<Browser locator="Name" name="ie">agentQuote</Browser>
+		<Browser locator="Name" name="firefox">agentQuote</Browser>
+	</Element>
+	
+	<Element name="Text_HouseFreightActAmount">
+		<Browser locator="Name" name="chrome">totHouseFreighActAmount</Browser>
+		<Browser locator="Name" name="ie">totHouseFreighActAmount</Browser>
+		<Browser locator="Name" name="firefox">totHouseFreighActAmount</Browser>
+	</Element>
+	
+	<Element name="Text_MasterFreightActAmount">
+		<Browser locator="Name" name="chrome">totMasterFreightActAmount</Browser>
+		<Browser locator="Name" name="ie">totMasterFreightActAmount</Browser>
+		<Browser locator="Name" name="firefox">totMasterFreightActAmount</Browser>
+	</Element>
+	
+	<Element name="Text_TotalActualProfitShare">
+		<Browser locator="Name" name="chrome">totActualProfitShare</Browser>
+		<Browser locator="Name" name="ie">totActualProfitShare</Browser>
+		<Browser locator="Name" name="firefox">totActualProfitShare</Browser>
+	</Element>
+	
+	<Element name="Text_TotalHouseAgreedAmount">
+		<Browser locator="Name" name="chrome">totHouseFreightAgreedAmount</Browser>
+		<Browser locator="Name" name="ie">totHouseFreightAgreedAmount</Browser>
+		<Browser locator="Name" name="firefox">totHouseFreightAgreedAmount</Browser>
+	</Element>
+	
+	<Element name="Text_TotalMasterAgreedAmount">
+		<Browser locator="Name" name="chrome">totMasterFreightAgreedAmount</Browser>
+		<Browser locator="Name" name="ie">totMasterFreightAgreedAmount</Browser>
+		<Browser locator="Name" name="firefox">totMasterFreightAgreedAmount</Browser>
+	</Element>
+	<Element name="Text_TotalAgreedProfitShare">
+		<Browser locator="Name" name="chrome">toAgreedProfitShare</Browser>
+		<Browser locator="Name" name="ie">toAgreedProfitShare</Browser>
+		<Browser locator="Name" name="firefox">toAgreedProfitShare</Browser>
+	</Element>
+	<Element name="Tab_PSAllocation">
+		<Browser locator="Xpath" name="chrome">//td[text()='PS Allocation ']</Browser>
+		<Browser locator="Xpath" name="ie">//td[text()='PS Allocation ']</Browser>
+		<Browser locator="Xpath" name="firefox">//td[text()='PS Allocation ']</Browser>
+	</Element>
+	<Element name="Button_RequestInvoice">
+		<Browser locator="id" name="chrome">debitOrCreditNote</Browser>
+		<Browser locator="id" name="ie">debitOrCreditNote</Browser>
+		<Browser locator="id" name="firefox">debitOrCreditNote</Browser>
+	</Element>
+	<Element name="Text_MsgInvoiceCreation">
+		<Browser locator="Xpath" name="chrome">//div[@id='errorMessage']/table/tbody/tr/td/font/b</Browser>
+		<Browser locator="Xpath" name="ie">//div[@id='errorMessage']/table/tbody/tr/td/font/b</Browser>
+		<Browser locator="Xpath" name="firefox">//div[@id='errorMessage']/table/tbody/tr/td/font/b</Browser>
+	</Element>
+	
+	<Element name="Grid_CostchargesRows">
+		<Browser locator="Xpath" name="chrome">//table[@id='chargeGrid']/tbody/tr</Browser>
+		<Browser locator="Xpath" name="ie">//table[@id='chargeGrid']/tbody/tr</Browser>
+		<Browser locator="Xpath" name="firefox">//table[@id='chargeGrid']/tbody/tr</Browser>
+	</Element>
+	<Element name="DropDown_NavigationList">
+		<Browser locator="Name" name="chrome">navigationList</Browser>
+		<Browser locator="Name" name="ie">navigationList</Browser>
+		<Browser locator="Name" name="firefox">navigationList</Browser>
+	</Element>
+	<Element name="Image_GoNavigationList">
+		<Browser locator="Name" name="chrome">navigationListImage</Browser>
+		<Browser locator="Name" name="ie">navigationListImage</Browser>
+		<Browser locator="Name" name="firefox">navigationListImage</Browser>
+	</Element>
+	<Element name="Grid_PSAllocation">
+		<Browser locator="Xpath" name="chrome">//span[@id='myGrid-rows']/span[@aw='row']</Browser>
+		<Browser locator="Xpath" name="ie">//span[@id='myGrid-rows']/span[@aw='row']</Browser>
+		<Browser locator="Xpath" name="firefox">//span[@id='myGrid-rows']/span[@aw='row']</Browser>
+	</Element>
+	<Element name="Input_MblId">
+		<Browser locator="ID" name="chrome">masterId</Browser>
+		<Browser locator="ID" name="ie">masterId</Browser>
+		<Browser locator="ID" name="firefox">masterId</Browser>
+	</Element>
+	<Element name="Tab_MainDetails">
+		<Browser locator="Xpath" name="chrome">//td[text()='Main Details']</Browser>
+		<Browser locator="Xpath" name="ie">//td[text()='Main Details']</Browser>
+		<Browser locator="Xpath" name="firefox">//td[text()='Main Details']</Browser>
+	</Element>
+	<Element name="Button_Post">
+		<Browser locator="Name" name="chrome">post</Browser>
+		<Browser locator="Name" name="ie">post</Browser>
+		<Browser locator="Name" name="firefox">post</Browser>
+	</Element>
+	
+	
+</page>

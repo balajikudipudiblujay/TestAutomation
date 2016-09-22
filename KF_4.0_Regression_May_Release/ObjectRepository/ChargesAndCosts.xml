@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page frame="" name="Login" title="Company">
+	<Element name="UserName">
+		<Browser locator="Name" name="chrome">userId</Browser>
+		<Browser locator="Name" name="ie">userId</Browser>
+		<Browser locator="Name" name="firefox">userId</Browser>
+	</Element>
+	
+	<Element name="FreightOtherCharges_ChargeCodeColumn">
+		<Browser locator="Xpath" name="chrome">//th[text()='Charge Code']/ancestor::thead/following-sibling::tbody/tr/td[@smryfieldid='chargeCode']</Browser>
+		<Browser locator="Xpath" name="ie">//th[text()='Charge Code']/ancestor::thead/following-sibling::tbody/tr/td[@smryfieldid='chargeCode']</Browser>
+		<Browser locator="Xpath" name="firefox">//th[text()='Charge Code']/ancestor::thead/following-sibling::tbody/tr/td[@smryfieldid='chargeCode']</Browser>
+	</Element>
+	<Element name="ChargesAndCosts_ChargeCodeColumn">
+		<Browser locator="Xpath" name="chrome">//th[text()='Charge Code']/ancestor::thead/following-sibling::tbody/tr/td/span[conatins(@id,'spanchargesVOList.chargeCode')]</Browser>
+		<Browser locator="Xpath" name="ie">//th[text()='Charge Code']/ancestor::thead/following-sibling::tbody/tr/td/span[conatins(@id,'spanchargesVOList.chargeCode')]</Browser>
+		<Browser locator="Xpath" name="firefox">//th[text()='Charge Code']/ancestor::thead/following-sibling::tbody/tr/td/span[conatins(@id,'spanchargesVOList.chargeCode')]</Browser>
+	</Element>
+	<Element name="Tab_HBLChargesCode">
+		<Browser locator="id" name="chrome">HBL_CHARGES_COST</Browser>
+		<Browser locator="id" name="ie">HBL_CHARGES_COST</Browser>
+		<Browser locator="id" name="firefox">HBL_CHARGES_COST</Browser>
+	</Element>
+		<Element name="Tab_ChargesCode">
+		<Browser locator="id" name="chrome">CHARGES_COST</Browser>
+		<Browser locator="id" name="ie">CHARGES_COST</Browser>
+		<Browser locator="id" name="firefox">CHARGES_COST</Browser>
+	</Element>
+	<Element name="QuoteOrContractStatus">
+		<Browser locator="xpath" name="chrome">//input[@id='quoteOrContractStatus']</Browser>
+		<Browser locator="xpath" name="ie">//input[@id='quoteOrContractStatus']</Browser>
+		<Browser locator="xpath" name="firefox">//input[@id='quoteOrContractStatus']</Browser>
+	</Element>
+	
+	<Element name="Cancel">
+		<Browser locator="Xpath" name="chrome"></Browser>
+		<Browser locator="Xpath" name="ie"></Browser>
+		<Browser locator="Xpath" name="firefox"></Browser>
+	</Element>
+	<Element name="Save">
+		<Browser locator="Name" name="chrome"></Browser>
+		<Browser locator="Name" name="ie"></Browser>
+		<Browser locator="Name" name="firefox"></Browser>
+	</Element>
+	
+	 <Element name="Tab_MBLChargesCode"> 
+  		<Browser locator="id" name="chrome">MBL_CHARGES_COST</Browser>
+      	<Browser locator="xpath" name="ie">MBL_CHARGES_COST</Browser>
+		<Browser locator="xpath" name="firefox">MBL_CHARGES_COST</Browser>
+  </Element>
+   <Element name="ChargeCode"> 
+  		<Browser locator="id" name="chrome">chargeCode1</Browser>
+      	<Browser locator="id" name="ie">chargeCode1</Browser>
+		<Browser locator="id" name="firefox">chargeCode1</Browser>
+  </Element>
+  <Element name="PrepaidAndCollect"> 
+  		<Browser locator="id" name="chrome">chargesVOList.prepaidAndCollect1</Browser>
+      	<Browser locator="id" name="ie">chargesVOList.prepaidAndCollect1</Browser>
+		<Browser locator="id" name="firefox">chargesVOList.prepaidAndCollect1</Browser>
+  </Element>
+  <Element name="BillToParty"> 
+  		<Browser locator="id" name="chrome">billToParty1</Browser>
+      	<Browser locator="id" name="ie">billToParty1</Browser>
+		<Browser locator="id" name="firefox">billToParty1</Browser>
+  </Element>
+  <Element name="Textbox_BillToParty"> 
+  		<Browser locator="xpath" name="chrome">//input[@id='chargesVOList.billToPartyMode2']</Browser>
+      	<Browser locator="xpath" name="ie">//input[@id='chargesVOList.billToPartyMode2']</Browser>
+		<Browser locator="xpath" name="firefox">//input[@id='chargesVOList.billToPartyMode2']</Browser>
+  </Element>
+  <Element name="PriceAmt"> 
+  		<Browser locator="id" name="chrome">chargesVOList.salesPriceAmt1</Browser>
+    	<Browser locator="id" name="ie">chargesVOList.salesPriceAmt1</Browser>
+		<Browser locator="id" name="firefox">chargesVOList.salesPriceAmt1</Browser>
+  </Element>
+<Element name="PriceCurrency"> 
+  	<Browser locator="id" name="chrome">chargesVOList.salesPriceCurrency1</Browser>
+    <Browser locator="id" name="ie">chargesVOList.salesPriceCurrency1</Browser>
+	<Browser locator="id" name="firefox">chargesVOList.salesPriceCurrency1</Browser>
+  </Element>
+  
+  <Element name="SalesInvCurrency"> 
+  	<Browser locator="id" name="chrome">salesInvCurrency1</Browser>
+    <Browser locator="id" name="ie">salesInvCurrency1</Browser>
+	<Browser locator="id" name="firefox">salesInvCurrency1</Browser>
+  </Element>
+
+<Element name="Vendor"> 
+  	<Browser locator="id" name="chrome">chargesVOList.vendorPartyMode1</Browser>
+    <Browser locator="id" name="ie">chargesVOList.vendorPartyMode1</Browser>
+	<Browser locator="id" name="firefox">chargesVOList.vendorPartyMode1</Browser>
+  </Element>
+<Element name="Vendor_PriceAmt"> 
+  	<Browser locator="id" name="chrome">chargesVOList.costPriceAmt1</Browser>
+    <Browser locator="id" name="ie">chargesVOList.costPriceAmt1</Browser>
+	<Browser locator="id" name="firefox">chargesVOList.costPriceAmt1</Browser>
+  </Element>
+<Element name="Vendor_Reference"> 
+  	<Browser locator="id" name="chrome">chargesVOList.reference1</Browser>
+    <Browser locator="id" name="ie">chargesVOList.reference1</Browser>
+	<Browser locator="id" name="firefox">chargesVOList.reference1</Browser>
+  </Element>
+<Element name="Button_Request"> 
+  	<Browser locator="id" name="chrome">invoice_button</Browser>
+    <Browser locator="id" name="ie">invoice_button</Browser>
+	<Browser locator="id" name="firefox">invoice_button</Browser>
+  </Element>
+<Element name="Button_Invoice"> 
+  	<Browser locator="name" name="chrome">invoice</Browser>
+    <Browser locator="name" name="ie">invoice</Browser>
+	<Browser locator="name" name="firefox">invoice</Browser>
+  </Element>
+<Element name="Button_PostSales"> 
+  	<Browser locator="name" name="chrome">postSales</Browser>
+    <Browser locator="name" name="ie">postSales</Browser>
+	<Browser locator="name" name="firefox">postSales</Browser>
+  </Element>
+  
+ <Element name="ProfitCentre"> 
+  	<Browser locator="id" name="chrome">profitCentre</Browser>
+    <Browser locator="id" name="ie">profitCentre</Browser>
+	<Browser locator="id" name="firefox">profitCentre</Browser>
+  </Element>
+ 
+  <Element name="AJAX_Option"> 
+  	<Browser locator="xpath" name="chrome">//table[@id='completeTable']/tbody/tr/td[1]</Browser>
+    <Browser locator="xpath" name="ie">//table[@id='completeTable']/tbody/tr/td[1]</Browser>
+	<Browser locator="xpath" name="firefox">//table[@id='completeTable']/tbody/tr/td[1]</Browser>
+  </Element>
+  
+  <Element name="Button_Accept"> 
+  	<Browser locator="name" name="chrome">accept</Browser>
+    <Browser locator="name" name="ie">accept</Browser>
+	<Browser locator="name" name="firefox">accept</Browser>
+  </Element>
+  
+  <Element name="DropDown_GridViewType"> 
+  	<Browser locator="name" name="chrome">gridViewType</Browser>
+    <Browser locator="name" name="ie">gridViewType</Browser>
+	<Browser locator="name" name="firefox">gridViewType</Browser>
+  </Element>
+  
+</page>

@@ -1,0 +1,764 @@
+<?xml version="1.0" encoding="UTF-8"?><FreightForwardingDetails>
+  <MessageHeader>
+    <MessageID>6458343</MessageID>
+    <MessageVersion>1.0</MessageVersion>
+    <MsgDateAndTime>2015-07-03 12:41</MsgDateAndTime>
+    <SenderID>FLYJAC</SenderID>
+    <ReceiverID>INTTRA</ReceiverID>
+    <MessageAction>A</MessageAction>
+  </MessageHeader>
+  <MasterDetails>
+    <MasterHeader>
+      <ID>17154</ID>
+      <ISDirect>Consol</ISDirect>
+      <ModeOfTransport>Ocean</ModeOfTransport>
+      <LoadType>FCL_TO_FCL</LoadType>
+      <ISSBC>N</ISSBC>
+      <eAWB/>
+      <ShipmentReference>MJOBDELSE1506703</ShipmentReference>
+      <CarrierBookingRefNo>CAD0239141</CarrierBookingRefNo>
+      <ContainersForMaster>1</ContainersForMaster>
+      <Profile>
+        <ID>5113437</ID>
+        <ProfileQualifier>ORIGINAGENT</ProfileQualifier>
+        <ETShimentOrderID>201273</ETShimentOrderID>
+        <ProfileID>FJLINDEL</ProfileID>
+        <ProfileName>FLYJAC LOGISTICS PVT LTD</ProfileName>
+        <ProfileNickName>FJLINDEL</ProfileNickName>
+        <ExternalAppSequence/>
+        <Address>
+          <ID>5026437</ID>
+          <AddressType>1</AddressType>
+          <LanguageCode>en</LanguageCode>
+          <LegalName>FLYJAC LOGISTICS PVT LTD</LegalName>
+          <Name2>FLYJAC LOGISTICS PVT LTD</Name2>
+          <Building>516-517 VISHAL TOWER</Building>
+          <Street>10 DISTRICT CENTER,JANAKPURI</Street>
+          <City>NEW DELHI-110058</City>
+          <CountryCode>IN</CountryCode>
+          <ContactPerson>MAHESH SHARMA</ContactPerson>
+          <Email>fjldel@flyjac.com</Email>
+          <Telephone>01130936820</Telephone>
+          <Fax>01125526004</Fax>
+          <IATACode/>
+          <ExternalAppSequence/>
+        </Address>
+      </Profile>
+      <Profile>
+        <ID>5113438</ID>
+        <ProfileQualifier>DESTINATIONAGENT</ProfileQualifier>
+        <ETShimentOrderID>201273</ETShimentOrderID>
+        <ProfileID>BWSDKODE</ProfileID>
+        <ProfileName>BLUE WATER SHIPPING A/S</ProfileName>
+        <ProfileNickName>BLUEWATERSHIP</ProfileNickName>
+        <ExternalAppSequence/>
+        <Address>
+          <ID>5026438</ID>
+          <AddressType>1</AddressType>
+          <LanguageCode>en</LanguageCode>
+          <LegalName>BLUE WATER SHIPPING A/S</LegalName>
+          <Name2>BLUE WATER SHIPPING A/S</Name2>
+          <Building>EMIL NECKELMANNS VEJ 20</Building>
+          <Street>5220 ODENSE SO</Street>
+          <City>ODENSE</City>
+          <CountryCode>DK</CountryCode>
+          <ContactPerson>MARK MAGLUND</ContactPerson>
+          <Email>mgl@bws.dk</Email>
+          <Telephone>4579134265 </Telephone>
+          <Fax>4579134265 </Fax>
+          <IATACode/>
+          <ExternalAppSequence/>
+        </Address>
+      </Profile>
+      <Profile>
+        <ID>5113436</ID>
+        <ProfileQualifier>CARRIER</ProfileQualifier>
+        <ETShimentOrderID>201273</ETShimentOrderID>
+        <ProfileID>CMDU</ProfileID>
+        <ProfileName>CMACGM</ProfileName>
+        <StandardCarrierAlphaCode>CMDU</StandardCarrierAlphaCode>
+        <ExternalAppSequence/>
+        <Address>
+          <ID>5026436</ID>
+          <AddressType>1</AddressType>
+          <LanguageCode>en</LanguageCode>
+          <LegalName>CMACGM</LegalName>
+          <Name2>CMACGM</Name2>
+          <Street>NA</Street>
+          <City>Tokyo</City>
+          <CountryCode>JP</CountryCode>
+          <ContactPerson>RUCHIKA CHAUHAN</ContactPerson>
+          <Email>tomsuzuki@shinwart.co.jp</Email>
+          <Telephone>30019211</Telephone>
+          <Fax>30019000</Fax>
+          <IATACode/>
+          <ExternalAppSequence/>
+        </Address>
+      </Profile>
+      <Dates>
+        <DatesQualifier>ETD</DatesQualifier>
+        <Date>2015-07-07 00:00</Date>
+      </Dates>
+      <Dates>
+        <DatesQualifier>ETA</DatesQualifier>
+        <Date>2015-07-30 23:59</Date>
+      </Dates>
+      <Dates>
+        <DatesQualifier>CARRIER_CUT_OFF</DatesQualifier>
+        <Date>2015-07-07 00:00</Date>
+      </Dates>
+      <Reference>
+        <ReferenceType>CONSOLE</ReferenceType>
+        <ReferenceNo>MJOBDELSE1506703</ReferenceNo>
+      </Reference>
+      <Reference>
+        <ReferenceType>ORDER_NUMBER</ReferenceType>
+        <ReferenceNo>MJOBDELSE1506703</ReferenceNo>
+      </Reference>
+      <Reference>
+        <ReferenceType>SHIPMENT REF NO</ReferenceType>
+        <ReferenceNo>MJOBDELSE1506703</ReferenceNo>
+      </Reference>
+      <Location>
+        <LocationQualifier>PLR</LocationQualifier>
+        <LocationCode>INTKD</LocationCode>
+        <Description>TUGHLAKABAD</Description>
+        <ShortDescription>Tughlakabad</ShortDescription>
+        <Country>IN</Country>
+        <State/>
+        <TimeZone/>
+        <UNLCODE>INTKD</UNLCODE>
+        <IATACityCode>TKD</IATACityCode>
+        <AirPort>0</AirPort>
+        <SeaPort>0</SeaPort>
+        <CollectShipment/>
+        <ShipmentType/>
+        <Status/>
+      </Location>
+      <Location>
+        <LocationQualifier>POL</LocationQualifier>
+        <LocationCode>INMUN</LocationCode>
+        <Description>MUNDRA</Description>
+        <ShortDescription>MUNDRA</ShortDescription>
+        <Country>IN</Country>
+        <State/>
+        <TimeZone/>
+        <UNLCODE>INMUN</UNLCODE>
+        <IATACityCode>MUN</IATACityCode>
+        <ScheduleK>53306</ScheduleK>
+        <AirPort>0</AirPort>
+        <SeaPort>1</SeaPort>
+        <CollectShipment/>
+        <ShipmentType/>
+        <Status/>
+      </Location>
+      <Location>
+        <LocationQualifier>POD</LocationQualifier>
+        <LocationCode>PLGDY</LocationCode>
+        <Description>GDYNIA</Description>
+        <ShortDescription>Gdynia</ShortDescription>
+        <Country>PL</Country>
+        <State/>
+        <TimeZone/>
+        <UNLCODE>PLGDY</UNLCODE>
+        <IATACityCode>GDY</IATACityCode>
+        <ScheduleK>45505</ScheduleK>
+        <AirPort>0</AirPort>
+        <SeaPort>1</SeaPort>
+        <CollectShipment/>
+        <ShipmentType/>
+        <Status/>
+      </Location>
+      <Location>
+        <LocationQualifier>PLD</LocationQualifier>
+        <LocationCode>PLGDY</LocationCode>
+        <Description>GDYNIA</Description>
+        <ShortDescription>Gdynia</ShortDescription>
+        <Country>PL</Country>
+        <State/>
+        <TimeZone/>
+        <UNLCODE>PLGDY</UNLCODE>
+        <IATACityCode>GDY</IATACityCode>
+        <ScheduleK>45505</ScheduleK>
+        <AirPort>0</AirPort>
+        <SeaPort>1</SeaPort>
+        <CollectShipment/>
+        <ShipmentType/>
+        <Status/>
+      </Location>
+      <PaymentTerms>Collect</PaymentTerms>
+      <ServiceLevel>SANS</ServiceLevel>
+      <VesselSchedule>VSIDINMUNPLGDY65280</VesselSchedule>
+      <Vessel>CMACGM CARMEN</Vessel>
+      <VoyageOrDirection>86W</VoyageOrDirection>
+      <CarrierID>CMDU</CarrierID>
+      <TransportSchedule/>
+      <CarrierMoveTypeOrigin>PORT</CarrierMoveTypeOrigin>
+      <CarrierMoveTypeDestination>PORT</CarrierMoveTypeDestination>
+      <NoOfHBLsBookingsAttached>1</NoOfHBLsBookingsAttached>
+      <BoxesReceived>33</BoxesReceived>
+      <Weight>12632</Weight>
+      <Volume>0</Volume>
+      <ChargeableVolumeCBM>12.632</ChargeableVolumeCBM>
+    </MasterHeader>
+    <MasterInformation>
+      <ContainerDetails>
+        <ContainerInformation>
+          <ID>119689</ID>
+          <ExternalAppSequence>1</ExternalAppSequence>
+          <ISOverSize>N</ISOverSize>
+          <ContainerType Description="20ft HR Container" EquipmentOwner="Carrier">20DRY</ContainerType>
+          <ContainerNo>GLDU2945516</ContainerNo>
+          <SealNo1>278154</SealNo1>
+          <SealNo2>D7033556</SealNo2>
+          <NetWeight>0.000</NetWeight>
+          <GrossWeight>12632.000</GrossWeight>
+          <Volume>0.000</Volume>
+          <ISPickUpRequired>N</ISPickUpRequired>
+          <ShippingOrderNo>CAD0239141</ShippingOrderNo>
+          <ISEquipmentSubtitution>N</ISEquipmentSubtitution>
+          <Additionalnformation>
+            <ID>14348</ID>
+            <Allowed>
+              <GrossWeightMaxUOM>0</GrossWeightMaxUOM>
+              <Volume>0.000</Volume>
+              <TempControl>0</TempControl>
+              <TempSetPoint>0</TempSetPoint>
+            </Allowed>
+            <Actual>
+              <GrossWeightMaxUOM>12632</GrossWeightMaxUOM>
+              <Volume>0.000</Volume>
+              <TempControl>0</TempControl>
+              <TempSetPoint>0</TempSetPoint>
+            </Actual>
+            <Standard>
+              <GrossWeightMaxUOM>0</GrossWeightMaxUOM>
+              <Volume>0.000</Volume>
+              <TempControl>0</TempControl>
+              <TempSetPoint>0</TempSetPoint>
+            </Standard>
+            <EquipmentAirFlow>0</EquipmentAirFlow>
+            <SealingParty>Carrier</SealingParty>
+          </Additionalnformation>
+        </ContainerInformation>
+        <StuffingInformation>
+          <ID>146612</ID>
+          <ExternalAppSequence/>
+          <SrNo>1</SrNo>
+          <SUBSrNo>1</SUBSrNo>
+          <PackId>292893</PackId>
+          <ShipmentRef>MJOBDELSE1506703</ShipmentRef>
+          <PackRecvd>33</PackRecvd>
+          <Commodity HSCODE="11111111111"/>
+          <GrossWt>12632.000</GrossWt>
+          <Length>0.000</Length>
+          <Width>0.000</Width>
+          <Height>0.000</Height>
+          <Volume>0.000</Volume>
+          <ContainerNo>GLDU2945516</ContainerNo>
+          <Packages>33</Packages>
+          <PackagesType>PLT</PackagesType>
+          <SubPackages>0</SubPackages>
+          <GrossWtStuffed>12632.000</GrossWtStuffed>
+          <VolumeStuffed>0.000</VolumeStuffed>
+          <Balance>0</Balance>
+          <ISHAZ>N</ISHAZ>
+          <ContainerType>20DRY</ContainerType>
+          <GoodsDescription>33 ( THIRTY THREE PALLETS ) ONLY CONTAINING:
+BRAKE PADS FOR MOTOR VEHICLE
+INV NO. : 1501017516 DT 30.06.2015
+SB NO. : 1501299 DT 30.06.2015
+IEC NO. : 0502015373
+HS CODE NO. : 8708.33.00
+FREIGHT COLLECT
+THC PREPAID</GoodsDescription>
+          <PackageMarks>33 PALLETS
+NOS. 3000194568 TO 194599  195050</PackageMarks>
+        </StuffingInformation>
+      </ContainerDetails>
+      <InttraInfomration>
+        <ID>29189</ID>
+        <MessageType>ShippingInstruction</MessageType>
+        <MessageVersion>000001</MessageVersion>
+        <INTTRARegistrationNumber/>
+        <DateType/>
+        <DocumentVersion/>
+        <DateTime>2015-07-03 12:41</DateTime>
+        <Clause>
+          <ClauseQualifier>18</ClauseQualifier>
+          <isSelected>Y</isSelected>
+        </Clause>
+        <CommentsType>General</CommentsType>
+        <OceanFreightPaybleAt>Destination</OceanFreightPaybleAt>
+        <ChargeCategory>
+          <PrepaidorCollectIndicator>Collect</PrepaidorCollectIndicator>
+          <ChargeType>AdditionalCharges</ChargeType>
+        </ChargeCategory>
+        <ChargeCategory>
+          <PrepaidorCollectIndicator>Collect</PrepaidorCollectIndicator>
+          <ChargeType>BasicFreight</ChargeType>
+        </ChargeCategory>
+        <ChargeCategory>
+          <PrepaidorCollectIndicator>Collect</PrepaidorCollectIndicator>
+          <ChargeType>DestinationHaulageCharges</ChargeType>
+        </ChargeCategory>
+        <ChargeCategory>
+          <PrepaidorCollectIndicator>Collect</PrepaidorCollectIndicator>
+          <ChargeType>DestinationPortCharges</ChargeType>
+        </ChargeCategory>
+        <ChargeCategory>
+          <PrepaidorCollectIndicator>Prepaid</PrepaidorCollectIndicator>
+          <ChargeType>OriginPortCharges</ChargeType>
+        </ChargeCategory>
+        <ChargeCategory>
+          <PrepaidorCollectIndicator>Prepaid</PrepaidorCollectIndicator>
+          <ChargeType>OriginHaulageCharges</ChargeType>
+        </ChargeCategory>
+        <Location>
+          <LocationQualifier>BLLOCATION</LocationQualifier>
+          <LocationCode>INDEL</LocationCode>
+          <Description>DELHI</Description>
+          <ShortDescription>DELHI</ShortDescription>
+          <Country>IN</Country>
+          <State/>
+          <TimeZone/>
+          <UNLCODE>INDEL</UNLCODE>
+          <IATAAirportCode>DEL</IATAAirportCode>
+          <IATACityCode>DEL</IATACityCode>
+          <AirPort>1</AirPort>
+          <SeaPort>1</SeaPort>
+          <CollectShipment/>
+          <ShipmentType/>
+          <Status/>
+        </Location>
+        <BLReleaseDate>2015-07-07 00:00</BLReleaseDate>
+        <OriginalBLs>0</OriginalBLs>
+        <OriginalBLsFRTNonFRT>True</OriginalBLsFRTNonFRT>
+        <CopyBLs>0</CopyBLs>
+        <CopyBLsFRTNonFRT>True</CopyBLsFRTNonFRT>
+        <NonNegotiable>0</NonNegotiable>
+        <NonNegotiableFRTNonFRT>True</NonNegotiableFRTNonFRT>
+        <Seaway>1</Seaway>
+        <Express/>
+        <ManifestFilerStatus>Carrier</ManifestFilerStatus>
+        <BLDocType>DraftUnrated</BLDocType>
+        <DocumentationRequirements>
+          <Documents DocumentType="SeaWaybill" Freighted="False"/>
+          <Quantity>1</Quantity>
+        </DocumentationRequirements>
+        <PartyReferenceInformation ReferenceType="GovtReferenceNumber"/>
+      </InttraInfomration>
+    </MasterInformation>
+  </MasterDetails>
+  <OrderDetails>
+    <OrderHeader>
+      <ID>64777</ID>
+      <ModeOfTransport>Sea</ModeOfTransport>
+      <hawbBasis>fromBooking</hawbBasis>
+      <ShipmentType/>
+      <eAWB/>
+      <HouseID>64777</HouseID>
+      <ManualHouseID>DELGDY150701757</ManualHouseID>
+      <BookingID>DELGDY150702322</BookingID>
+      <ManualBookingID/>
+      <LoadType>FCL_TO_FCL</LoadType>
+      <Profile>
+        <ID>5113499</ID>
+        <ProfileQualifier>ORIGINAGENT</ProfileQualifier>
+        <ETShimentOrderID>201276</ETShimentOrderID>
+        <ProfileID>FJLINDEL</ProfileID>
+        <ProfileName>FLYJAC LOGISTICS PVT LTD</ProfileName>
+        <ProfileNickName>FJLINDEL</ProfileNickName>
+        <ExternalAppSequence/>
+        <Address>
+          <ID>5026498</ID>
+          <AddressType>1</AddressType>
+          <LanguageCode>en</LanguageCode>
+          <LegalName>FLYJAC LOGISTICS PVT LTD</LegalName>
+          <Building>516-517 VISHAL TOWER</Building>
+          <Street>10 DISTRICT CENTER,JANAKPURI</Street>
+          <City>NEW DELHI-110058</City>
+          <CountryCode>IN</CountryCode>
+          <Email>fjldel@flyjac.com</Email>
+          <Telephone>01130936820</Telephone>
+          <Fax>01125526004</Fax>
+          <IATACode/>
+          <ExternalAppSequence/>
+        </Address>
+      </Profile>
+      <Profile>
+        <ID>5113500</ID>
+        <ProfileQualifier>DESTINATIONAGENT</ProfileQualifier>
+        <ETShimentOrderID>201276</ETShimentOrderID>
+        <ProfileID>BWSDKODE</ProfileID>
+        <ProfileName>BLUE WATER SHIPPING A/S</ProfileName>
+        <ProfileNickName>BLUEWATERSHIP</ProfileNickName>
+        <ExternalAppSequence/>
+        <Address>
+          <ID>5026499</ID>
+          <AddressType>1</AddressType>
+          <LanguageCode>en</LanguageCode>
+          <LegalName>BLUE WATER SHIPPING A/S</LegalName>
+          <Building>EMIL NECKELMANNS VEJ 20</Building>
+          <Street>5220 ODENSE SO</Street>
+          <City>ODENSE</City>
+          <CountryCode>DK</CountryCode>
+          <Email>abc@flyjac.com</Email>
+          <IATACode/>
+          <ExternalAppSequence/>
+        </Address>
+      </Profile>
+      <Profile>
+        <ID>5113972</ID>
+        <ProfileQualifier>NOTIFYPARTY</ProfileQualifier>
+        <ETShimentOrderID>201276</ETShimentOrderID>
+        <ProfileID>ALLPO030715</ProfileID>
+        <ProfileName>ALLPORT CARGO SERVICES POLAND SP Z O O.</ProfileName>
+        <ProfileNickName>ALLPORTCARGOS</ProfileNickName>
+        <ExternalAppSequence/>
+        <Address>
+          <ID>5026967</ID>
+          <AddressType>1</AddressType>
+          <LanguageCode>en</LanguageCode>
+          <LegalName>ALLPORT CARGO SERVICES POLAND SP Z O O.</LegalName>
+          <Name2>ALLPORT CARGO SERVICES POLAND SP Z</Name2>
+          <Street>Oddzia? Gdynia</Street>
+          <Street1>ul. J. Wi?niewskiego 20, budynek B-</Street1>
+          <City>Gdynia</City>
+          <CountryCode>PL</CountryCode>
+          <ContactPerson>RIKKE</ContactPerson>
+          <Email>NA</Email>
+          <Telephone>48 58 622 63 17 </Telephone>
+          <Fax>48 58 622 63 17 </Fax>
+          <IATACode/>
+          <ExternalAppSequence/>
+        </Address>
+      </Profile>
+      <Profile>
+        <ID>5113498</ID>
+        <ProfileQualifier>CONSIGNEE</ProfileQualifier>
+        <ETShimentOrderID>201276</ETShimentOrderID>
+        <ProfileID>ROUWAW0212</ProfileID>
+        <ProfileName>ROULUNDS BRAKINGHOLDINBGS 300P</ProfileName>
+        <ProfileNickName>ROULUNDSBRAKIN</ProfileNickName>
+        <ExternalAppSequence/>
+        <Address>
+          <ID>5026497</ID>
+          <AddressType>1</AddressType>
+          <LanguageCode>en</LanguageCode>
+          <LegalName>ROULUNDS BRAKINGHOLDINBGS 300P</LegalName>
+          <Street>UL PI# SUDSKIEGO 123C</Street>
+          <Street1>MARKI - 05-260</Street1>
+          <City>POLAND</City>
+          <CountryCode>PL</CountryCode>
+          <Email>abcd@flyjac.com</Email>
+          <IATACode/>
+          <ExternalAppSequence/>
+        </Address>
+      </Profile>
+      <Profile>
+        <ID>5113496</ID>
+        <ProfileQualifier>CUSTOMER</ProfileQualifier>
+        <ETShimentOrderID>201276</ETShimentOrderID>
+        <ProfileID>ROUBOM1013</ProfileID>
+        <ProfileName>ROULUNDS BRAKING INDIA PVT LTD</ProfileName>
+        <ProfileNickName>ROULUNDSBRAKING</ProfileNickName>
+        <ExternalAppSequence/>
+        <Address>
+          <ID>5026495</ID>
+          <AddressType>1</AddressType>
+          <LanguageCode>en</LanguageCode>
+          <LegalName>ROULUNDS BRAKING INDIA PVT LTD</LegalName>
+          <Street>108-109,1 FLOOR,RISHAB CORP TOWER,</Street>
+          <City>DIS SONEPT HARYNA</City>
+          <CountryCode>IN</CountryCode>
+          <Email>abc@flyjac.com</Email>
+          <IATACode/>
+          <ExternalAppSequence/>
+        </Address>
+      </Profile>
+      <Profile>
+        <ID>5113501</ID>
+        <ProfileQualifier>SALESPERSON</ProfileQualifier>
+        <ETShimentOrderID>201276</ETShimentOrderID>
+        <ProfileID>DEL110SALES</ProfileID>
+        <ProfileName>JITENDER RICHHARYA</ProfileName>
+        <ProfileNickName>JITENDERRICHHA</ProfileNickName>
+        <ExternalAppSequence/>
+        <Address>
+          <ID>5026500</ID>
+          <AddressType>1</AddressType>
+          <LanguageCode>en</LanguageCode>
+          <LegalName>JITENDER RICHHARYA</LegalName>
+          <Street>DELHI</Street>
+          <City>DELHI</City>
+          <CountryCode>IN</CountryCode>
+          <Email>NA</Email>
+          <IATACode/>
+          <ExternalAppSequence/>
+        </Address>
+      </Profile>
+      <Profile>
+        <ID>5113497</ID>
+        <ProfileQualifier>SHIPPER</ProfileQualifier>
+        <ETShimentOrderID>201276</ETShimentOrderID>
+        <ProfileID>ROUBOM1013</ProfileID>
+        <ProfileName>ROULUNDS BRAKING INDIA PVT LTD</ProfileName>
+        <ProfileNickName>ROULUNDSBRAKING</ProfileNickName>
+        <ExternalAppSequence/>
+        <Address>
+          <ID>5026496</ID>
+          <AddressType>1</AddressType>
+          <LanguageCode>en</LanguageCode>
+          <LegalName>ROULUNDS BRAKING INDIA PVT LTD</LegalName>
+          <Name2>ROULUNDS BRAKING INDIA PVT LTD</Name2>
+          <Street>108-109,1 FLOOR,RISHAB CORP TOWER,</Street>
+          <City>DIS SONEPT HARYNA</City>
+          <CountryCode>IN</CountryCode>
+          <ContactPerson>KP ANIL</ContactPerson>
+          <Email>KP.Anil@matholdingsinc.com</Email>
+          <Telephone>0130-3057414</Telephone>
+          <Fax>0130-3057414</Fax>
+          <IATACode/>
+          <ExternalAppSequence/>
+        </Address>
+      </Profile>
+      <Profile>
+        <ID>5113495</ID>
+        <ProfileQualifier>CARRIER</ProfileQualifier>
+        <ETShimentOrderID>201276</ETShimentOrderID>
+        <ProfileID>CMDU</ProfileID>
+        <ProfileName>NA</ProfileName>
+        <StandardCarrierAlphaCode>CMDU</StandardCarrierAlphaCode>
+        <ExternalAppSequence/>
+        <Address>
+          <ID>5026494</ID>
+          <AddressType>1</AddressType>
+          <LanguageCode>en</LanguageCode>
+          <LegalName>NA</LegalName>
+          <Street>NA</Street>
+          <City>Tokyo</City>
+          <CountryCode>JP</CountryCode>
+          <Email>tomsuzuki@shinwart.co.jp</Email>
+          <IATACode/>
+          <ExternalAppSequence/>
+        </Address>
+      </Profile>
+      <Reference>
+        <ReferenceType>BOOKING_SEA</ReferenceType>
+        <ReferenceNo>DELGDY150702322</ReferenceNo>
+      </Reference>
+      <Reference>
+        <ReferenceType>COMMON_REF</ReferenceType>
+        <ReferenceNo>0167644</ReferenceNo>
+      </Reference>
+      <Reference>
+        <ReferenceType>COMM_INV_NO</ReferenceType>
+        <ReferenceNo>1501017516</ReferenceNo>
+      </Reference>
+      <Reference>
+        <ReferenceType>HBL</ReferenceType>
+        <ReferenceNo>DELGDY150701757</ReferenceNo>
+      </Reference>
+      <Reference>
+        <ReferenceType>SHIPMENT REF NO</ReferenceType>
+        <ReferenceNo>HJOBDELSE1504736</ReferenceNo>
+      </Reference>
+      <ULDReqd/>
+      <Dates>
+        <DatesQualifier>ETD</DatesQualifier>
+        <Date>2015-07-07 00:00</Date>
+      </Dates>
+      <Dates>
+        <DatesQualifier>ETA</DatesQualifier>
+        <Date>2015-07-30 23:59</Date>
+      </Dates>
+      <Dates>
+        <DatesQualifier>CARRIER_CUT_OFF</DatesQualifier>
+        <Date>2015-07-07 00:00</Date>
+      </Dates>
+      <Dates>
+        <DatesQualifier>HOUSEDOCDATE</DatesQualifier>
+        <Date>2015-07-03 00:00</Date>
+      </Dates>
+      <Location>
+        <LocationQualifier>POL</LocationQualifier>
+        <LocationCode>INMUN</LocationCode>
+        <Description>MUNDRA</Description>
+        <ShortDescription>MUNDRA</ShortDescription>
+        <Country>IN</Country>
+        <State/>
+        <TimeZone/>
+        <UNLCODE>INMUN</UNLCODE>
+        <IATACityCode>MUN</IATACityCode>
+        <ScheduleK>53306</ScheduleK>
+        <AirPort>0</AirPort>
+        <SeaPort>1</SeaPort>
+        <CollectShipment/>
+        <ShipmentType/>
+        <Status/>
+      </Location>
+      <Location>
+        <LocationQualifier>POD</LocationQualifier>
+        <LocationCode>PLGDY</LocationCode>
+        <Description>GDYNIA</Description>
+        <ShortDescription>Gdynia</ShortDescription>
+        <Country>PL</Country>
+        <State/>
+        <TimeZone/>
+        <UNLCODE>PLGDY</UNLCODE>
+        <IATACityCode>GDY</IATACityCode>
+        <ScheduleK>45505</ScheduleK>
+        <AirPort>0</AirPort>
+        <SeaPort>1</SeaPort>
+        <CollectShipment/>
+        <ShipmentType/>
+        <Status/>
+      </Location>
+      <IncoTerms>FOB</IncoTerms>
+      <OriginShipmentTerms>PORT</OriginShipmentTerms>
+      <DestShipmentTerms>PORT</DestShipmentTerms>
+      <PaymentTerms>EXPORT</PaymentTerms>
+      <ServiceLevel>ANS</ServiceLevel>
+      <PickUpRequired>N</PickUpRequired>
+      <DeliveryRequired>N</DeliveryRequired>
+      <HoldShipment>N</HoldShipment>
+      <HoldShptReason/>
+      <CargoReceived/>
+      <ISFFillingRequired/>
+      <UOM>CM</UOM>
+      <UOW>KG</UOW>
+      <TotalPieces>33</TotalPieces>
+      <VolumeCBM>0</VolumeCBM>
+      <VolumeWeight>12.632</VolumeWeight>
+      <GrossWeight>0</GrossWeight>
+      <ChargeWeight>12.632</ChargeWeight>
+      <CarrierID>CMDU</CarrierID>
+      <CarrierBookingRefNo/>
+      <StuffingAt>N</StuffingAt>
+      <CreatedBy>DELSE002</CreatedBy>
+    </OrderHeader>
+    <OrderInformation>
+      <CargoDetails>
+        <PackDetails>
+          <ID>292893</ID>
+          <ExternalAppSequence>1</ExternalAppSequence>
+          <SrNo>1</SrNo>
+          <Packages>33</Packages>
+          <PackagesType>PLT</PackagesType>
+          <SubPack>0</SubPack>
+          <GrossWeight>12632.000</GrossWeight>
+          <UOW>KG</UOW>
+          <NetWeight>11477.000</NetWeight>
+          <Length>0.000</Length>
+          <Width>0.000</Width>
+          <Height>0.000</Height>
+          <VolumeCBM>0.000</VolumeCBM>
+          <IATACommodityCode>8708301010</IATACommodityCode>
+          <GoodsDescription>33 ( THIRTY THREE PALLETS ) ONLY CONTAINING:BRAKE</GoodsDescription>
+          <MarksAndNumbers>33 PALLETSNOS. 3000194568 TO 194599  195050</MarksAndNumbers>
+          <GoodsValue>0.00</GoodsValue>
+          <isHaz>N</isHaz>
+        </PackDetails>
+        <InvoiceDetails>
+          <ID>267666</ID>
+          <ExternalAppSequence>1</ExternalAppSequence>
+          <SSCCFormat>N</SSCCFormat>
+          <InvoiceNo>1501017516</InvoiceNo>
+          <InvoiceDate>2015-06-30 00:00</InvoiceDate>
+          <UnitPriceExport>0.000</UnitPriceExport>
+          <UnitPriceImport>0.000</UnitPriceImport>
+          <GrossWeight>0.000</GrossWeight>
+          <NetWeight>0.000</NetWeight>
+          <UOW>KG</UOW>
+          <VolumeCBM>0.000</VolumeCBM>
+          <StatQty1>0.00</StatQty1>
+          <StatQty2>0.00</StatQty2>
+          <GoodsValue>0.00</GoodsValue>
+          <BondedOrNormal>N</BondedOrNormal>
+          <INCOTermExport>FOB</INCOTermExport>
+          <INCOTermExportLocation>INMUN</INCOTermExportLocation>
+        </InvoiceDetails>
+      </CargoDetails>
+      <ContainerDetails>
+        <ContainerInformation>
+          <ID>119689</ID>
+          <ExternalAppSequence>1</ExternalAppSequence>
+          <ISOverSize>N</ISOverSize>
+          <ContainerType>20DRY</ContainerType>
+          <ContainerNo>GLDU2945516</ContainerNo>
+          <SealNo1>278154</SealNo1>
+          <SealNo2>D7033556</SealNo2>
+          <NetWeight>0.000</NetWeight>
+          <GrossWeight>12632.000</GrossWeight>
+          <Volume>0.000</Volume>
+          <ISPickUpRequired>N</ISPickUpRequired>
+          <ShippingOrderNo>CAD0239141</ShippingOrderNo>
+          <ISEquipmentSubtitution>N</ISEquipmentSubtitution>
+          <Additionalnformation>
+            <ID>14348</ID>
+            <Allowed>
+              <GrossWeightMaxUOM>0</GrossWeightMaxUOM>
+              <Volume>0.000</Volume>
+              <TempControl>0</TempControl>
+              <TempSetPoint>0</TempSetPoint>
+            </Allowed>
+            <Actual>
+              <GrossWeightMaxUOM>12632</GrossWeightMaxUOM>
+              <Volume>0.000</Volume>
+              <TempControl>0</TempControl>
+              <TempSetPoint>0</TempSetPoint>
+            </Actual>
+            <Standard>
+              <GrossWeightMaxUOM>0</GrossWeightMaxUOM>
+              <Volume>0.000</Volume>
+              <TempControl>0</TempControl>
+              <TempSetPoint>0</TempSetPoint>
+            </Standard>
+            <EquipmentAirFlow>0</EquipmentAirFlow>
+            <SealingParty>Carrier</SealingParty>
+          </Additionalnformation>
+        </ContainerInformation>
+        <StuffingInformation>
+          <ID>146612</ID>
+          <ExternalAppSequence/>
+          <SrNo>1</SrNo>
+          <SUBSrNo>1</SUBSrNo>
+          <ShipmentRef>MJOBDELSE1506703</ShipmentRef>
+          <PackRecvd>33</PackRecvd>
+          <Commodity HSCODE="11111111111"/>
+          <GrossWt>12632.000</GrossWt>
+          <Length>0.000</Length>
+          <Width>0.000</Width>
+          <Height>0.000</Height>
+          <Volume>0.000</Volume>
+          <ContainerNo>GLDU2945516</ContainerNo>
+          <Packages>33</Packages>
+          <PackagesType>PLT</PackagesType>
+          <SubPackages>0</SubPackages>
+          <GrossWtStuffed>12632.000</GrossWtStuffed>
+          <VolumeStuffed>0.000</VolumeStuffed>
+          <Balance>0</Balance>
+          <ISHAZ>N</ISHAZ>
+          <ContainerType>20DRY</ContainerType>
+          <GoodsDescription>33 ( THIRTY THREE PALLETS ) ONLY CONTAINING:
+BRAKE PADS FOR MOTOR VEHICLE
+INV NO. : 1501017516 DT 30.06.2015
+SB NO. : 1501299 DT 30.06.2015
+IEC NO. : 0502015373
+HS CODE NO. : 8708.33.00
+FREIGHT COLLECT
+THC PREPAID</GoodsDescription>
+          <PackageMarks>33 PALLETS
+NOS. 3000194568 TO 194599  195050</PackageMarks>
+        </StuffingInformation>
+      </ContainerDetails>
+      <DocCharges>
+        <ID>40398</ID>
+        <CarriageAmount>NVD</CarriageAmount>
+        <CustomsAmount>NVD</CustomsAmount>
+        <InsuranceAmount>NVD</InsuranceAmount>
+      </DocCharges>
+    </OrderInformation>
+  </OrderDetails>
+</FreightForwardingDetails>

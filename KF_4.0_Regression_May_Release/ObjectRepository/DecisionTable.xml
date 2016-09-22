@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page frame="" name="" title="">
+	   <!-- Sea Booking page-->
+	<Element name="Btn_Shipper">
+		<Browser locator="id" name="chrome">button.shipperIdSrchBtn</Browser>
+		<Browser locator="id" name="ie">button.shipperIdSrchBtn</Browser>
+		<Browser locator="id" name="firefox">button.shipperIdSrchBtn</Browser>
+	</Element>
+	<Element name="PartyId">
+		<Browser locator="id" name="chrome">partyId</Browser>
+		<Browser locator="id" name="ie">partyId</Browser>
+		<Browser locator="id" name="firefox">partyId</Browser>
+	</Element>
+	<Element name="Shipper">
+		<Browser locator="id" name="chrome">shipperIdNickName</Browser>
+		<Browser locator="id" name="ie">shipperIdNickName</Browser>
+		<Browser locator="id" name="firefox">shipperIdNickName</Browser>
+	</Element>
+	<Element name="Shipper_NickName_Grid">
+		<Browser locator="id" name="chrome">dtNickname1</Browser>
+		<Browser locator="id" name="ie">dtNickname1</Browser>
+		<Browser locator="id" name="firefox">dtNickname1</Browser>
+	</Element>
+	<Element name="PartyId_Grid">
+		<Browser locator="id" name="chrome">dtPartyId1</Browser>
+		<Browser locator="id" name="ie">dtPartyId1</Browser>
+		<Browser locator="id" name="firefox">dtPartyId1</Browser>
+	</Element>
+	<Element name="PickupRequired">
+		<Browser locator="id" name="chrome">pickUpRequired</Browser>
+		<Browser locator="id" name="ie">pickUpRequired</Browser>
+		<Browser locator="id" name="firefox">pickUpRequired</Browser>
+	</Element>
+	<Element name="Btn_Shipper">
+		<Browser locator="id" name="chrome">button.shipperIdSrchBtn</Browser>
+		<Browser locator="id" name="ie">button.shipperIdSrchBtn</Browser>
+		<Browser locator="id" name="firefox">button.shipperIdSrchBtn</Browser>
+	</Element>
+	<Element name="PartyId">
+		<Browser locator="id" name="chrome">partyId</Browser>
+		<Browser locator="id" name="ie">partyId</Browser>
+		<Browser locator="id" name="firefox">partyId</Browser>
+	</Element>
+	<Element name="Tab_PickUpInstructions">
+		<Browser locator="id" name="chrome">PICKUP_INSTRUCTIONS</Browser>
+		<Browser locator="id" name="ie">PICKUP_INSTRUCTIONS</Browser>
+		<Browser locator="id" name="firefox">PICKUP_INSTRUCTIONS</Browser>
+	</Element>
+	
+	 	 
+ 	 <!-- PRS Add page -->
+	<Element name="XportOrImport">
+		<Browser locator="id" name="chrome">exportImportIndicator</Browser>
+		<Browser locator="id" name="ie">exportImportIndicator</Browser>
+		<Browser locator="id" name="firefox">exportImportIndicator</Browser>
+	</Element>
+	<Element name="TerminalRelease">
+		<Browser locator="id" name="chrome">terminalRelease</Browser>
+		<Browser locator="id" name="ie">terminalRelease</Browser>
+		<Browser locator="id" name="firefox">terminalRelease</Browser>
+	</Element>
+	<Element name="ShipmentRelease">
+		<Browser locator="id" name="chrome">shipmentRelease</Browser>
+		<Browser locator="id" name="ie">shipmentRelease</Browser>
+		<Browser locator="id" name="firefox">shipmentRelease</Browser>
+	</Element>
+	
+	<!--  Decision Table  -->
+	
+	<Element name="DecisionCode_SearchList">
+		<Browser locator="id" name="chrome">commandObjectdataObjectcriteriacodevalue</Browser>
+		<Browser locator="id" name="ie">commandObjectdataObjectcriteriacodevalue</Browser>
+		<Browser locator="id" name="firefox">commandObjectdataObjectcriteriacodevalue</Browser>
+	</Element>
+	<Element name="DT_PartyIdModeBtn_SearchList">
+		<Browser locator="id" name="chrome">buttoncommandObjectsearchCriteriacriteriadecisionTablesdecisionTableEntriescodeResult1idvalueName</Browser>
+		<Browser locator="id" name="ie">buttoncommandObjectsearchCriteriacriteriadecisionTablesdecisionTableEntriescodeResult1idvalueName</Browser>
+		<Browser locator="id" name="firefox">buttoncommandObjectsearchCriteriacriteriadecisionTablesdecisionTableEntriescodeResult1idvalueName</Browser>
+	</Element>
+	<Element name="DT_PartyIdMode_Grid">
+		<Browser locator="id" name="chrome">wrappedentityTable-cell-2-0-box-text</Browser>
+		<Browser locator="id" name="ie">wrappedentityTable-cell-2-0-box-text</Browser>
+		<Browser locator="id" name="firefox">wrappedentityTable-cell-2-0-box-text</Browser>
+	</Element>
+	<Element name="DT_PartyIdMode_SearchList">
+		<Browser locator="id" name="chrome">searchCriteriaaggregatedCodesdecisionTablesdecisionTableEntriescodeResult1id</Browser>
+		<Browser locator="id" name="ie">searchCriteriaaggregatedCodesdecisionTablesdecisionTableEntriescodeResult1id</Browser>
+		<Browser locator="id" name="firefox">searchCriteriaaggregatedCodesdecisionTablesdecisionTableEntriescodeResult1id</Browser>
+	</Element>
+	<Element name="DT_PartyIdMode">
+		<Browser locator="id" name="chrome">dataObjectdecisionTables0decisionTableEntrys2codeResult1code</Browser>
+		<Browser locator="id" name="ie">dataObjectdecisionTables0decisionTableEntrys2codeResult1code</Browser>
+		<Browser locator="id" name="firefox">dataObjectdecisionTables0decisionTableEntrys2codeResult1code</Browser>
+	</Element>
+	<Element name="DT_PartyIdMode_MSG">
+		<Browser locator="xpath" name="chrome">.//*[@id='foot']/div/b</Browser>
+		<Browser locator="xpath" name="ie">.//*[@id='foot']/div/b</Browser>
+		<Browser locator="xpath" name="firefox">.//*[@id='foot']/div/b</Browser>
+	</Element>
+	<Element name="DT_CompanyId">
+		<Browser locator="id" name="chrome">commandObjectdataObjectdecisionTables0decisionTableEntrys2inputValue1</Browser>
+		<Browser locator="id" name="ie">commandObjectdataObjectdecisionTables0decisionTableEntrys2inputValue1</Browser>
+		<Browser locator="id" name="firefox">commandObjectdataObjectdecisionTables0decisionTableEntrys2inputValue1</Browser>
+	</Element>
+	<Element name="DT_CompanyId_Grid">
+		<Browser locator="id" name="chrome">wrappedentityTable-cell-0-0-box</Browser>
+		<Browser locator="id" name="ie">wrappedentityTable-cell-0-0-box</Browser>
+		<Browser locator="id" name="firefox">wrappedentityTable-cell-0-0-box</Browser>
+	</Element>
+	<Element name="DT_CompanyId_SearchList">
+		<Browser locator="id" name="chrome">searchCriteriaaggregatedCodesdecisionTablesdecisionTableEntriescodeInput1id</Browser>
+		<Browser locator="id" name="ie">searchCriteriaaggregatedCodesdecisionTablesdecisionTableEntriescodeInput1id</Browser>
+		<Browser locator="id" name="firefox">searchCriteriaaggregatedCodesdecisionTablesdecisionTableEntriescodeInput1id</Browser>
+	</Element>
+	<Element name="DeleteDialogPopupFrame">
+		<Browser locator="id" name="chrome">DeleteDialogPopupFrame</Browser>
+		<Browser locator="id" name="ie">DeleteDialogPopupFrame</Browser>
+		<Browser locator="id" name="firefox">DeleteDialogPopupFrame</Browser>
+	</Element>
+	<Element name="ESMenuMainPageiFrame">
+		<Browser locator="id" name="chrome">ESMenuMainPageiFrame</Browser>
+		<Browser locator="id" name="ie">ESMenuMainPageiFrame</Browser>
+		<Browser locator="id" name="firefox">ESMenuMainPageiFrame</Browser>
+	</Element>
+	<Element name="DecisionTableRecord">
+		<Browser locator="xpath" name="chrome">//*[starts-with(@id,'wrappedentityTable-cell-0')
+			and contains(@class,'aw-item-box')]</Browser>
+		<Browser locator="xpath" name="ie">//*[starts-with(@id,'wrappedentityTable-cell-0')
+			and contains(@class,'aw-item-box')]</Browser>
+		<Browser locator="xpath" name="firefox">//*[starts-with(@id,'wrappedentityTable-cell-0')
+			and contains(@class,'aw-item-box')]</Browser>
+	</Element>
+	<Element name="DT_INTERFACE_SearchList">
+		<Browser locator="id" name="chrome">searchCriteriaaggregatedCodesdecisionTablesdecisionTableEntriescodeInput3id</Browser>
+		<Browser locator="id" name="ie">searchCriteriaaggregatedCodesdecisionTablesdecisionTableEntriescodeInput3id</Browser>
+		<Browser locator="id" name="firefox">searchCriteriaaggregatedCodesdecisionTablesdecisionTableEntriescodeInput3id</Browser>
+	</Element>
+	<Element name="DT_CheckBox_New">
+		<Browser locator="xpath" name="chrome">.//*[@id='tabBody']/table/tbody/tr[1]/td[4]/input[2]</Browser>
+		<Browser locator="xpath" name="ie">.//*[@id='tabBody']/table/tbody/tr[1]/td[4]/input[2]</Browser>
+		<Browser locator="xpath" name="firefox">.//*[@id='tabBody']/table/tbody/tr[1]/td[4]/input[2]</Browser>
+	</Element>
+	
+	
+	
+	<Element name="DT_PartyID_CompanyID_New">
+		<Browser locator="xpath" name="chrome">//td[text()='Company Id']/following-sibling::td[1]/table[1]/tbody[1]/tr[1]/td[1]/input</Browser>
+		<Browser locator="xpath" name="ie">//td[text()='Company Id']/following-sibling::td[1]/table[1]/tbody[1]/tr[1]/td[1]/input</Browser>
+		<Browser locator="xpath" name="firefox">//td[text()='Company Id']/following-sibling::td[1]/table[1]/tbody[1]/tr[1]/td[1]/input</Browser>
+	</Element>
+	<Element name="DT_PartyID_PartyIDMode_New">
+		<Browser locator="xpath" name="chrome">//td[text()='Party Id Mode']/following-sibling::td[1]/table[1]/tbody[1]/tr[1]/td[1]/input</Browser>
+		<Browser locator="xpath" name="ie">//td[text()='Party Id Mode']/following-sibling::td[1]/table[1]/tbody[1]/tr[1]/td[1]/input</Browser>
+		<Browser locator="xpath" name="firefox">//td[text()='Party Id Mode']/following-sibling::td[1]/table[1]/tbody[1]/tr[1]/td[1]/input</Browser>
+	</Element>
+	<Element name="DT_PartyID_BranchCode_New">
+		<Browser locator="xpath" name="chrome">//td[text()='Party Id Mode']/ancestor::tr[1]/following-sibling::tr[1]/td[2]/table[1]/tbody[1]/tr[1]/td[1]/input</Browser>
+		<Browser locator="xpath" name="ie">//td[text()='Party Id Mode']/ancestor::tr[1]/following-sibling::tr[1]/td[2]/table[1]/tbody[1]/tr[1]/td[1]/input</Browser>
+		<Browser locator="xpath" name="firefox">//td[text()='Party Id Mode']/ancestor::tr[1]/following-sibling::tr[1]/td[2]/table[1]/tbody[1]/tr[1]/td[1]/input</Browser>
+	</Element>
+	
+	
+	<Element name="DT_PUOR_CompanyId">
+		<Browser locator="xpath" name="chrome">//table[@id='searchParametersTable']/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[2]/input</Browser>
+		<Browser locator="xpath" name="ie">//table[@id='searchParametersTable']/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[2]/input</Browser>
+		<Browser locator="xpath" name="firefox">//table[@id='searchParametersTable']/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[2]/input</Browser>
+	</Element>
+	
+	
+	<Element name="DT_KnownShipper_Company_New">
+		<Browser locator="xpath" name="chrome">//table[@id='searchParametersTable']/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[2]/input</Browser>
+		<Browser locator="xpath" name="ie">//table[@id='searchParametersTable']/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[2]/input</Browser>
+		<Browser locator="xpath" name="firefox">//table[@id='searchParametersTable']/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[2]/input</Browser>
+	</Element>
+	
+	<Element name="DT_KnownShipper_Branch_New">
+		<Browser locator="xpath" name="chrome">//table[@id='searchParametersTable']/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[2]/td[2]/input</Browser>
+		<Browser locator="xpath" name="ie">//table[@id='searchParametersTable']/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[2]/td[2]/input</Browser>
+		<Browser locator="xpath" name="firefox">//table[@id='searchParametersTable']/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[2]/td[2]/input</Browser>
+	</Element>
+	
+	
+	
+	<Element name="DT_KnownShipper_Company_Add">
+		<Browser locator="xpath" name="chrome">//td[text()='COMPANY']/following-sibling::td[1]/input[1]</Browser>
+		<Browser locator="xpath" name="ie">//td[text()='COMPANY']/following-sibling::td[1]/input[1]</Browser>
+		<Browser locator="xpath" name="firefox">//td[text()='COMPANY']/following-sibling::td[1]/input[1]</Browser>
+	</Element>
+	
+	<Element name="DT_KnownShipper_Branch_Add">
+		<Browser locator="xpath" name="chrome">//td[text()='COMPANY']/ancestor::tr[1]/following-sibling::tr[1]/td[2]/input[1]</Browser>
+		<Browser locator="xpath" name="ie">//td[text()='COMPANY']/ancestor::tr[1]/following-sibling::tr[1]/td[2]/input[1]</Browser>
+		<Browser locator="xpath" name="firefox">//td[text()='COMPANY']/ancestor::tr[1]/following-sibling::tr[1]/td[2]/input[1]</Browser>
+	</Element>
+		<Element name="DT_KnownShipper_KnownShipperAdvanceLevel_Add">
+		<Browser locator="xpath" name="chrome">//td[text()='*KNOWN_SHIPPER_ADVANCE_LEVEL']/following-sibling::td[1]/input[2]</Browser>
+		<Browser locator="xpath" name="ie">//td[text()='*KNOWN_SHIPPER_ADVANCE_LEVEL']/following-sibling::td[1]/input[2]</Browser>
+		<Browser locator="xpath" name="firefox">//td[text()='*KNOWN_SHIPPER_ADVANCE_LEVEL']/following-sibling::td[1]/input[2]</Browser>
+	</Element>
+	
+	
+	<Element name="DT_WarehouseIntegration_CompanyCode">
+		<Browser locator="xpath" name="chrome">//table[@id='searchParametersTable']/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[1]/td[1]/input</Browser>
+		<Browser locator="xpath" name="ie">//table[@id='searchParametersTable']/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[1]/td[1]/input</Browser>
+		<Browser locator="xpath" name="firefox">//table[@id='searchParametersTable']/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[1]/td[1]/input</Browser>
+	</Element>
+	
+	<Element name="DT_WarehouseIntegration_BranchCode">
+		<Browser locator="xpath" name="chrome">//table[@id='searchParametersTable']/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[2]/td[2]/table[1]/tbody[1]/tr[1]/td[1]/input</Browser>
+		<Browser locator="xpath" name="ie">//table[@id='searchParametersTable']/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[2]/td[2]/table[1]/tbody[1]/tr[1]/td[1]/input</Browser>
+		<Browser locator="xpath" name="firefox">//table[@id='searchParametersTable']/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[2]/td[2]/table[1]/tbody[1]/tr[1]/td[1]/input</Browser>
+	</Element>
+	
+	
+	<Element name="DT_WarehouseIntegration_CompanyCode_Add">
+		<Browser locator="xpath" name="chrome">//td[text()='*COMPANY_CODE']/following-sibling::td[1]/input[1]</Browser>
+		<Browser locator="xpath" name="ie">//td[text()='*COMPANY_CODE']/following-sibling::td[1]/input[1]</Browser>
+		<Browser locator="xpath" name="firefox">//td[text()='*COMPANY_CODE']/following-sibling::td[1]/input[1]</Browser>
+	</Element>
+	<Element name="DT_WarehouseIntegration_CompanyCode_New">
+		<Browser locator="xpath" name="chrome">//td[text()='*COMPANY_CODE']/following-sibling::td[1]/table[1]/tbody[1]/tr[1]/td[1]/input[1]</Browser>
+		<Browser locator="xpath" name="ie">//td[text()='*COMPANY_CODE']/following-sibling::td[1]/table[1]/tbody[1]/tr[1]/td[1]/input[1]</Browser>
+		<Browser locator="xpath" name="firefox">//td[text()='*COMPANY_CODE']/following-sibling::td[1]/table[1]/tbody[1]/tr[1]/td[1]/input[1]</Browser>
+	</Element>
+	
+	
+	<Element name="DT_WarehouseIntegration_BranchCode_Add">
+		<Browser locator="xpath" name="chrome">//td[text()='*COMPANY_CODE']/ancestor::tr[1]/following-sibling::tr[1]/td[2]/input[1]</Browser>
+		<Browser locator="xpath" name="ie">//td[text()='*COMPANY_CODE']/ancestor::tr[1]/following-sibling::tr[1]/td[2]/input[1]</Browser>
+		<Browser locator="xpath" name="firefox">//td[text()='*COMPANY_CODE']/ancestor::tr[1]/following-sibling::tr[1]/td[2]/input[1]</Browser>
+	</Element>
+	<Element name="DT_WarehouseIntegration_BranchCode_New">
+		<Browser locator="xpath" name="chrome">//td[text()='*COMPANY_CODE']/ancestor::tr[1]/following-sibling::tr[1]/td[2]/table[1]//input[1]</Browser>
+		<Browser locator="xpath" name="ie">//td[text()='*COMPANY_CODE']/ancestor::tr[1]/following-sibling::tr[1]/td[2]/table[1]//input[1]</Browser>
+		<Browser locator="xpath" name="firefox">//td[text()='*COMPANY_CODE']/ancestor::tr[1]/following-sibling::tr[1]/td[2]/table[1]//input[1]</Browser>
+	</Element>
+	<Element name="DT_WarehouseIntegration_CiAndPlPrint_Add">
+		<Browser locator="xpath" name="chrome">//td[text()='*CI_AND_PL_PRINT']/following-sibling::td[1]/input[2]</Browser>
+		<Browser locator="xpath" name="ie">//td[text()='*CI_AND_PL_PRINT']/following-sibling::td[1]/input[2]</Browser>
+		<Browser locator="xpath" name="firefox">//td[text()='*CI_AND_PL_PRINT']/following-sibling::td[1]/input[2]</Browser>
+	</Element>
+	<Element name="DT_WarehouseIntegration_WAREHOUSE_APPLICATION_Add">
+		<Browser locator="xpath" name="chrome">//td[text()='*CI_AND_PL_PRINT']/ancestor::tr[1]/following-sibling::tr[1]/td[4]/input[1]</Browser>
+		<Browser locator="xpath" name="ie">//td[text()='*CI_AND_PL_PRINT']/ancestor::tr[1]/following-sibling::tr[1]/td[4]/input[1]</Browser>
+		<Browser locator="xpath" name="firefox">//td[text()='*CI_AND_PL_PRINT']/ancestor::tr[1]/following-sibling::tr[1]/td[4]/input[1]</Browser>
+	</Element>
+
+	<Element name="DT_WarehouseIntegration_ShowPrint_Bank_Dtls_Add">
+		<Browser locator="xpath" name="chrome">//td[text()='*CI_AND_PL_PRINT']/ancestor::tr[1]/following-sibling::tr[2]/td[4]/input[2]</Browser>
+		<Browser locator="xpath" name="ie">//td[text()='*CI_AND_PL_PRINT']/ancestor::tr[1]/following-sibling::tr[2]/td[4]/input[2]</Browser>
+		<Browser locator="xpath" name="firefox">//td[text()='*CI_AND_PL_PRINT']/ancestor::tr[1]/following-sibling::tr[2]/td[4]/input[2]</Browser>
+	</Element>
+	<Element name="DT_WarehouseIntegration_AmtDtlExpDfltText_Add">
+		<Browser locator="xpath" name="chrome">//td[text()='*CI_AND_PL_PRINT']/ancestor::tr[1]/following-sibling::tr[3]/td[4]/input[1]</Browser>
+		<Browser locator="xpath" name="ie">//td[text()='*CI_AND_PL_PRINT']/ancestor::tr[1]/following-sibling::tr[3]/td[4]/input[1]</Browser>
+		<Browser locator="xpath" name="firefox">//td[text()='*CI_AND_PL_PRINT']/ancestor::tr[1]/following-sibling::tr[3]/td[4]/input[1]</Browser>
+	</Element>
+ 
+	<Element name="DT_WarehouseIntegration_AmtDtlImpDfltText_Add">
+		<Browser locator="xpath" name="chrome">//td[text()='*CI_AND_PL_PRINT']/ancestor::tr[1]/following-sibling::tr[4]/td[4]/input[1]</Browser>
+		<Browser locator="xpath" name="ie">//td[text()='*CI_AND_PL_PRINT']/ancestor::tr[1]/following-sibling::tr[4]/td[4]/input[1]</Browser>
+		<Browser locator="xpath" name="firefox">//td[text()='*CI_AND_PL_PRINT']/ancestor::tr[1]/following-sibling::tr[4]/td[4]/input[1]</Browser>
+	</Element>
+	
+	<Element name="DT_WarehouseIntegration_DeclRmrkExpDfltText_Add">
+		<Browser locator="xpath" name="chrome">//td[text()='*CI_AND_PL_PRINT']/ancestor::tr[1]/following-sibling::tr[5]/td[4]/input[1]</Browser>
+		<Browser locator="xpath" name="ie">//td[text()='*CI_AND_PL_PRINT']/ancestor::tr[1]/following-sibling::tr[5]/td[4]/input[1]</Browser>
+		<Browser locator="xpath" name="firefox">//td[text()='*CI_AND_PL_PRINT']/ancestor::tr[1]/following-sibling::tr[5]/td[4]/input[1]</Browser>
+	</Element>
+	<Element name="DT_WarehouseIntegration_DeclRmrkImpDfltText_Add">
+		<Browser locator="xpath" name="chrome">//td[text()='*CI_AND_PL_PRINT']/ancestor::tr[1]/following-sibling::tr[6]/td[4]/input[1]</Browser>
+		<Browser locator="xpath" name="ie">//td[text()='*CI_AND_PL_PRINT']/ancestor::tr[1]/following-sibling::tr[6]/td[4]/input[1]</Browser>
+		<Browser locator="xpath" name="firefox">//td[text()='*CI_AND_PL_PRINT']/ancestor::tr[1]/following-sibling::tr[6]/td[4]/input[1]</Browser>
+	</Element>
+	
+	<Element name="DT_PartyIdMode_CompanyID">
+		<Browser locator="xpath" name="chrome">//table[@id='searchParametersTable']/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[1]/td[1]/input</Browser>
+		<Browser locator="xpath" name="ie">//table[@id='searchParametersTable']/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[1]/td[1]/input</Browser>
+		<Browser locator="xpath" name="firefox">//table[@id='searchParametersTable']/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[1]/td[1]/input</Browser>
+	</Element>
+	
+	<Element name="DT_PartyIdMode_BranchId">
+		<Browser locator="xpath" name="chrome">//table[@id='searchParametersTable']/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[2]/td[2]/table[1]/tbody[1]/tr[1]/td[1]/input</Browser>
+		<Browser locator="xpath" name="ie">//table[@id='searchParametersTable']/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[2]/td[2]/table[1]/tbody[1]/tr[1]/td[1]/input</Browser>
+		<Browser locator="xpath" name="firefox">//table[@id='searchParametersTable']/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[2]/td[2]/table[1]/tbody[1]/tr[1]/td[1]/input</Browser>
+	</Element>
+	
+	
+	<Element name="DT_PartyId_PartyIdMode_New">
+		<Browser locator="xpath" name="chrome">//td[text()='Party Id Mode']/following-sibling::td[1]/table[1]/tbody[1]/tr[1]/td[1]/input[1]</Browser>
+		<Browser locator="xpath" name="ie">//td[text()='Party Id Mode']/following-sibling::td[1]/table[1]/tbody[1]/tr[1]/td[1]/input[1]</Browser>
+		<Browser locator="xpath" name="firefox">//td[text()='Party Id Mode']/following-sibling::td[1]/table[1]/tbody[1]/tr[1]/td[1]/input[1]</Browser>
+	</Element>
+	
+	<Element name="DT_PartyId_CompanyId_New">
+		<Browser locator="xpath" name="chrome">//td[text()='Company Id']/following-sibling::td[1]/table[1]/tbody[1]/tr[1]/td[1]/input[1]</Browser>
+		<Browser locator="xpath" name="ie">//td[text()='Company Id']/following-sibling::td[1]/table[1]/tbody[1]/tr[1]/td[1]/input[1]</Browser>
+		<Browser locator="xpath" name="firefox">//td[text()='Company Id']/following-sibling::td[1]/table[1]/tbody[1]/tr[1]/td[1]/input[1]</Browser>
+	</Element>
+	
+	<Element name="DT_PartyId_BranchCode_New">
+		<Browser locator="xpath" name="chrome">//td[text()='Company Id']/ancestor::tbody[1]/tr[2]/td[2]/table[1]/tbody[1]/tr[1]/td[1]/input[1]</Browser>
+		<Browser locator="xpath" name="ie">//td[text()='Company Id']/ancestor::tbody[1]/tr[2]/td[2]/table[1]/tbody[1]/tr[1]/td[1]/input[1]</Browser>
+		<Browser locator="xpath" name="firefox">//td[text()='Company Id']/ancestor::tbody[1]/tr[2]/td[2]/table[1]/tbody[1]/tr[1]/td[1]/input[1]</Browser>
+	</Element>
+	
+	<!-- Denied Party screen-->
+	<Element name="DeniedParty_ShipmentReference">
+		<Browser locator="id" name="chrome">searchReference</Browser>
+		<Browser locator="id" name="ie">searchReference</Browser>
+		<Browser locator="id" name="firefox">searchReference</Browser>
+	</Element>
+	
+	<Element name="DeniedParty_ReasonCode">
+		<Browser locator="id" name="chrome">reasonCode</Browser>
+		<Browser locator="id" name="ie">reasonCode</Browser>
+		<Browser locator="id" name="firefox">reasonCode</Browser>
+	</Element>
+	
+	<Element name="DeniedParty_Comments">
+		<Browser locator="id" name="chrome">comments</Browser>
+		<Browser locator="id" name="ie">comments</Browser>
+		<Browser locator="id" name="firefox">comments</Browser>
+	</Element>
+	
+	
+		
+	<Element name="DeniedParty_ApplyComments">
+		<Browser locator="id" name="chrome">applyComments</Browser>
+		<Browser locator="id" name="ie">applyComments</Browser>
+		<Browser locator="id" name="firefox">applyComments</Browser>
+	</Element>
+	<Element name="DeniedParty_ApproveAll">
+		<Browser locator="id" name="chrome">approveAll</Browser>
+		<Browser locator="id" name="ie">approveAll</Browser>
+		<Browser locator="id" name="firefox">approveAll</Browser>
+	</Element>
+	
+	
+	
+</page>
